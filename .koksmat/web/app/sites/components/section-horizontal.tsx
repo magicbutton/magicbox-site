@@ -19,39 +19,55 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
     case "soft":
       sectionStyle = {
         emphasis: "none",
-        className: "bg-[#F4F4FB] text-[black]",
+        className: "bg-[#F4F4FB] text-[black] py-10",
       };
       break;
     case "neutral":
       sectionStyle = {
         emphasis: "none",
-        className: "bg-[#f0f0f0] text-[black]",
+        className: "bg-[#f0f0f0] text-[black] py-10",
       };
       break;
     case "strong":
       sectionStyle = {
         emphasis: "none",
 
-        className: "bg-[#2D32AA] text-[white]",
+        className: "bg-[#2D32AA] text-[white] py-10",
       };
       break;
     default:
       sectionStyle = {
         emphasis: "none",
-        className: "bg-[white] text-[black]",
+        className: "bg-[white] text-[black] py-10",
       };
       break;
       break;
   }
-  
+  let gridClassname = "grid-cols-3";
+  switch (section.layout) {
+    case "oneColumn":
+      gridClassname = "container grid grid-cols-1 gap-4 ";
+      break;
+    case "twoColumns":
+      gridClassname =
+        "container grid grid-cols-1 gap-4 grid-cols-1 md:grid-cols-2";
+      break;
+    case "threeColumns":
+      gridClassname =
+        "container grid grid-cols-1 gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3";
+      break;
+    default:
+      gridClassname = "container grid grid-cols-1 gap-4";
+      break;
+  }
 
   return (
     <div key={key}>
       <div className={sectionStyle.className}>
-        <div className="container flex py-10">
+        <div className={gridClassname}>
           {section.columns.map((column) => {
             return (
-              <div key={column.id} className="grow ">
+              <div key={column.id} className=" ">
                 {column.webparts.map((webpart) => {
                   return (
                     <div key={webpart.id}>

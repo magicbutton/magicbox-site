@@ -151,7 +151,7 @@ function FilmstripItem(props: {
 }) {
   const { item, imageSource, text, key } = props;
   return (
-    <div className="mr-3 border" key={key}>
+    <div className="mr-3 border rounded-xl shadow-md" key={key}>
       <img
         className="w-80 h-48 object-cover"
         src={imageSource}

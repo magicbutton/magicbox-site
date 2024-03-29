@@ -49,7 +49,7 @@ spec:
           - containerPort: $port
         env:
         - name: KEY
-          value: VALUE
+          value: VALUE1
         
 ---
 apiVersion: v1

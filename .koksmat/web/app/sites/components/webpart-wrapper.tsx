@@ -56,5 +56,5 @@ export default function WebpartWrapper(props: WebpartProps) {
       break;
   }
 
-  return <div>{render}</div>;
+  return <div className="">{render}</div>;
 }
