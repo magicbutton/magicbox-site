@@ -16,7 +16,7 @@ $dnsname = "welcome.home.nexi-intra.com"
 $inputFile = join-path  $env:KITCHENROOT $imagename  ".koksmat", "koksmat.json"
 $port = "4333"
 if (!(Test-Path -Path $inputFile) ) {
-    Throw "Cannot find file at expected path: $inputFile"
+  Throw "Cannot find file at expected path: $inputFile"
 } 
 $json = Get-Content -Path $inputFile | ConvertFrom-Json
 $version = "v$($json.version.major).$($json.version.minor).$($json.version.patch).$($json.version.build)"
@@ -49,7 +49,7 @@ spec:
           - containerPort: $port
         env:
         - name: KEY
-          value: VALUE1
+          value: VALUE2
         
 ---
 apiVersion: v1
