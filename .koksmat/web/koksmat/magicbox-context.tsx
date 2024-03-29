@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { IPublicClientApplication } from "@azure/msal-browser";
 
 import { createContext } from "react";
@@ -16,28 +16,39 @@ export interface User {
   id: string;
 }
 
-export type AuthSource = "MSAL" | "SharePoint" | ""
-export type  MagicboxContextType= {
-  session?:Session,
-  version:number,
-  user?:User,
-  setAccount:(username: string,email:string,image:string,id:string)=>void,
-  registerAuth : (pca : IPublicClientApplication) => void,
-  signIn : (scopes: string[], loginHint: string) => Promise<boolean>,
-  signOut : () => void,
-  refresh:()=>void
-  setAuthToken:(token:string,source: AuthSource)=>void
-  authtoken:string
-  authSource:AuthSource
-
-}
+export type AuthSource = "MSAL" | "SharePoint" | "";
+export type MagicboxContextType = {
+  session?: Session;
+  version: number;
+  user?: User;
+  setAccount: (
+    username: string,
+    email: string,
+    image: string,
+    id: string
+  ) => void;
+  registerAuth: (pca: IPublicClientApplication) => void;
+  signIn: (scopes: string[], loginHint: string) => Promise<boolean>;
+  signOut: () => void;
+  refresh: () => void;
+  setAuthToken: (token: string, source: AuthSource) => void;
+  authtoken: string;
+  authSource: AuthSource;
+};
 export const MagicboxContext = createContext<MagicboxContextType>({
   session: {
     user: {
-      name: "", email: "", image: "",
-      id: ""
-    }, expires: "", roles: [], accessToken: ""
-  }, version: 0, refresh: () => { },
+      name: "",
+      email: "",
+      image: "",
+      id: "",
+    },
+    expires: "",
+    roles: [],
+    accessToken: "",
+  },
+  version: 0,
+  refresh: () => {},
   signIn: function (scopes: string[], loginHint?: string): Promise<boolean> {
     throw new Error("Function not implemented.");
   },
@@ -54,7 +65,5 @@ export const MagicboxContext = createContext<MagicboxContextType>({
   setAuthToken: function (token: string, source: AuthSource): void {
     throw new Error("Function not implemented.");
   },
-  authSource: ""
+  authSource: "",
 });
-
-

@@ -1,50 +1,66 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { MagicboxContextType, MagicboxContext, Session, User, AuthSource } from "./magicbox-context";
+import {
+  MagicboxContextType,
+  MagicboxContext,
+  Session,
+  User,
+  AuthSource,
+} from "./magicbox-context";
 import { IPublicClientApplication, PopupRequest } from "@azure/msal-browser";
 
 type Props = {
   children?: React.ReactNode;
-
 };
 
 export const MagicboxProvider = ({ children }: Props) => {
-  const [session, setsession] = useState<Session>()
-  const [version, setversion] = useState(0)
-  const [user, setuser] = useState<User>()
-  const [authtoken, setauthtoken] = useState("")
-  const [authSource, setauthSource] = useState<AuthSource>("")
-  const [pca, setpca] = useState<IPublicClientApplication>()
-
+  const [session, setsession] = useState<Session>();
+  const [version, setversion] = useState(0);
+  const [user, setuser] = useState<User>();
+  const [authtoken, setauthtoken] = useState("");
+  const [authSource, setauthSource] = useState<AuthSource>("");
+  const [pca, setpca] = useState<IPublicClientApplication>();
 
   const magicbox: MagicboxContextType = {
-    session, version, refresh: () => {
+    session,
+    version,
+    refresh: () => {
       setversion(version + 1);
     },
-    signIn: async function (scopes: string[], loginHint?: string): Promise<boolean> {
+    signIn: async function (
+      scopes: string[],
+      loginHint?: string
+    ): Promise<boolean> {
       if (!pca) throw new Error("MSAL not registered");
 
       const request: PopupRequest = {
         scopes,
-        loginHint
+        loginHint,
       };
 
       try {
         const result = await pca.loginPopup(request);
-        setuser({ name: result.account.name ?? result.account.username, email: result.account.username, image: "", id: result.account.localAccountId });
+        setuser({
+          name: result.account.name ?? result.account.username,
+          email: result.account.username,
+          image: "",
+          id: result.account.localAccountId,
+        });
         return true;
       } catch (error) {
         return false;
       }
-
-
     },
     signOut: function (): void {
       pca?.loginRedirect();
     },
-    setAccount: function (username: string, email: string, image: string, id: string): void {
-
+    setAccount: function (
+      username: string,
+      email: string,
+      image: string,
+      id: string
+    ): void {
       setuser({ name: username, email: email, image: image, id });
     },
 
@@ -57,14 +73,11 @@ export const MagicboxProvider = ({ children }: Props) => {
     setAuthToken: function (token: string, source: AuthSource): void {
       setauthSource(source);
       setauthtoken(token);
-    }
-  }
+    },
+  };
   return (
-
     <MagicboxContext.Provider value={magicbox}>
-
       {children}
-
     </MagicboxContext.Provider>
-  )
+  );
 };

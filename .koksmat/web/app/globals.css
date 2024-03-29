@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-     /* --background: 0 0% 100%;  */
+    --background: 0 0% 100%;  
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -38,7 +38,7 @@
   }
  
   .dark {
-    /* --background: 222.2 84% 4.9%; */
+     --background: 222.2 84% 4.9%; 
     --foreground: 210 40% 98%;
  
     --card: 222.2 84% 4.9%;
@@ -75,7 +75,44 @@
   body {
     @apply bg-background text-foreground;
    
-  background-color : transparent;
+
 
   }
+  p {
+    @apply my-2;
+  }
+  h1 {
+    @apply text-5xl  my-4; 
+  }
+  h2 {
+    @apply text-4xl my-2;
+  }
+  h3 {
+    @apply text-3xl  my-4;
+  }
+
+  
+  h4 {
+    @apply text-2xl my-4;
+  }
+  .fontSizeMega {
+    @apply text-5xl;
+  }
+  .fontSizeXxxLarge {
+    @apply text-xl;
+  }
+
+  ul {
+    @apply pl-4;
+  }
+  li {
+    @apply list-disc;
+  ;
+  }
+  /* .fontSizeMega {
+    @apply text-6xl;
+  }
+  .fontSizeXxxLarge {
+    @apply text-xl;
+  } */
 } 

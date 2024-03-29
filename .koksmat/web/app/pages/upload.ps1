@@ -1,1 +1,0 @@
-azcopy cp "$psscriptroot/magic365" "https://365admin.blob.core.windows.net/sites?sp=racwl&st=2023-12-10T07:49:53Z&se=2023-12-10T15:49:53Z&spr=https&sv=2022-11-02&sr=c&sig=vKS%2BvrBE7oMTJ8I2mne4VIyZywOIRNY7FY8Wdg%2FY46U%3D" --recursive=true

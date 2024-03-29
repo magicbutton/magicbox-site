@@ -3,9 +3,9 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "dev": "export NODE_ENV=development && next dev -p 4329",
+        "dev": "export NODE_ENV=development && next dev -p 4333",
         "build": "export NODE_ENV=production && next build",
-        "start": "next start -p 4329",
+        "start": "next start -p 4333",
         "lint": "next lint"
     },
     "dependencies": {
@@ -31,7 +31,9 @@
         "@radix-ui/react-switch": "^1.0.3",
         "@radix-ui/react-toast": "^1.1.5",
         "@tanstack/react-table": "^8.12.0",
+        "@types/cheerio": "^0.22.35",
         "axios": "^1.6.7",
+        "cheerio": "1.0.0-rc.12",
         "class-variance-authority": "^0.7.0",
         "clsx": "^2.1.0",
         "cmdk": "^0.2.1",
