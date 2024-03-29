@@ -13,7 +13,7 @@ nexi-tools provision webdeployproduction
 $appname = "nexi-welcome"
 $imagename = "magicbox-site"
 $dnsname = "welcome.home.nexi-intra.com"
-$inputFile = join-path  $env:KITCHENROOT $appname ".koksmat", "koksmat.json"
+$inputFile = join-path  $env:KITCHENROOT $imagename  ".koksmat", "koksmat.json"
 $port = "4333"
 if (!(Test-Path -Path $inputFile) ) {
     Throw "Cannot find file at expected path: $inputFile"
