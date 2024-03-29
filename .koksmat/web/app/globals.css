@@ -76,7 +76,9 @@
     @apply bg-background text-foreground;
    
 
-
+    a {
+      @apply text-[#2D32AA]
+    }
   }
   p {
     @apply my-2;

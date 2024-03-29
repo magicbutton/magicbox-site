@@ -1,8 +1,6 @@
-import { ca } from "date-fns/locale";
 import { ICanvas } from "../schema/canvas";
 import SectionHorizontal from "./section-horizontal";
 import SectionVertical from "./section-vertical";
-import WebpartWrapper from "./webpart-wrapper";
 
 export type CanvasProps = {
   debug?: boolean;

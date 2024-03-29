@@ -43,6 +43,7 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
       break;
       break;
   }
+  
 
   return (
     <div key={key}>

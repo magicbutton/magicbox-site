@@ -25,7 +25,7 @@ export function fixHtml(html: string | undefined): string {
     x.each((i, el) => {
       const imageUrl = $(el).attr("data-imageurl");
       const imageWidth = $(el).attr("data-widthpercentage");
-      console.log(imageWidth);
+
       $(el).replaceWith(
         `<img style="margin-left:auto;margin-right:auto;  width:${imageWidth}%" src="${imageUrl}" />`
       );
