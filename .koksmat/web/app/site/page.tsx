@@ -1,115 +1,82 @@
 "use client";
 
-import * as React from "react";
-import { useContext, useState } from "react";
-import { redirect, useRouter, useSearchParams } from "next/navigation";
-import { MagicboxContext } from "@/koksmat/magicbox-context";
-import { RootPanel } from "./components/panels";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { useForm } from "react-hook-form";
+import { z } from "zod";
+
 import { Button } from "@/components/ui/button";
-import PageInfo from "./components/pageinfo";
+import {
+  Form,
+  FormControl,
+  FormDescription,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "@/components/ui/form";
+import {
+  InputOTP,
+  InputOTPGroup,
+  InputOTPSlot,
+} from "@/components/ui/input-otp";
+import { toast } from "@/components/ui/use-toast";
 
-export default function RootPage() {
-  const magicbox = useContext(MagicboxContext);
-  const searchParams = useSearchParams();
-  const [mode, setmode] = useState("");
-  const [canSetKeepStandardOn, setcanSetKeepStandardOn] = useState(false);
-  const [pageId, setpageId] = useState("");
-  const cmd = searchParams.get("cmd");
-  const href = searchParams.get("href");
-  const tool = searchParams.get("tool");
-  // This hook is listening an event that came from the Iframe
-  React.useEffect(() => {
-    type MessageTypes =
-      | "ensureuser"
-      | "closemagicbox"
-      | "resolveduser"
-      | "context"
-      | "capabilities";
-    interface Message {
-      type: MessageTypes;
-      messageId: string;
-      str1: string;
-    }
-    const handler = async (
-      ev: MessageEvent<{ type: MessageTypes; data: any }>
-    ) => {
-      console.log("ev", ev);
+const FormSchema = z.object({
+  pin: z.string().min(6, {
+    message: "Your one-time password must be 6 characters.",
+  }),
+});
 
-      // if (typeof ev.data !== 'object') return
-      // if (!ev.data.type) return
-      // if (ev.data.type !== 'button-click') return
+export default function InputOTPForm() {
+  const form = useForm<z.infer<typeof FormSchema>>({
+    resolver: zodResolver(FormSchema),
+    defaultValues: {
+      pin: "",
+    },
+  });
 
-      let r;
-      try {
-        const m = ev.data;
-        switch (m.type) {
-          case "resolveduser":
-            //   setresolveduser(m.data?.LoginName)
-            break;
-
-          case "context":
-            const context = JSON.parse(m.data);
-            //   setlegacyPageContext(context)
-
-            setpageId(context?.listId);
-            break;
-
-          case "capabilities":
-            setcanSetKeepStandardOn(true);
-            break;
-
-          default:
-            break;
-        }
-        //setmessage(ev.data.message)
-      } catch (error) {
-        console.log("ERROR", error);
-      }
-    };
-
-    window.addEventListener("message", handler);
-    if (!window.top)  return;
-    window.top.postMessage(
-      {
-        type: "context",
-        data: "",
-      },
-      "*"
-    );
-    // Don't forget to remove addEventListener
-    return () => window.removeEventListener("message", handler);
-  }, []);
-
-  const parentCloseMe = () => {
-    if (!window.top)  return;
-    window.top.postMessage(
-      {
-        type: "closemagicbox",
-        data: "",
-      },
-      "*"
-    );
+  function onSubmit(data: z.infer<typeof FormSchema>) {
+    toast({
+      title: "You submitted the following values:",
+      description: (
+        <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
+          <code className="text-white">{JSON.stringify(data, null, 2)}</code>
+        </pre>
+      ),
+    });
   }
 
-
-
-  if (mode === "leftbar") {
-    return (
-      <div className="h-screen w-[64px] overflow-hidden  bg-gray-200 ">
-
-      </div>
-    );
-  }
-
-  
   return (
-    <div className="m-4 h-screen overflow-hidden bg-gray-200">
-      <RootPanel title="Page Information" onOpenChange={()=>parentCloseMe()}>
+    <Form {...form}>
+      <form onSubmit={form.handleSubmit(onSubmit)} className="w-2/3 space-y-6">
+        <FormField
+          control={form.control}
+          name="pin"
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel>One-Time Password</FormLabel>
+              <FormControl>
+                <InputOTP maxLength={6} {...field}>
+                  <InputOTPGroup>
+                    <InputOTPSlot index={0} />
+                    <InputOTPSlot index={1} />
+                    <InputOTPSlot index={2} />
+                    <InputOTPSlot index={3} />
+                    <InputOTPSlot index={4} />
+                    <InputOTPSlot index={5} />
+                  </InputOTPGroup>
+                </InputOTP>
+              </FormControl>
+              <FormDescription>
+                Please enter the one-time password sent to your phone.
+              </FormDescription>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
 
- {href && 
- <PageInfo url={href} />}
- 
-      </RootPanel>
-    </div>
+        <Button type="submit">Submit</Button>
+      </form>
+    </Form>
   );
 }
