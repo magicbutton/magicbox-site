@@ -1,0 +1,1346 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
+  "@odata.etag": "\"{68D6979E-4300-4D3A-B49C-CF21751C5A9F},1582\"",
+  "createdDateTime": "2023-02-05T00:01:13Z",
+  "description": "Explore Nexi - Welcome to the European PayTech - welcome to the Nexi Familiy! We bring together our energy to shape the world of PayTech. Congratulations on joining Nexi - you definitely made the right decision! With Explore Nexi , we would like to …",
+  "eTag": "\"{68D6979E-4300-4D3A-B49C-CF21751C5A9F},1582\"",
+  "id": "68d6979e-4300-4d3a-b49c-cf21751c5a9f",
+  "lastModifiedDateTime": "2024-03-21T07:42:45Z",
+  "name": "Home.aspx",
+  "webUrl": "https://christianiabpos.sharepoint.com/sites/welcome-to-nexi/SitePages/Home.aspx",
+  "title": "Home",
+  "pageLayout": "home",
+  "thumbnailWebUrl": "https://christianiabpos.sharepoint.com/_layouts/15/getpreview.ashx?path=%2Fsites%2Fwelcome-to-nexi%2FSiteAssets%2FSitePages%2FHome%2Fnexi-_the_european_paytech_-_-wearenexi--360p-.mp4",
+  "promotionKind": "page",
+  "showComments": false,
+  "showRecommendedPages": false,
+  "contentType": {
+    "id": "0x0101009D1CB255DA76424F860D91F20E6C411800E4484B4079B18F4EADD4DD66B726C60D",
+    "name": "Site Page"
+  },
+  "createdBy": {
+    "user": {
+      "displayName": "System Account"
+    }
+  },
+  "lastModifiedBy": {
+    "user": {
+      "displayName": "Johanna Berger",
+      "email": "johanna.berger@nexigroup.com"
+    }
+  },
+  "parentReference": {
+    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99"
+  },
+  "publishingState": {
+    "level": "published",
+    "versionId": "191.0"
+  },
+  "reactions": {},
+  "canvasLayout@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/$entity",
+  "canvasLayout": {
+    "horizontalSections@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections",
+    "horizontalSections": [
+      {
+        "layout": "oneColumn",
+        "id": "0.5",
+        "emphasis": "strong",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.5')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.5')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "0aca8ec2-48c7-4c16-b525-d38b73ebe493",
+                "innerHtml": "<h4 style=\"text-align:center;\"><span class=\"fontSizeMega\">Explore Nexi -&nbsp;</span></h4><h4 style=\"text-align:center;\"><span class=\"fontSizeXxLargePlus\"><strong>Welcome to&nbsp;the European PayTech - welcome to the Nexi Familiy!</strong></span></h4><p style=\"text-align:center;\"><span class=\"fontSizeXxLargePlus\"><strong>&nbsp;&nbsp;</strong></span></p><p style=\"text-align:center;\" aria-hidden=\"true\">&nbsp;</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.5625",
+        "emphasis": "soft",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.5625')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.5625')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "834aef9d-f5c4-47db-93c7-0f889feaae69",
+                "innerHtml": "<p style=\"text-align:center;\"><span class=\"fontSizeXxxLarge\">We bring together our energy to shape the world of PayTech.&nbsp;</span></p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.625",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.625')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.625')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "81b6701d-13b6-4caa-80d6-c0fd2e58afc6",
+                "webPartType": "b7dd04e1-19ce-4b24-9132-b60a1c2b910d",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.4",
+                  "description": "Ein Dokument oder eine Datei auf Ihrer Seite anzeigen, einschließlich Word, Excel, PowerPoint, PDF, 3D-Modellen, Videos und mehr.",
+                  "title": "File and Media",
+                  "properties": {
+                    "annotation": "",
+                    "authorName": "Johanna Berger",
+                    "chartitem": "",
+                    "endrange": "",
+                    "excelSettingsType": "",
+                    "file": "https://christianiabpos.sharepoint.com/sites/welcome-to-nexi/SiteAssets/SitePages/Home/nexi-_the_european_paytech_-_-wearenexi--360p-.mp4",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "photoUrl": "https://christianiabpos.sharepoint.com/_vti_bin/afdcache.ashx/_userprofile/userphoto.jpg?_oat_=1678244206_e4299df79132c94e12ea6cadca39cc61224ab928208def65d7406d6a5edd3098&P1=1678186531&P2=-64532418&P3=1&P4=dtujMuUp1l0761%2BWibwpwT8%2FAvVaCrka8Auo9LUr6ZWPXU3%2BHPcsg3Wbsk5vp0zu3qS6F9H3Bl%2B0gvait17lqYx3o24WBUH4SX%2Bf3PTSJq7k%2BSXyNt4op2qc6PkVZj5f%2F9ekYCalLd3UlYvrSBSHV2hOD5sK100ebPOwWDPOzrbZ%2BUZbJBkrL4h%2FfIVSfgU0NZKLH1VFq5hDBWUJJNdTiHw1DVdGM%2BZoxjYYU41wDdT7r70bmt5TmsLOuVEiGqYRrSk8o1il907abjfDnsWK97UD01axaeY6bQKz4BtQelpHkrlKqk9pAgLGDaaB6iSzBwufZYnwl968FuCVTwCz0A%3D%3D&size=S&accountname=johanna.berger%40nexigroup.com",
+                    "rangeitem": "",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "startPage": 1,
+                    "startrange": "",
+                    "tableitem": "",
+                    "uniqueId": "762216d4-43d7-48c4-a96c-2a225e2c52b6",
+                    "wdallowinteractivity": true,
+                    "wdhidegridlines": true,
+                    "wdhideheaders": true,
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "webAbsoluteUrl": "https://christianiabpos.sharepoint.com/sites/welcome-to-nexi"
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "title",
+                        "value": "nexi-_the_european_paytech_-_-wearenexi--360p-"
+                      }
+                    ],
+                    "links": [
+                      {
+                        "key": "serverRelativeUrl",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/nexi-_the_european_paytech_-_-wearenexi--360p-.mp4"
+                      },
+                      {
+                        "key": "wopiurl",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/nexi-_the_european_paytech_-_-wearenexi--360p-.mp4"
+                      }
+                    ],
+                    "imageSources": []
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.71875",
+        "emphasis": "strong",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.71875')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.71875')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "545b44d4-07c6-4fd7-b2ea-a71356daea4b",
+                "innerHtml": "<p><span class=\"fontSizeXxxLarge\"><strong>Congratulations on joining Nexi - you definitely made the right decision!</strong></span></p><p>&nbsp;</p><p><span class=\"fontSizeXLargePlus\">With<i><strong> Explore Nexi</strong></i>, we would like to give you some more insights about our Group - the <strong>Onboarding Process</strong>, your future <strong>Homespot </strong>and our <strong>Organization and</strong> <strong>Business</strong>.&nbsp;</span></p><p aria-hidden=\"true\">&nbsp;</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.84765625",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.84765625')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.84765625')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "a37b9641-a136-44b0-9d66-a5bd354483e0",
+                "webPartType": "c70391ea-0b10-4ee9-b2b4-006d3fcad0cd",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "2.3",
+                  "description": "Zeigen Sie eine Sammlung von Links zu Inhalten wie Dokumenten, Bildern, Videos und mehr in einer Vielzahl von Layouts mit Optionen für Symbole, Bilder und Zielgruppenadressierung an.",
+                  "title": "Quicklinks",
+                  "properties": {
+                    "isMigrated": true,
+                    "layoutId": "FilmStrip",
+                    "shouldShowThumbnail": true,
+                    "imageWidth": 400,
+                    "hideWebPartWhenEmpty": true,
+                    "dataProviderId": "QuickLinks",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "iconPicker": "world",
+                    "imagePicker": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/listener.jpg",
+                    "Titel": "Life at Nexi",
+                    "items@odata.type": "#Collection(graph.Json)",
+                    "items": [
+                      {
+                        "thumbnailType": 1,
+                        "id": 4,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 32767,
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 2,
+                          "fileExtension": "",
+                          "progId": ""
+                        },
+                        "image": {
+                          "@odata.type": "#graph.Json",
+                          "imageFit": 2,
+                          "minCanvasWidth": 1,
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                            "uniqueId": "2132ef29-f0c0-4a9d-b154-220de42a3a9e",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99"
+                          }
+                        }
+                      },
+                      {
+                        "thumbnailType": 1,
+                        "id": 1,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 32767,
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 0,
+                          "fileExtension": ".ASPX",
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "listId": "c922147c-5770-4799-aba6-b1730fc48ff3",
+                            "uniqueId": "f125bb61-d413-4da1-aea3-27d53cc41224"
+                          }
+                        },
+                        "image": {
+                          "@odata.type": "#graph.Json",
+                          "imageFit": 2,
+                          "minCanvasWidth": 1,
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                            "uniqueId": "{33bcc06c-a716-4be7-8712-bf10ca1e9182}",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99"
+                          }
+                        }
+                      },
+                      {
+                        "thumbnailType": 3,
+                        "id": 3,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 1,
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 0,
+                          "fileExtension": ".ASPX",
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "listId": "c922147c-5770-4799-aba6-b1730fc48ff3",
+                            "uniqueId": "2a2b13b1-3e74-47d6-a437-078f97b3b190"
+                          }
+                        }
+                      }
+                    ],
+                    "listLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "showDescription": false,
+                      "showIcon": true
+                    },
+                    "buttonLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "showDescription": false,
+                      "buttonTreatment": 2,
+                      "iconPositionType": 2,
+                      "textAlignmentVertical": 2,
+                      "textAlignmentHorizontal": 2,
+                      "linesOfText": 2
+                    },
+                    "waffleLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "iconSize": 1,
+                      "onlyShowThumbnail": false
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "items[0].title",
+                        "value": "Onboarding Information"
+                      },
+                      {
+                        "key": "items[1].title",
+                        "value": "Your Homespot - Country Onboarding Information"
+                      },
+                      {
+                        "key": "items[2].title",
+                        "value": "Our Organization"
+                      }
+                    ],
+                    "links": [
+                      {
+                        "key": "baseUrl",
+                        "value": "/sites/welcome-to-nexi"
+                      },
+                      {
+                        "key": "items[0].sourceItem.url",
+                        "value": "/sites/welcome-to-nexi#onboarding-information"
+                      },
+                      {
+                        "key": "items[1].sourceItem.url",
+                        "value": "/sites/welcome-to-nexi/SitePages/Your-Homespot---Onboarding-information.aspx"
+                      },
+                      {
+                        "key": "items[2].sourceItem.url",
+                        "value": "/sites/welcome-to-nexi/SitePages/Our-Organization.aspx"
+                      }
+                    ],
+                    "imageSources": [
+                      {
+                        "key": "items[0].image.url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/listener.jpg"
+                      },
+                      {
+                        "key": "items[1].image.url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/where-we-are.png"
+                      },
+                      {
+                        "key": "items[0].rawPreviewImageUrl",
+                        "value": "/sites/welcome-to-nexi/_api/v2.1/sites/christianiabpos.sharepoint.com%2cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816/items/68d6979e-4300-4d3a-b49c-cf21751c5a9f/driveItem/thumbnails/0/c400x99999/content?preferNoRedirect=true"
+                      }
+                    ],
+                    "componentDependencies": [
+                      {
+                        "key": "layoutComponentId",
+                        "value": "8ac0c53c-e8d0-4e3e-87d0-7449eb0d4027"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "items[0].image.url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "2132ef29-f0c0-4a9d-b154-220de42a3a9e",
+                          "mincanvaswidth": "1",
+                          "fixedwidth": "400"
+                        }
+                      },
+                      {
+                        "key": "items[1].image.url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "{33bcc06c-a716-4be7-8712-bf10ca1e9182}",
+                          "mincanvaswidth": "1",
+                          "fixedwidth": "400"
+                        }
+                      },
+                      {
+                        "key": "items[0].rawPreviewImageUrl",
+                        "value": {
+                          "fixedwidth": "400",
+                          "mincanvaswidth": "32767"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.912109375",
+        "emphasis": "neutral",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.912109375')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.912109375')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "1d5147a3-5371-4eb1-8293-f2c961745958",
+                "innerHtml": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.9765625",
+        "emphasis": "strong",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.9765625')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.9765625')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "1f74debe-a30c-48b1-a81c-02b976a39350",
+                "innerHtml": "<h3><span class=\"fontSizeXxxLarge\">Onboarding Information</span></h3>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.9794921875",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.9794921875')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.9794921875')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "8047a763-c5af-48ae-92d6-8ac373f9edde",
+                "innerHtml": "<p>Onboarding our new colleagues is crucial for us in the Nexi Group. Our employees make us who we are - the leading European PayTech!</p><p>We want you to have a great start with us and settle in very quickly - not only in the job but also in our company and culture. To ensure that, we have prepared some Onboarding activities: All of you will get a Buddy, you will be invited to an Onboarding Session and you will receive an Induction plan.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.98681640625",
+        "emphasis": "neutral",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.98681640625')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.98681640625')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "12b0e70e-3fd7-4d79-9ca3-a2fede1f34cf",
+                "innerHtml": "<p><span class=\"fontSizeXxLarge\"><strong>Your Onboarding Journey</strong></span></p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "twoColumns",
+        "id": "0.9886474609375",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.9886474609375')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.9886474609375')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "2ecd040d-2b85-4085-b3a5-b7d5758e613c",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "Employee Journey_pic 12.JPG",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "f108939f-15c3-48ac-9b5c-37be9784a900",
+                    "imgWidth": 822,
+                    "imgHeight": 923,
+                    "isOverlayTextVisible": true,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/2274530481-Employee-Journey_pic-12.JPG"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "f108939f-15c3-48ac-9b5c-37be9784a900",
+                          "width": "822",
+                          "height": "923"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.9886474609375')/columns('2')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "26fdc19c-06e2-4f65-bd16-a62d3fd06dbe",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "Employee Journey_pic22.JPG",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "00522635-e5d3-4047-acad-a7b6aaa59f26",
+                    "imgWidth": 818,
+                    "imgHeight": 916,
+                    "isOverlayTextVisible": true,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/4242142968-Employee-Journey_pic22.JPG"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "00522635-e5d3-4047-acad-a7b6aaa59f26",
+                          "width": "818",
+                          "height": "916"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.99139404296875",
+        "emphasis": "neutral",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.99139404296875')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.99139404296875')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "6907f0ee-c086-4121-a222-cc4ea8ca4b4b",
+                "innerHtml": "<p>&nbsp;</p><p><span class=\"fontSizeXxLarge\"><strong>Read here to learn more...</strong></span></p><p aria-hidden=\"true\">&nbsp;</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.994140625",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.994140625')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.994140625')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "cc4c1de0-10a9-48b3-892c-9c6088ea99b1",
+                "webPartType": "c350c624-2eb1-47f4-9e94-ba2393929b46",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.0",
+                  "description": "Insert a Nets styled button with bookmark links to section on the page having a colored background and a heading inside",
+                  "title": "Page Navigation",
+                  "properties": {
+                    "description": "n.a.",
+                    "script": "default"
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": []
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.99560546875",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.99560546875')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.99560546875')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "02d0183b-6588-4ce6-b567-736ecb917bb6",
+                "innerHtml": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.9970703125",
+        "emphasis": "strong",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.9970703125')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.9970703125')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "0f38031b-802e-4147-bb80-2b39d6043985",
+                "innerHtml": "<h2><span class=\"fontSizeXxxLarge\">Your Onboarding Buddy</span></h2>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "twoColumns",
+        "id": "0.99853515625",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.99853515625')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.99853515625')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "6a2b14c7-8779-467f-b633-16e70e108cd7",
+                "innerHtml": "<p>Every one of you will have a Buddy on the site who will help you settle&nbsp;in. The Buddy is your go-to person - next to your Manager.</p><p>The Buddy is a colleague in your location out of your team or a familiar team to show you around, introduce you to tools and systems, to the company and our culture.</p><p>Maybe you already had contact with your Buddy - but you will definitely meet you Buddy on your first working day. You can always reach out to your Buddy and you will have regular meetings.</p>"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.99853515625')/columns('2')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "393bb663-efd9-46c1-ba50-48696cc87578",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Fügen Sie Ihrer Seite ein Bild oder Foto hinzu, einschließlich Textüberlagerungen und der Möglichkeit, Bilder zuzuschneiden und ihre Größe zu ändern.",
+                  "title": "Bild",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "{be12c87a-ef0f-46fb-adab-127eaa4c9955}",
+                    "imgWidth": 1093,
+                    "imgHeight": 536,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "isOverlayTextVisible": true,
+                    "resizeCoefficient": 1,
+                    "resizeDesiredWidth": 570.026,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/3629863074-people.jpg"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "{be12c87a-ef0f-46fb-adab-127eaa4c9955}",
+                          "width": "1093",
+                          "height": "536"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.9989013671875",
+        "emphasis": "strong",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.9989013671875')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.9989013671875')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "9d30a4f3-56f4-4bfb-8987-90d6bdf1b3f0",
+                "innerHtml": "<h2><span class=\"fontSizeXxxLarge\">Your first day</span></h2>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.99908447265625",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.99908447265625')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.99908447265625')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "665824e1-fb83-4811-b868-46efc80ac245",
+                "innerHtml": "<p>On your first day we would like to give you a warm welcome in person with a dedicated Onboarding Session. It will be a chance to make your integration into our organization easier thanks to an onboarding path guided by Human Resources, your Manager and your Buddy. During the event, you will have the opportunity to get to know your colleagues, deepen your understanding of our company values and the most important administrative/organizational topics.</p>"
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "0e123529-5794-4fb5-8fe9-d1dab701fcc3",
+                "innerHtml": "<p><span class=\"fontSizeLarge\"><span lang=\"EN-US\" dir=\"ltr\">On your first day at Nexi you will:</span></span></p><ul><li><span lang=\"EN-US\" dir=\"ltr\">participate in the local <strong>Onboarding Session</strong></span></li><li><span lang=\"EN-US\" dir=\"ltr\">get your identification badge&nbsp;</span></li><li><span lang=\"EN-US\" dir=\"ltr\">receive your equipment (laptop, backpack, headphones)&nbsp;</span></li><li><span lang=\"EN-US\" dir=\"ltr\">meet your Manager and your Buddy who will introduce you to your new colleagues and accompany you to your office</span></li></ul>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "twoColumns",
+        "id": "0.999130249023438",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.999130249023438')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.999130249023438')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "592e7e00-b133-416b-9747-f34801251038",
+                "innerHtml": "<p><span class=\"fontSizeXxLarge\"><strong>More about the Onboarding Session…</strong></span></p><p>In most locations we have on the first working day of a month our Country Onboarding Sessions. These sessions take place in person in the main office of the countries and&nbsp;you will learn more about our Organization, our HR practices and everything which is important for your start at Nexi Group. You have also the opportunity to meet the other new colleagues who started at the same time.</p><p>If there are just a few New Joiners in your location, you will have an individual session with your Buddy and/or HR.</p>"
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "f507cbee-d05f-41ae-bd0c-d600aa5feca3",
+                "innerHtml": "<p>What will happen during the session:</p><ul><li>Welcome &amp; Getting to know you​</li><li>Nexi&nbsp;Group - Business Presentation​</li><li>Our values and HR practices ​</li><li>Local information and company tools</li></ul>"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.999130249023438')/columns('2')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "6feeccd8-b12d-4647-bdbf-f6501e8e508f",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "Onboarding Session.JPG",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "27ff7f52-0d7f-4226-a34d-2b792c2f32e2",
+                    "imgWidth": 647,
+                    "imgHeight": 447,
+                    "isOverlayTextVisible": true,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/2970556487-Onboarding-Session.JPG"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "27ff7f52-0d7f-4226-a34d-2b792c2f32e2",
+                          "width": "647",
+                          "height": "447"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "twoColumns",
+        "id": "0.999153137207031",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.999153137207031')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.999153137207031')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "34619348-7ce1-44f8-bb20-57a9dd1775ea",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "business.jpg",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "14e56f29-0af6-4e13-9a9e-4e1ad51766ee",
+                    "imgWidth": 480,
+                    "imgHeight": 320,
+                    "isOverlayTextVisible": true,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/3504972446-business.jpg"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "14e56f29-0af6-4e13-9a9e-4e1ad51766ee",
+                          "width": "480",
+                          "height": "320"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.999153137207031')/columns('2')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "271c1a19-9822-435a-8e3e-ba3321df1005",
+                "innerHtml": "<p><span class=\"fontSizeXxLarge\"><strong>During your first week</strong></span></p>"
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "8f882493-a631-4161-9910-61250c994ff2",
+                "innerHtml": "<p><span lang=\"EN-US\" dir=\"ltr\">You will get to know your new colleagues, other teams, customers, company rules and regulations.</span><br><span lang=\"EN-US\" dir=\"ltr\">You will follow your individual Onboarding Plan and also conduct our mandatory trainings on regulatory topics (e.g. Health &amp; Safety, GDPR, Antitrust, Market Abuse, Business Continuity...).</span></p><p><span lang=\"EN-US\" dir=\"ltr\">We have created a dedicated Intranet Page for our New Joiners called “New2Nexi” to get familiar with our company guidelines, country specific information and other little helpers.</span></p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.999176025390625",
+        "emphasis": "neutral",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.999176025390625')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.999176025390625')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "53f5528f-9d12-4d6e-aaf0-444d334e2ee3",
+                "innerHtml": "<h3><span class=\"fontSizeXxLarge\">Find out more about your location: </span><a href=\"/sites/welcome-to-nexi/SitePages/Your-Homespot---Onboarding-information.aspx\"><span class=\"fontSizeXxLarge\">Your Homespot</span></a></h3>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.999267578125",
+        "emphasis": "strong",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.999267578125')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.999267578125')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "72f86353-6bb3-40f7-a723-12c54069bfc0",
+                "innerHtml": "<h2><span class=\"fontSizeXxxLarge\">Onboarding ABC</span></h2>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "0.99945068359375",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.99945068359375')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.99945068359375')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "3f2dc089-9e3c-4201-b2ae-71533aafdc3c",
+                "innerHtml": "<p>To help you prepare for your time at Nexi, we've put together some answers to typical FAQs from our New Joiners! If you have any further questions, please always feel free to reach out to your Manager, Buddy or Recruiter! &nbsp;</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "threeColumns",
+        "id": "0.9996337890625",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.9996337890625')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 4,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.9996337890625')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "cae38c4d-e4e6-418c-a3aa-b9931cec4230",
+                "innerHtml": "<p><strong>A</strong></p><p><strong>All staff meetings</strong></p><p>In nearly all countries we have monthly all staff meetings, where the country manager informs all employees about what is happening and what are the priorities for the next time.</p><p><strong>B</strong></p><p><strong>Buddy</strong></p><p>The Buddy is your go-to person for every belonging - learn more <a href=\"/sites/welcome-to-nexi/SitePages/Your-Homespot---Onboarding-information.aspx#your-onboarding-buddy\" data-interception=\"off\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.&nbsp;</p><p><strong>Business Units</strong></p><p>We operate in 4 Business Units:&nbsp;<br>Merchant Solutions (MS), eCom, Issuing Solutions (IS) and Digital Banking Solutions (DBS). Read more <a href=\"/sites/welcome-to-nexi/SitePages/Our-Organization.aspx#our-4-business-units\" data-interception=\"off\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.</p><p><strong>C</strong></p><p><strong>Customers</strong></p><p>The daily activities, new products, innovation and investments of the Group are always calibrated by putting the customer at the centre - We are driving excellence for our customers, always.</p><p>We have two types of customers - on the one hand Merchants (from small restaurants to large retail companies) and on the other hand Banks (supply, issue and manage private and corporate cards and also clearing and digital banking).</p><p><strong>D</strong></p><p><strong>Dialogs</strong></p><p>You will have regular dialogs with your Manager about mutual expectations, progress on the Introduction plan, Priorities, Reflection and Development. &nbsp;</p><p><strong>Directions</strong></p><p>Find all office addresses and directions under the <a href=\"/sites/welcome-to-nexi/SitePages/Your-Homespot---Onboarding-information.aspx\" data-interception=\"off\" target=\"_blank\" rel=\"noopener noreferrer\">specific locations</a>.</p><p><strong>Diversity</strong></p><p>For Nexi Group, it is essential to create a dynamic, diverse, and inclusive workplace, where everyone feels welcome and can disclose their full potential. The main driver is to continue the development towards ensuring a forward-looking Group, that can attract and develop talent regardless of nationality, ethnicity, gender, sexual orientation, religion, or belief.</p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/sites/welcome-to-nexi/SiteAssets/SitePages/Home/1473712772.png\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-imagenaturalheight=\"495\" data-imagenaturalwidth=\"1486\" data-siteid=\"c9335f83-d02c-4059-b880-ef9f3cd5ad99\" data-webid=\"b18d0f2f-88c5-46d9-aa3d-2e3da7a26816\" data-listid=\"ae078b33-729e-4b11-b9fa-f7ef57f53abc\" data-uniqueid=\"fe14515f-dd1c-4c4e-b541-799992e7843d\" data-height=\"495\" data-width=\"1486\" data-widthpercentage=\"100\" data-uploading=\"0\"></div><p aria-hidden=\"true\">&nbsp;</p><p><strong>Dresscode</strong></p><p>Business casual - come as you are but use your best judgement 😉</p><p><strong>E</strong></p><p><strong>European by scale, local by nature&nbsp;</strong></p><p>We use the size of the company to utilize the entire power, but we remain local where necessary, above all to be close to our customers and follow local requirements.</p><p><strong>ESG</strong></p><p><span class=\"fontSizeLarge\">Nexi Group has developed its <strong>ESG Strategy</strong> which is one of the pillars of the Business Plan. The <strong>strategy is based on six pillars</strong>, including various goals, such as our <strong>commitment to decarbonisation</strong>, further strengthening and promoting <strong>diversity, equity, and inclusion</strong> to be achieved through specific initiatives, and developing <strong>employee networks and communities</strong>.&nbsp;</span></p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/sites/welcome-to-nexi/SiteAssets/SitePages/Home/2154620710.png\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-imagenaturalheight=\"374\" data-imagenaturalwidth=\"570\" data-siteid=\"c9335f83-d02c-4059-b880-ef9f3cd5ad99\" data-webid=\"b18d0f2f-88c5-46d9-aa3d-2e3da7a26816\" data-listid=\"ae078b33-729e-4b11-b9fa-f7ef57f53abc\" data-uniqueid=\"3fd19e0f-8026-43e2-a2c4-b4a818f607a4\" data-height=\"374\" data-width=\"570\" data-widthpercentage=\"100\" data-uploading=\"0\"></div><p>&nbsp;</p><p>&nbsp;</p>"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "width": 4,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.9996337890625')/columns('2')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "f0dfd5a2-fa6a-4c0e-af99-2eed30ed282d",
+                "innerHtml": "<p><strong>F</strong></p><p><strong>First day</strong></p><p>On your first day there is usually an Onboarding Session or it is planned by your Manager and Buddy. Find more information in the section <a href=\"/sites/welcome-to-nexi/SitePages/Your-Homespot---Onboarding-information.aspx\" data-interception=\"off\" target=\"_blank\" rel=\"noopener noreferrer\">Your Homespot</a>.&nbsp;</p><p><strong>First name</strong></p><p>You are on the safe side when you call everyone by the first name from first day on. 😊</p><p><strong>G</strong></p><p><strong>Geography</strong></p><p>Nexi Group has&nbsp;more than 60 offices spread across Europe.</p><p>We operate in different regions:&nbsp;<br><strong>Italy, DACH, CSEE</strong> (Central and southeaster Europe) and <strong>Nordics</strong>.</p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/sites/welcome-to-nexi/SiteAssets/SitePages/Home/1577827529.png\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-imagenaturalheight=\"2166\" data-imagenaturalwidth=\"2172\" data-siteid=\"c9335f83-d02c-4059-b880-ef9f3cd5ad99\" data-webid=\"b18d0f2f-88c5-46d9-aa3d-2e3da7a26816\" data-listid=\"ae078b33-729e-4b11-b9fa-f7ef57f53abc\" data-uniqueid=\"59190a58-bf96-4b59-b908-ba5c3d54a7d2\" data-height=\"2166\" data-width=\"2172\" data-widthpercentage=\"100\" data-uploading=\"0\"></div><p aria-hidden=\"true\">&nbsp;</p><p><strong>H</strong></p><p><strong>HQ</strong></p><p>The Headquarter of the Nexi Group is in Milan, Italy.</p><p><strong>L</strong></p><p><strong>local by nature, European by scale&nbsp;</strong></p><p>We use the size of the company to … but we remain still local where needed, especially near to our customers.</p><p><strong>Location</strong></p><p>You are interested how you new office looks like? Have a look at your location in the section: <a href=\"/sites/welcome-to-nexi/SitePages/Your-Homespot---Onboarding-information.aspx\" data-interception=\"off\" target=\"_blank\" rel=\"noopener noreferrer\">Your Homespot</a>.&nbsp;</p><p><strong>M</strong></p><p><strong>myHR</strong></p><p>We are implementing myHR in whole Nexi Group. This is an oracle-based tool that we use as our HR system - for Recruitment, Employee Self Service, HR Support, internal Job board, Performance Management, HR Ticket system and much more. You have already used it in your Recruitment process. 😉</p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/sites/welcome-to-nexi/SiteAssets/SitePages/Home/32547958.png\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-imagenaturalheight=\"373\" data-imagenaturalwidth=\"484\" data-siteid=\"c9335f83-d02c-4059-b880-ef9f3cd5ad99\" data-webid=\"b18d0f2f-88c5-46d9-aa3d-2e3da7a26816\" data-listid=\"ae078b33-729e-4b11-b9fa-f7ef57f53abc\" data-uniqueid=\"a5060ff7-615a-461e-9c53-df2874521725\" data-height=\"134.24356198901972\" data-width=\"174.19271850585938\" data-widthpercentage=\"48.38266636739432\" data-uploading=\"0\"></div><p>&nbsp;</p><p><strong>N</strong></p><p><strong>Nexi</strong></p><p>Nexi stands for <i>next generation payment</i> but also <i>next to our customers</i>. &nbsp;With Nexi we connect <i>Next </i>- <i>Innovation</i> - <i>Future.</i></p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/sites/welcome-to-nexi/SiteAssets/SitePages/Home/3325682685.png\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-imagenaturalheight=\"694\" data-imagenaturalwidth=\"1400\" data-siteid=\"c9335f83-d02c-4059-b880-ef9f3cd5ad99\" data-webid=\"b18d0f2f-88c5-46d9-aa3d-2e3da7a26816\" data-listid=\"ae078b33-729e-4b11-b9fa-f7ef57f53abc\" data-uniqueid=\"d36a04ea-b847-46f6-a1da-5637791ebd36\" data-height=\"694\" data-width=\"1400\" data-widthpercentage=\"100\" data-uploading=\"0\"></div><p>&nbsp;</p><p><strong>Nexchange&nbsp;</strong></p><p>Nexchange is our New Nexi International Development program where colleagues can go on a 3-6 months assignment in a different part of the group.</p><p>&nbsp;</p>"
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "width": 4,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.9996337890625')/columns('3')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "393e0f0c-39c1-43fd-a4dd-9230e05412ac",
+                "innerHtml": "<p><strong>O</strong></p><p><strong>O365 / Collaboration Platforms&nbsp;</strong></p><p>In Nexi Group we use Sharepoint to share our files - we use MS Office, Teams and much more. As HR tool we are implementing myHR (Oracle)…</p><p><strong>Office environment</strong></p><p>Learn more about your immediate office environment in the section <a href=\"/sites/welcome-to-nexi/SitePages/Your-Homespot---Onboarding-information.aspx\">Your </a><a href=\"/sites/welcome-to-nexi/SitePages/Your-Homespot---Onboarding-information.aspx\" data-interception=\"off\" target=\"_blank\" rel=\"noopener noreferrer\">Your Homespot</a>.</p><p><strong>Onboarding Plan</strong></p><p>You all will receive an individual Onboarding Plan from your Manager which will help you settling in your new role.</p><p><strong>Onboarding Sessions</strong></p><p>In nearly every country we have Onboarding Sessions to help you understanding our organization and culture - read more <a href=\"/sites/welcome-to-nexi/SitePages/Home.aspx#onboarding-sessions\" data-interception=\"off\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.</p><p><strong>Open Questions</strong></p><p>If you have any question, please reach out to your Manager, Buddy or Recruiter - we are all here for you!</p><p><strong>P</strong></p><p><strong>PayTech University</strong></p><p><span class=\"fontSizeLarge\">The PayTech University is a Nexi designed unique </span>touchpoint for all the training initiatives and learning opportunities inside the Group<span class=\"fontSizeLarge\">. You will have access from day 1 on and use it also for all mandatory trainings.&nbsp;</span></p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/sites/welcome-to-nexi/SiteAssets/SitePages/Home/2893621635.png\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-imagenaturalheight=\"307\" data-imagenaturalwidth=\"242\" data-siteid=\"c9335f83-d02c-4059-b880-ef9f3cd5ad99\" data-webid=\"b18d0f2f-88c5-46d9-aa3d-2e3da7a26816\" data-listid=\"ae078b33-729e-4b11-b9fa-f7ef57f53abc\" data-uniqueid=\"deb7e4e6-2dff-4d39-a8f4-1a05461cfc51\" data-height=\"140.60259127025762\" data-width=\"110.83331298828125\" data-widthpercentage=\"34.60161966463415\" data-uploading=\"0\"></div><p>There will be also a New Joiner Path as part of the PayTech University, special designed for you as a new employee to follow.&nbsp;</p><p><strong>Purpose</strong></p><p>We drive progress by simplifying transactions and by empowering people and businesses to enjoy closer relationships and prosper together.</p><p><strong>T​​​​​​​</strong></p><p><strong>Travel expenses</strong></p><p>Once you are here, you can reimburse your travel expenses through your local tool.</p><p><strong>V</strong></p><p><strong>Values</strong></p><p><span class=\"fontSizeLarge\">Building on our&nbsp;</span><strong>Cultural Foundations</strong><span class=\"fontSizeLarge\">, our Values and Behaviours will help us to&nbsp;</span><strong>come together as One&nbsp;Nexi</strong><span class=\"fontSizeLarge\">&nbsp;and create future fundament for how we act and work together and what we aspire to be as a company. Our four values are:</span></p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/sites/welcome-to-nexi/SiteAssets/SitePages/Home/3709475064.png\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-imagenaturalheight=\"560\" data-imagenaturalwidth=\"1255\" data-siteid=\"c9335f83-d02c-4059-b880-ef9f3cd5ad99\" data-webid=\"b18d0f2f-88c5-46d9-aa3d-2e3da7a26816\" data-listid=\"ae078b33-729e-4b11-b9fa-f7ef57f53abc\" data-uniqueid=\"33e6dc2d-48b7-42c4-adf5-6bbd2b3e305d\" data-height=\"560\" data-width=\"1255\" data-widthpercentage=\"100\" data-uploading=\"0\"></div><p><br>&nbsp;</p><p><strong>W</strong></p><p style=\"margin-left:0px;\"><strong>Wiktionary</strong></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">If you come from a different industry, you might hear a lot of special expressions that we use. To get you started, we've written down the most important expressions for you in our </span><a href=\"/sites/welcome-to-nexi/SitePages/Our-Organization.aspx#wiktionary\" data-interception=\"off\" target=\"_blank\" rel=\"noopener noreferrer\">Wiktionary.</a></p><p style=\"margin-left:0px;\"><strong>WIN</strong></p><p style=\"margin-left:0in;\"><span class=\"fontSizeLarge\"><strong>W</strong>omen <strong>I</strong>n <strong>N</strong>exi. We want to create an environment where female talents are empowered to fulfill their potential and have equal opportunities to male talents.</span></p><p><strong>Y</strong></p><p><strong>You are in the driver seat!</strong></p><p>We love you being proactive and share your thoughts with us!&nbsp;</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "1.43745422363281",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.43745422363281')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.43745422363281')/columns('1')/webparts",
+            "webparts": []
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "1.5",
+        "emphasis": "strong",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.5')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.5')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "e5a7f113-d83a-499a-9f3c-1124ba1c1923",
+                "webPartType": "c70391ea-0b10-4ee9-b2b4-006d3fcad0cd",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "2.3",
+                  "description": "Zeigen Sie eine Sammlung von Links zu Inhalten wie Dokumenten, Bildern, Videos und mehr in einer Vielzahl von Layouts mit Optionen für Symbole, Bilder und Zielgruppenadressierung an.",
+                  "title": "Quicklinks",
+                  "properties": {
+                    "isMigrated": true,
+                    "layoutId": "FilmStrip",
+                    "shouldShowThumbnail": true,
+                    "imageWidth": 400,
+                    "hideWebPartWhenEmpty": true,
+                    "dataProviderId": "QuickLinks",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "iconPicker": "world",
+                    "imagePicker": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/Organization.PNG",
+                    "items@odata.type": "#Collection(graph.Json)",
+                    "items": [
+                      {
+                        "thumbnailType": 3,
+                        "id": 3,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 1,
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 0,
+                          "fileExtension": ".ASPX",
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "listId": "c922147c-5770-4799-aba6-b1730fc48ff3",
+                            "uniqueId": "2a2b13b1-3e74-47d6-a437-078f97b3b190"
+                          }
+                        }
+                      },
+                      {
+                        "thumbnailType": 1,
+                        "id": 1,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 32767,
+                        "shouldOpenInNewTab": false,
+                        "fabricReactIcon": {
+                          "@odata.type": "#graph.Json",
+                          "iconName": "world"
+                        },
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 0,
+                          "fileExtension": ".ASPX",
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "listId": "c922147c-5770-4799-aba6-b1730fc48ff3",
+                            "uniqueId": "f125bb61-d413-4da1-aea3-27d53cc41224"
+                          }
+                        },
+                        "image": {
+                          "@odata.type": "#graph.Json",
+                          "imageFit": 2,
+                          "minCanvasWidth": 1,
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                            "uniqueId": "33bcc06c-a716-4be7-8712-bf10ca1e9182",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99"
+                          }
+                        }
+                      }
+                    ],
+                    "listLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "showDescription": false,
+                      "showIcon": true
+                    },
+                    "buttonLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "showDescription": false,
+                      "buttonTreatment": 2,
+                      "iconPositionType": 2,
+                      "textAlignmentVertical": 2,
+                      "textAlignmentHorizontal": 2,
+                      "linesOfText": 2
+                    },
+                    "waffleLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "iconSize": 1,
+                      "onlyShowThumbnail": false
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "items[0].title",
+                        "value": "Our Organization"
+                      },
+                      {
+                        "key": "items[1].title",
+                        "value": "Your Homespot - Onboarding information"
+                      }
+                    ],
+                    "links": [
+                      {
+                        "key": "baseUrl",
+                        "value": "/sites/welcome-to-nexi"
+                      },
+                      {
+                        "key": "items[0].sourceItem.url",
+                        "value": "/sites/welcome-to-nexi/SitePages/Our-Organization.aspx"
+                      },
+                      {
+                        "key": "items[1].sourceItem.url",
+                        "value": "/sites/welcome-to-nexi/SitePages/Your-Homespot---Onboarding-information.aspx"
+                      }
+                    ],
+                    "imageSources": [
+                      {
+                        "key": "items[1].image.url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/where-we-are.png"
+                      }
+                    ],
+                    "componentDependencies": [
+                      {
+                        "key": "layoutComponentId",
+                        "value": "8ac0c53c-e8d0-4e3e-87d0-7449eb0d4027"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "items[1].image.url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "33bcc06c-a716-4be7-8712-bf10ca1e9182",
+                          "mincanvaswidth": "1",
+                          "fixedwidth": "400"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "2.875",
+        "emphasis": "strong",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.875')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.875')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "d355e247-b026-413f-85b7-a70cf0e0fdc2",
+                "innerHtml": "<p><span class=\"fontSizeXxLarge\"><strong>We are looking forward meeting you on your first day!</strong></span></p><p>&nbsp;</p>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

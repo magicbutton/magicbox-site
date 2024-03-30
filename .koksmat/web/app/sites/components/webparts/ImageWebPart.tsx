@@ -1,7 +1,8 @@
-import Image from "next/image";
+import ImageCore from "./Image";
 
 export interface ImageWebPartProps {
   debug?: boolean;
+
   data: Data | undefined;
 }
 export interface Root {
@@ -33,6 +34,8 @@ export interface Properties {
   uniqueId: string;
   imgWidth: number;
   imgHeight: number;
+  resizeCoefficient?: number;
+  resizeDesiredWidth?: number;
   isOverlayTextVisible: boolean;
   alignment: string;
   fixAspectRatio: boolean;
@@ -86,20 +89,20 @@ export interface Value {
 export default function ImageWebPart(props: ImageWebPartProps) {
   const { debug } = props;
   const file = props.data?.serverProcessedContent.imageSources[0].value ?? "";
-  const width = props.data?.properties.imgWidth;
-  const height = props.data?.properties.imgHeight;
+  const resizeCoefficient = props.data?.properties.resizeCoefficient ?? 1;
+  const resizeDesiredWidth = props.data?.properties.resizeDesiredWidth ?? 100;
+  const width = props.data?.properties.imgWidth ?? 100;
+  const height = props.data?.properties.imgHeight ?? 100;
   const alt = props.data?.properties.altText ?? "";
-  return (
-    <div
-    // style={{
-    //   background: "url('" + file + "')",
-    //   backgroundPosition: "center",
-    //   backgroundSize: "cover",
-    // }}
-    >
-      <Image width={width} height={height} src={file} alt={alt} />
 
-      {debug && <pre>{file}</pre>}
+  return (
+    <div>
+      <img
+        src={file}
+        alt={alt}
+        height="auto"
+        width={width * resizeCoefficient}
+      />
     </div>
   );
 }

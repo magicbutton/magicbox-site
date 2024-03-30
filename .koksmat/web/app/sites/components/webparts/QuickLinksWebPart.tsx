@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export interface QuickLinksWebPartProps {
   debug?: boolean;
   data: Data;
@@ -146,18 +148,21 @@ export interface Value {
 function FilmstripItem(props: {
   item: Item;
   imageSource: string;
+  link: string;
   text: string;
   key: number;
 }) {
-  const { item, imageSource, text, key } = props;
+  const { item, imageSource, text, key, link } = props;
   return (
     <div className="mr-3 border rounded-xl shadow-md" key={key}>
-      <img
-        className="w-80 h-48 object-cover"
-        src={imageSource}
-        alt={item.altText}
-      />
-      <div className="w-80 h-16 p-3">{text}</div>
+      <Link href={link}>
+        <img
+          className="w-80 h-48 object-cover"
+          src={imageSource}
+          alt={item.altText}
+        />
+        <div className="w-80 h-16 p-3">{text}</div>
+      </Link>
     </div>
   );
 }
@@ -167,10 +172,12 @@ export default function QuickLinksWebPart(props: QuickLinksWebPartProps) {
   const components = items.map((item, index) => {
     const imageSource = data.serverProcessedContent.imageSources[index];
     const text = data.serverProcessedContent.searchablePlainTexts[index];
+    const link = data.serverProcessedContent.links[index];
     return (
       <FilmstripItem
         key={index}
         item={item}
+        link={link?.value}
         imageSource={imageSource?.value}
         text={text?.value}
       />
@@ -178,7 +185,7 @@ export default function QuickLinksWebPart(props: QuickLinksWebPartProps) {
   });
 
   return (
-    <div className="flex">
+    <div className="flex overflow-x-auto">
       {components.map((item, index) => (
         <div key={index}>{item}</div>
       ))}

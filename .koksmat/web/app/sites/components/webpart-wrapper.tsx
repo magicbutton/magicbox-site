@@ -1,6 +1,7 @@
 import { Webpart } from "../schema/canvas";
-import { fixHtml } from "../util";
+import { fixHtml, sectionHeaderAnchor } from "../util";
 import FileViewerWebPart from "./webparts/FileViewerWebPart";
+import ImageGalleryWebPart from "./webparts/ImageGallery";
 import ImageWebPart from "./webparts/ImageWebPart";
 import Intra365PageNavigatorWebPart from "./webparts/Intra365PageNavigator";
 import QuickLinksWebPart from "./webparts/QuickLinksWebPart";
@@ -12,6 +13,7 @@ export type WebpartProps = {
 export default function WebpartWrapper(props: WebpartProps) {
   const { webpart, debug } = props;
   let render = <div></div>;
+
   switch (webpart["@odata.type"]) {
     case "#microsoft.graph.textWebPart":
       render = (
@@ -30,16 +32,32 @@ export default function WebpartWrapper(props: WebpartProps) {
     case "#microsoft.graph.standardWebPart":
       switch (webpart.webPartType) {
         case "d1d91016-032f-456d-98a4-721247c305e8": // Image
-          render = <ImageWebPart data={webpart.data as any} />;
+          render = <ImageWebPart data={webpart.data as any} debug={debug} />;
           break;
         case "b7dd04e1-19ce-4b24-9132-b60a1c2b910d": // File viewer
-          render = <FileViewerWebPart data={webpart.data as any} />;
+          render = (
+            <FileViewerWebPart data={webpart.data as any} debug={debug} />
+          );
           break;
         case "c350c624-2eb1-47f4-9e94-ba2393929b46": // Intra365 - Page Navigator
-          render = <Intra365PageNavigatorWebPart data={webpart.data as any} />;
+          render = <div />;
+          // render = (
+          //   <Intra365PageNavigatorWebPart
+          //     data={webpart.data as any}
+          //     debug={debug}
+          //   />
+          // );
           break;
         case "c70391ea-0b10-4ee9-b2b4-006d3fcad0cd": // Quick Links
-          render = <QuickLinksWebPart data={webpart.data as any} />;
+          render = (
+            <QuickLinksWebPart data={webpart.data as any} debug={debug} />
+          );
+          break;
+        case "af8be689-990e-492a-81f7-ba3e4cd3ed9c": // Image Gallery
+          render = (
+            <ImageGalleryWebPart data={webpart.data as any} debug={debug} />
+          );
+
           break;
         default:
           render = (
@@ -56,5 +74,10 @@ export default function WebpartWrapper(props: WebpartProps) {
       break;
   }
 
-  return <div className="">{render}</div>;
+  return (
+    <div className="">
+      {render}
+      {debug && <pre>{JSON.stringify(webpart, null, 2)}</pre>}
+    </div>
+  );
 }

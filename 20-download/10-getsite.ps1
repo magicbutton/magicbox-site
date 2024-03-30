@@ -1,10 +1,11 @@
 <#---
 title: Get Site
-connection: graph
+connection: graph,sharepoint
+output: site.json
 ---#>
 
 param (
-    $siteUrl = "https://christianiabpos.sharepoint.com/sites/intra365"
+    $siteUrl = "https://christianiabpos.sharepoint.com/sites/welcome-to-nexi"
 )
 
 $siteId = FindSiteIdByUrl $env:GRAPH_ACCESSTOKEN $siteUrl

@@ -1,4 +1,26 @@
 import * as cheerio from "cheerio";
+import { HorizontalSection, Webpart } from "./schema/canvas";
+
+export function innerText(tag: string, html: string | undefined): string {
+  if (!html) {
+    return "";
+  }
+
+  const $ = cheerio.load(html);
+  const zz = $("*").find(tag);
+  if (zz.length === 0) {
+    return "";
+  }
+  const t = $(zz[0]).text();
+  return t;
+}
+
+export function sectionHeaderAnchor(emphasis: string, webpart: Webpart) {
+  if (emphasis === "none") return "";
+
+  return innerText("h2", webpart?.innerHtml);
+}
+
 export function fixHtml(html: string | undefined): string {
   if (!html) {
     return "";
@@ -10,6 +32,7 @@ export function fixHtml(html: string | undefined): string {
     `style="font-size: 36px"`
   );
 
+  html = html.replaceAll(`class="fontSizeSuper"`, `style="font-size: 32px"`);
   html = html.replaceAll(`class="fontSizeXxxLarge"`, `style="font-size: 32px"`);
   html = html.replaceAll(`class="fontSizeXxLarge"`, `style="font-size: 28px"`);
   html = html.replaceAll(

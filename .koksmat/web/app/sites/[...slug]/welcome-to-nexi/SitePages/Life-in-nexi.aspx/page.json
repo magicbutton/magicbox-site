@@ -1,0 +1,309 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
+  "@odata.etag": "\"{F7095BDE-9592-4936-8102-1760B24B7E03},34\"",
+  "createdDateTime": "2023-04-17T11:32:03Z",
+  "description": "direct link to Nexi Homepage - People section: Life at Nexi In this section you we want to show you what it means to be part of nexi. We will introduce you to our culture and our values and also talk about Diversity and ESG. Our Vision​​​​​​​ \"We ar…",
+  "eTag": "\"{F7095BDE-9592-4936-8102-1760B24B7E03},34\"",
+  "id": "f7095bde-9592-4936-8102-1760b24b7e03",
+  "lastModifiedDateTime": "2023-09-28T07:13:40Z",
+  "name": "Life-in-nexi.aspx",
+  "webUrl": "https://christianiabpos.sharepoint.com/sites/welcome-to-nexi/SitePages/Life-in-nexi.aspx",
+  "title": "Life at Nexi",
+  "pageLayout": "article",
+  "thumbnailWebUrl": "https://christianiabpos.sharepoint.com/_layouts/15/getpreview.ashx?path=%2Fsites%2Fwelcome-to-nexi%2FSiteAssets%2FSitePages%2FLife-in-nexi%2F93810-thumbnail.jpg",
+  "promotionKind": "page",
+  "showComments": true,
+  "showRecommendedPages": true,
+  "contentType": {
+    "id": "0x0101009D1CB255DA76424F860D91F20E6C411800E4484B4079B18F4EADD4DD66B726C60D",
+    "name": "Site Page"
+  },
+  "createdBy": {
+    "user": {
+      "displayName": "Johanna Berger",
+      "email": "johanna.berger@nexigroup.com"
+    }
+  },
+  "lastModifiedBy": {
+    "user": {
+      "displayName": "Johanna Berger",
+      "email": "johanna.berger@nexigroup.com"
+    }
+  },
+  "parentReference": {
+    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99"
+  },
+  "publishingState": {
+    "level": "published",
+    "versionId": "2.0"
+  },
+  "reactions": {},
+  "titleArea": {
+    "enableGradientEffect": true,
+    "imageWebUrl": "/sites/welcome-to-nexi/SiteAssets/SitePages/Life-in-nexi/93810-thumbnail.jpg",
+    "layout": "overlap",
+    "showAuthor": true,
+    "showPublishedDate": false,
+    "showTextBlockAboveTitle": false,
+    "textAboveTitle": "",
+    "textAlignment": "left",
+    "imageSourceType": 2,
+    "title": "Life at Nexi",
+    "authorByline@odata.type": "#Collection(String)",
+    "authorByline": [
+      "i:0#.f|membership|johanna.berger@nexigroup.com"
+    ],
+    "hasTitleBeenCommitted": true,
+    "altText": "",
+    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+    "uniqueId": "be6b666e-42aa-493f-a6ee-775b9f765cda",
+    "imgHeight": 859,
+    "imgWidth": 2048,
+    "translateX": 49.78213507625273,
+    "translateY": 73.92857142857143,
+    "authors@odata.type": "#Collection(microsoft.graph.Json)",
+    "authors": [
+      {
+        "id": "i:0#.f|membership|johanna.berger@nexigroup.com",
+        "upn": "johanna.berger@nexigroup.com",
+        "email": "johanna.berger@nexigroup.com",
+        "name": "Johanna Berger",
+        "role": "154120 Talent Attraction DACH"
+      }
+    ],
+    "serverProcessedContent": {
+      "htmlStrings": [],
+      "searchablePlainTexts": [],
+      "links": [],
+      "imageSources": [
+        {
+          "key": "imageSource",
+          "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Life-in-nexi/93810-thumbnail.jpg"
+        }
+      ],
+      "customMetadata": [
+        {
+          "key": "imageSource",
+          "value": {
+            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+            "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+            "uniqueId": "be6b666e-42aa-493f-a6ee-775b9f765cda",
+            "width": 2048,
+            "height": 859
+          }
+        }
+      ]
+    }
+  },
+  "canvasLayout@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f7095bde-9592-4936-8102-1760b24b7e03')/microsoft.graph.sitePage/canvasLayout/$entity",
+  "canvasLayout": {
+    "horizontalSections@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f7095bde-9592-4936-8102-1760b24b7e03')/microsoft.graph.sitePage/canvasLayout/horizontalSections",
+    "horizontalSections": [
+      {
+        "layout": "oneColumn",
+        "id": "1",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f7095bde-9592-4936-8102-1760b24b7e03')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f7095bde-9592-4936-8102-1760b24b7e03')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "a807318f-2b01-4dd2-a0df-59e2338c8672",
+                "innerHtml": "<p><span class=\"fontSizeXxLargePlus\">direct link to Nexi Homepage - People section: Life at Nexi</span></p>"
+              },
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "531a020a-1769-4eeb-8ca3-b10e4fb81dc9",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Fügen Sie Ihrer Seite ein Bild oder Foto hinzu, einschließlich Textüberlagerungen und der Möglichkeit, Bilder zuzuschneiden und ihre Größe zu ändern.",
+                  "title": "Bild",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "diagram",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "Life in Nexi.PNG",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "9f1f1cad-3638-41a5-a136-56dc92f0b3d6",
+                    "imgWidth": 402,
+                    "imgHeight": 476,
+                    "resizeCoefficient": 0.4781144781144781,
+                    "resizeDesiredWidth": 568,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "isOverlayTextVisible": true,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Life-in-nexi/4216086540-Life-in-Nexi.PNG"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "9f1f1cad-3638-41a5-a136-56dc92f0b3d6",
+                          "width": "402",
+                          "height": "476"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "1212fc8d-dd6b-408a-8d5d-9f1cc787efbb",
+                "innerHtml": "<p>In this section you we want to show you what it means to be part of nexi. We will introduce you to our culture and our values and also talk about Diversity and&nbsp;ESG.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "1.5",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f7095bde-9592-4936-8102-1760b24b7e03')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.5')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f7095bde-9592-4936-8102-1760b24b7e03')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.5')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "b46b2cea-3599-4a9a-ac6d-300ea825a4b4",
+                "innerHtml": "<h2><strong>Our&nbsp;Vision​​​​​​​</strong></h2>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "twoColumns",
+        "id": "2",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f7095bde-9592-4936-8102-1760b24b7e03')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f7095bde-9592-4936-8102-1760b24b7e03')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "c8cd8619-a8c6-4060-ac06-cd110bd83528",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Fügen Sie Ihrer Seite ein Bild oder Foto hinzu, einschließlich Textüberlagerungen und der Möglichkeit, Bilder zuzuschneiden und ihre Größe zu ändern.",
+                  "title": "Bild",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "altText": "a man wearing a suit and tie",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "{0f06938f-86f7-4d9c-9b7e-52148ad11a69}",
+                    "imgWidth": 1920,
+                    "imgHeight": 1080,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "isOverlayTextVisible": true,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "captionText",
+                        "value": "Group CEO\nPaolo Bertoluzzo"
+                      }
+                    ],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/2813668117-Paolo.jpg"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "{0f06938f-86f7-4d9c-9b7e-52148ad11a69}",
+                          "width": "1920",
+                          "height": "1080"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f7095bde-9592-4936-8102-1760b24b7e03')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2')/columns('2')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "7e755635-d88d-4bce-81e1-65d5706d7369",
+                "innerHtml": "<p><i>\"We are convinced that every payment will be digital. It’s not a matter of if, rather of when: because it’s simple, fast and safe for everyone.&nbsp;As The European PayTech we constantly invest in technology,&nbsp;capabilities and innovation, focusing on two fundamental principles: satisfying our clients’ needs and creating for them new opportunities for better&nbsp;lives and more prosperous businesses.&nbsp;We are committed to supporting people, enterprises of all sizes,</i><br><i>banks and institutions. We want to shape the way people pay and businesses accept payments, by offering our clients the most innovative and reliable solutions that can enable them to serve their customers better and grow.\"</i></p>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

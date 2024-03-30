@@ -1,0 +1,1690 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
+  "@odata.etag": "\"{2A2B13B1-3E74-47D6-A437-078F97B3B190},712\"",
+  "createdDateTime": "2023-04-19T05:15:22Z",
+  "description": "Get familiar with our Nexi Group Organization. Overview Nexi Group is the result of the merger of Nexi, Nets, and SIA, three of Europe's largest players in the payments market and, to date, present in more than 20 countries. The European PayTech has…",
+  "eTag": "\"{2A2B13B1-3E74-47D6-A437-078F97B3B190},712\"",
+  "id": "2a2b13b1-3e74-47d6-a437-078f97b3b190",
+  "lastModifiedDateTime": "2024-03-19T11:56:21Z",
+  "name": "Our-Organization.aspx",
+  "webUrl": "https://christianiabpos.sharepoint.com/sites/welcome-to-nexi/SitePages/Our-Organization.aspx",
+  "title": "Our Organization",
+  "pageLayout": "article",
+  "thumbnailWebUrl": "https://christianiabpos.sharepoint.com/_layouts/15/getpreview.ashx?path=%2Fsites%2Fwelcome-to-nexi%2FSiteAssets%2FSitePages%2Fvkxn8te4%2F54264-Nexi.PNG",
+  "promotionKind": "page",
+  "showComments": true,
+  "showRecommendedPages": true,
+  "contentType": {
+    "id": "0x0101009D1CB255DA76424F860D91F20E6C411800E4484B4079B18F4EADD4DD66B726C60D",
+    "name": "Site Page"
+  },
+  "createdBy": {
+    "user": {
+      "displayName": "Johanna Berger",
+      "email": "johanna.berger@nexigroup.com"
+    }
+  },
+  "lastModifiedBy": {
+    "user": {
+      "displayName": "Johanna Berger",
+      "email": "johanna.berger@nexigroup.com"
+    }
+  },
+  "parentReference": {
+    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99"
+  },
+  "publishingState": {
+    "level": "draft",
+    "versionId": "71.1"
+  },
+  "reactions": {},
+  "titleArea": {
+    "enableGradientEffect": true,
+    "imageWebUrl": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/54264-Nexi.PNG",
+    "layout": "colorBlock",
+    "showAuthor": true,
+    "showPublishedDate": false,
+    "showTextBlockAboveTitle": false,
+    "textAboveTitle": "TEXT OBERHALB DES TITELS",
+    "textAlignment": "left",
+    "imageSourceType": 2,
+    "title": "Our Organization",
+    "authorByline@odata.type": "#Collection(String)",
+    "authorByline": [
+      "i:0#.f|membership|johanna.berger@nexigroup.com"
+    ],
+    "altText": "",
+    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+    "uniqueId": "f8d412a6-bdbf-450b-8226-661e769b32b0",
+    "translateX": 76.54366094263793,
+    "translateY": 44.666666666666664,
+    "imgHeight": 694,
+    "imgWidth": 1400,
+    "authors@odata.type": "#Collection(microsoft.graph.Json)",
+    "authors": [
+      {
+        "id": "i:0#.f|membership|johanna.berger@nexigroup.com",
+        "upn": "johanna.berger@nexigroup.com",
+        "email": "johanna.berger@nexigroup.com",
+        "name": "Johanna Berger",
+        "role": "154120 Talent Attraction DACH"
+      }
+    ],
+    "serverProcessedContent": {
+      "htmlStrings": [],
+      "searchablePlainTexts": [],
+      "links": [],
+      "imageSources": [
+        {
+          "key": "imageSource",
+          "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/54264-Nexi.PNG"
+        }
+      ],
+      "customMetadata": [
+        {
+          "key": "imageSource",
+          "value": {
+            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+            "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+            "uniqueId": "f8d412a6-bdbf-450b-8226-661e769b32b0",
+            "width": 1400,
+            "height": 694
+          }
+        }
+      ]
+    }
+  },
+  "canvasLayout@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/$entity",
+  "canvasLayout": {
+    "horizontalSections@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections",
+    "horizontalSections": [
+      {
+        "layout": "oneColumn",
+        "id": "1",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "6f9230af-2a98-4952-b205-9ede4f9ef548",
+                "innerHtml": "<p><span class=\"fontSizeXxLarge\"><strong>Get familiar with our Nexi Group Organization.</strong></span></p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "1.375",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.375')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.375')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "70195085-c2e6-4e13-80a5-2c08480bebf1",
+                "webPartType": "c350c624-2eb1-47f4-9e94-ba2393929b46",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.0",
+                  "description": "Insert a Nets styled button with bookmark links to section on the page having a colored background and a heading inside",
+                  "title": "Page Navigation",
+                  "properties": {
+                    "description": "n.a.",
+                    "script": "default"
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": []
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneThirdRightColumn",
+        "id": "1.75",
+        "emphasis": "neutral",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.75')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 8,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.75')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "23affd0a-0602-4170-b353-58f27405d066",
+                "innerHtml": "<h3>Overview</h3>"
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "a5c02b03-510a-4d52-a60e-bcfe4649643f",
+                "innerHtml": "<p><span class=\"fontSizeLarge\"><strong>Nexi Group</strong> is the result of the merger of Nexi, Nets, and SIA, three of Europe's largest players in the payments market and, to date, present in more than 20 countries. The European PayTech has the scale, capabilities, and territorial proximity to provide the simplest, fastest, and most secure payment solutions to individuals, businesses, and financial institutions.&nbsp;</span></p><p>&nbsp;</p><p><span class=\"fontSizeLarge\"><strong>Market leader in digital payment solutions</strong>, Nexi Group aims to change the way people and businesses pay and collect every day to simplify citizens' lives, foster business development, improve the efficiency of Public Administration, and support the digital inclusion and development of the territories in which Nexi Group companies operate. This objective is pursued thanks to a team of over 10,000 people and the approximately EUR 350 million invested annually in IT &amp; Innovation.&nbsp;</span></p><p>&nbsp;</p><p><span class=\"fontSizeLarge\">The Nexi Group recognizes the <strong>social, environmental, and economic impact </strong>that digitalization can have in Europe and through its promotion, protects every aspect related to sustainability every day.</span></p>"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "width": 4,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.75')/columns('2')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "fd994003-c3bb-4767-aa54-dd8e1d685ba1",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "bubble.png",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "33c712a8-562a-409c-93f8-0cddc2d44330",
+                    "imgWidth": 170,
+                    "imgHeight": 196,
+                    "isOverlayTextVisible": false,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/2863342419-bubble.png"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "33c712a8-562a-409c-93f8-0cddc2d44330",
+                          "width": "170",
+                          "height": "196"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "2.1875",
+        "emphasis": "strong",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.1875')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.1875')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "a2db0139-51df-4d63-97c4-2ce969c15c6f",
+                "innerHtml": "<h2>Nexi: key numbers</h2>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "2.28125",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.28125')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.28125')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "f01d0945-8024-4339-9dc8-8eea42cc1ec0",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "Overview numbers.JPG",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "f344a01f-ae0e-4ef6-bf98-b4586b98a3ac",
+                    "imgWidth": 1431,
+                    "imgHeight": 742,
+                    "isOverlayTextVisible": true,
+                    "resizeCoefficient": 0.9377104377104377,
+                    "resizeDesiredWidth": 1114,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/1967502786-Overview-numbers.JPG"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "f344a01f-ae0e-4ef6-bf98-b4586b98a3ac",
+                          "width": "1431",
+                          "height": "742"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "f3f68dfb-4d0c-4713-a666-b09a28cbaa04",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "numbers 2.JPG",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "f5ded75f-9844-4e7a-8334-ada97f296ebd",
+                    "imgWidth": 1191,
+                    "imgHeight": 461,
+                    "isOverlayTextVisible": true,
+                    "resizeCoefficient": 0.9410774410774411,
+                    "resizeDesiredWidth": 1118,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/1873456938-numbers-2.JPG"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "f5ded75f-9844-4e7a-8334-ada97f296ebd",
+                          "width": "1191",
+                          "height": "461"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "17c68308-0c02-4f4c-a217-72f7dece6f08",
+                "innerHtml": "<p><span class=\"fontSizeXSmall\">Source: Managerial estimates. Notes: (1) Refers to Continental Europe (excluding UK and Russia) - Based on Visa and Mastercard transactions; (2) Includes merchants served in servicing model; (3) FY22 - CMD perimeter</span></p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "2.328125",
+        "emphasis": "neutral",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.328125')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.328125')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "8fc589b3-27fe-471a-856d-f9b17ae023fa",
+                "innerHtml": "<p><span class=\"fontSizeXLargePlus\"><strong>Learn more about Nexi Group…</strong></span></p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "twoColumns",
+        "id": "2.375",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.375')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.375')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "82b10079-06db-4319-a4f8-9acbe768d945",
+                "webPartType": "c70391ea-0b10-4ee9-b2b4-006d3fcad0cd",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "2.3",
+                  "description": "Show a collection of links to content such as documents, images, videos, and more in a variety of layouts with options for icons, images, and audience targeting.",
+                  "title": "Quick links",
+                  "properties": {
+                    "isMigrated": true,
+                    "layoutId": "CompactCard",
+                    "shouldShowThumbnail": true,
+                    "imageWidth": 100,
+                    "hideWebPartWhenEmpty": true,
+                    "dataProviderId": "QuickLinks",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "Title": "Corporate Presentation (extended version)",
+                    "imagePicker": "https://christianiabpos.sharepoint.com/sites/welcome-to-nexi/SiteAssets/SitePages/Home/2395341847-Logo_klein.png",
+                    "pane_link_button": 0,
+                    "items@odata.type": "#Collection(graph.Json)",
+                    "items": [
+                      {
+                        "thumbnailType": 1,
+                        "id": 3,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 32767,
+                        "shouldOpenInNewTab": true,
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 2,
+                          "fileExtension": "",
+                          "progId": ""
+                        },
+                        "image": {
+                          "@odata.type": "#graph.Json",
+                          "imageFit": 2,
+                          "minCanvasWidth": 1,
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                            "uniqueId": "{48d49f9b-7469-4862-9919-3c32c4b2829b}",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99"
+                          }
+                        }
+                      },
+                      {
+                        "thumbnailType": 1,
+                        "id": 2,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 32767,
+                        "shouldOpenInNewTab": true,
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 2,
+                          "fileExtension": "",
+                          "progId": ""
+                        },
+                        "image": {
+                          "@odata.type": "#graph.Json",
+                          "imageFit": 2,
+                          "minCanvasWidth": 1,
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                            "uniqueId": "{7a4c6216-e4c9-4213-96f3-37a8b69b4764}",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99"
+                          }
+                        }
+                      },
+                      {
+                        "thumbnailType": 1,
+                        "id": 1,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 32767,
+                        "shouldOpenInNewTab": true,
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 2,
+                          "fileExtension": "",
+                          "progId": ""
+                        },
+                        "image": {
+                          "@odata.type": "#graph.Json",
+                          "imageFit": 2,
+                          "minCanvasWidth": 1,
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                            "uniqueId": "3867725c-b049-4360-8995-ede609fc9794",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99"
+                          }
+                        }
+                      }
+                    ],
+                    "listLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "showDescription": false,
+                      "showIcon": true
+                    },
+                    "buttonLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "showDescription": false,
+                      "buttonTreatment": 2,
+                      "iconPositionType": 2,
+                      "textAlignmentVertical": 2,
+                      "textAlignmentHorizontal": 2,
+                      "linesOfText": 2
+                    },
+                    "waffleLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "iconSize": 1,
+                      "onlyShowThumbnail": false
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "items[0].title",
+                        "value": "Company Presentation (light version)"
+                      },
+                      {
+                        "key": "items[1].title",
+                        "value": "Corporate Presentation (extended version)"
+                      },
+                      {
+                        "key": "items[2].title",
+                        "value": "Payment acceptance solutions for every business | Nexi"
+                      }
+                    ],
+                    "links": [
+                      {
+                        "key": "baseUrl",
+                        "value": "/sites/welcome-to-nexi"
+                      },
+                      {
+                        "key": "items[0].sourceItem.url",
+                        "value": "https://www.nexigroup.com/content/dam/corp/downloads/media/media-kit/press-kit.pdf"
+                      },
+                      {
+                        "key": "items[1].sourceItem.url",
+                        "value": "https://www.nexigroup.com/content/dam/corp/downloads/investors/investors-kit/Nexi-Corporate-Presentation-IR.pdf"
+                      },
+                      {
+                        "key": "items[2].sourceItem.url",
+                        "value": "https://www.nexigroup.com/en/business/overview/"
+                      }
+                    ],
+                    "imageSources": [
+                      {
+                        "key": "items[0].image.url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/2395341847-Logo_klein.png"
+                      },
+                      {
+                        "key": "items[1].image.url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/4284087737-Nexi-Overview.PNG"
+                      },
+                      {
+                        "key": "items[2].image.url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/working-team.jpg"
+                      }
+                    ],
+                    "componentDependencies": [
+                      {
+                        "key": "layoutComponentId",
+                        "value": "706e33c8-af37-4e7b-9d22-6e5694d92a6f"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "items[0].image.url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "{48d49f9b-7469-4862-9919-3c32c4b2829b}",
+                          "mincanvaswidth": "1",
+                          "fixedwidth": "100"
+                        }
+                      },
+                      {
+                        "key": "items[1].image.url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "{7a4c6216-e4c9-4213-96f3-37a8b69b4764}",
+                          "mincanvaswidth": "1",
+                          "fixedwidth": "100"
+                        }
+                      },
+                      {
+                        "key": "items[2].image.url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "3867725c-b049-4360-8995-ede609fc9794",
+                          "mincanvaswidth": "1",
+                          "fixedwidth": "100"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.375')/columns('2')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "1baf8593-aa72-4a24-bfec-eb8d10a99062",
+                "webPartType": "c70391ea-0b10-4ee9-b2b4-006d3fcad0cd",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "2.3",
+                  "description": "Zeigen Sie eine Sammlung von Links zu Inhalten wie Dokumenten, Bildern, Videos und mehr in einer Vielzahl von Layouts mit Optionen für Symbole, Bilder und Zielgruppenadressierung an.",
+                  "title": "Quicklinks",
+                  "properties": {
+                    "isMigrated": true,
+                    "layoutId": "CompactCard",
+                    "shouldShowThumbnail": true,
+                    "imageWidth": 100,
+                    "hideWebPartWhenEmpty": true,
+                    "dataProviderId": "QuickLinks",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "imagePicker": "https://christianiabpos.sharepoint.com/sites/welcome-to-nexi/SiteAssets/SitePages/Home/2813668117-Paolo.jpg",
+                    "items@odata.type": "#Collection(graph.Json)",
+                    "items": [
+                      {
+                        "thumbnailType": 1,
+                        "id": 4,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 32767,
+                        "shouldOpenInNewTab": true,
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 2,
+                          "fileExtension": "",
+                          "progId": ""
+                        },
+                        "image": {
+                          "@odata.type": "#graph.Json",
+                          "imageFit": 2,
+                          "minCanvasWidth": 1,
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                            "uniqueId": "{0f06938f-86f7-4d9c-9b7e-52148ad11a69}",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99"
+                          }
+                        }
+                      },
+                      {
+                        "thumbnailType": 1,
+                        "id": 3,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 32767,
+                        "shouldOpenInNewTab": true,
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 2,
+                          "fileExtension": "",
+                          "progId": ""
+                        },
+                        "image": {
+                          "@odata.type": "#graph.Json",
+                          "imageFit": 2,
+                          "minCanvasWidth": 1,
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                            "uniqueId": "{02e97d52-972a-4e77-921f-6eef683886ee}",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99"
+                          }
+                        }
+                      },
+                      {
+                        "thumbnailType": 1,
+                        "id": 2,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 32767,
+                        "shouldOpenInNewTab": true,
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 2,
+                          "fileExtension": "",
+                          "progId": ""
+                        },
+                        "image": {
+                          "@odata.type": "#graph.Json",
+                          "imageFit": 2,
+                          "minCanvasWidth": 1,
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                            "uniqueId": "{798ae061-0274-4f0d-9e45-e3de8c8c85a5}",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99"
+                          }
+                        }
+                      }
+                    ],
+                    "listLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "showDescription": false,
+                      "showIcon": true
+                    },
+                    "buttonLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "showDescription": false,
+                      "buttonTreatment": 2,
+                      "iconPositionType": 2,
+                      "textAlignmentVertical": 2,
+                      "textAlignmentHorizontal": 2,
+                      "linesOfText": 2
+                    },
+                    "waffleLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "iconSize": 1,
+                      "onlyShowThumbnail": false
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "items[0].title",
+                        "value": "Management: structure, people and roles | Nexi"
+                      },
+                      {
+                        "key": "items[1].title",
+                        "value": "Nexi in the media"
+                      },
+                      {
+                        "key": "items[2].title",
+                        "value": "Nexi News"
+                      }
+                    ],
+                    "links": [
+                      {
+                        "key": "baseUrl",
+                        "value": "/sites/welcome-to-nexi"
+                      },
+                      {
+                        "key": "items[0].sourceItem.url",
+                        "value": "https://www.nexigroup.com/en/group/governance/management/"
+                      },
+                      {
+                        "key": "items[1].sourceItem.url",
+                        "value": "https://www.nexigroup.com/en/media-relations/press-releases/"
+                      },
+                      {
+                        "key": "items[2].sourceItem.url",
+                        "value": "https://www.nexigroup.com/en/media-relations/news/"
+                      }
+                    ],
+                    "imageSources": [
+                      {
+                        "key": "items[0].image.url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/2813668117-Paolo.jpg"
+                      },
+                      {
+                        "key": "items[1].image.url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/3420231952-Nexi.PNG"
+                      },
+                      {
+                        "key": "items[2].image.url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/eurpe.jpg"
+                      }
+                    ],
+                    "componentDependencies": [
+                      {
+                        "key": "layoutComponentId",
+                        "value": "706e33c8-af37-4e7b-9d22-6e5694d92a6f"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "items[0].image.url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "{0f06938f-86f7-4d9c-9b7e-52148ad11a69}",
+                          "mincanvaswidth": "1",
+                          "fixedwidth": "100"
+                        }
+                      },
+                      {
+                        "key": "items[1].image.url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "{02e97d52-972a-4e77-921f-6eef683886ee}",
+                          "mincanvaswidth": "1",
+                          "fixedwidth": "100"
+                        }
+                      },
+                      {
+                        "key": "items[2].image.url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "{798ae061-0274-4f0d-9e45-e3de8c8c85a5}",
+                          "mincanvaswidth": "1",
+                          "fixedwidth": "100"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "2.5625",
+        "emphasis": "strong",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.5625')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.5625')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "e24a69cb-d82c-4bdd-9e6e-a997fac51b38",
+                "innerHtml": "<h2>Our Business</h2>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "twoColumns",
+        "id": "2.609375",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.609375')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.609375')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "3df64de7-fba8-4d50-bb0e-e77a5137d9ef",
+                "innerHtml": "<p>&nbsp;</p><p>&nbsp;</p><p>We offer Banks, Small and Medium-sized Enterprises, large international Companies, Institutions and Public Administrations a full range of innovative solutions for digital payment and for physical and remote payments acceptance, while providing tailored multi-channel solutions for e-commerce and every other business sector.</p><p aria-hidden=\"true\">&nbsp;</p><p>&nbsp;</p>"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.609375')/columns('2')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "fa1c8e8b-8bac-4d18-b9b4-9fd40479f7db",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "business.jpg",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "f568602c-7464-42d5-889f-716f763c9099",
+                    "imgWidth": 8688,
+                    "imgHeight": 5792,
+                    "isOverlayTextVisible": true,
+                    "resizeCoefficient": 0.6005941783354809,
+                    "resizeDesiredWidth": 337,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/219583308-business.jpg"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "f568602c-7464-42d5-889f-716f763c9099",
+                          "width": "8688",
+                          "height": "5792"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "twoColumns",
+        "id": "2.62109375",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.62109375')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.62109375')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "75e8241e-347c-4c3a-aaa4-4ab6c45851b7",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "Building.jpg",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "0f04d739-1977-408d-abf9-dd039a3c1954",
+                    "imgWidth": 7200,
+                    "imgHeight": 4802,
+                    "isOverlayTextVisible": true,
+                    "resizeCoefficient": 0.6471286429957709,
+                    "resizeDesiredWidth": 363.111,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/3437092227-Building.jpg"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "0f04d739-1977-408d-abf9-dd039a3c1954",
+                          "width": "7200",
+                          "height": "4802"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.62109375')/columns('2')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "2370e6e0-e9e0-47e1-aae8-130f6e3f85e5",
+                "innerHtml": "<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>We provide banks and financial institutions with end-to-end, modular and customized services to manage their customers' payment cards with respect to: Processing, Card Management, dispute resolution, security services, fraud prevention and customer value management.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "2.6328125",
+        "emphasis": "strong",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.6328125')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.6328125')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "856cca1d-5abd-47c9-8087-c5b6a50baddb",
+                "innerHtml": "<h3>Our 4 Business Units</h3>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "twoColumns",
+        "id": "2.65625",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.65625')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.65625')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "dd8344d5-c84d-4d36-a02d-6cae573b2455",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "POS icon.png",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "aa69b6cd-fb3b-47a5-941a-ab4d09e9fe46",
+                    "imgWidth": 1004,
+                    "imgHeight": 1004,
+                    "isOverlayTextVisible": false,
+                    "resizeCoefficient": 0.15789473684210525,
+                    "resizeDesiredWidth": 90,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "captionText",
+                        "value": "Merchants"
+                      }
+                    ],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/2065100604-POS-icon.png"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "aa69b6cd-fb3b-47a5-941a-ab4d09e9fe46",
+                          "width": "1004",
+                          "height": "1004"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "0d3fdfa8-9637-43cc-9424-50ff0e8412d6",
+                "innerHtml": "<h3>Merchant Solutions</h3><p><span lang=\"EN-GB\" dir=\"ltr\">Merchants<strong> </strong>with <strong>physical </strong>presence&nbsp;</span></p>"
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "d147b51b-7e16-46d8-a5eb-d9d30389f8de",
+                "innerHtml": "<p>The Merchant Solutions Business Unit offers, in support of every type of counterparty, solutions for the acceptance of digital payments, for the management of POS payment terminals, for the acceptance of acquiring flows (i.e., acceptance of payments via cards or other digital instruments belonging to credit or debit circuits) and for customer care activities. Through this offer, in collaboration with partner banks, the organization responds to the needs of all types of businesses: from retail-to-retail chains to supporting merchants for both physical and digital payments.</p>"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.65625')/columns('2')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "0f072de6-2b33-4fa9-9307-3b338b45e93a",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "eCom icon.png",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "bfe81b08-9aa9-452b-92b1-4f208ab5a5a3",
+                    "imgWidth": 1004,
+                    "imgHeight": 1004,
+                    "isOverlayTextVisible": false,
+                    "resizeCoefficient": 0.16842105263157894,
+                    "resizeDesiredWidth": 96,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "captionText",
+                        "value": "Merchants"
+                      }
+                    ],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/2173889389-eCom-icon.png"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "bfe81b08-9aa9-452b-92b1-4f208ab5a5a3",
+                          "width": "1004",
+                          "height": "1004"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "a765afbe-908a-491e-ac69-7c78b34ebc33",
+                "innerHtml": "<h3>eCom</h3><p><span lang=\"EN-GB\" dir=\"ltr\">Merchants with <strong>online </strong>presence</span></p>"
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "c9e07722-56b1-4307-b34e-50c7a96f4b95",
+                "innerHtml": "<p style=\"margin-left:0px;\">We offer our Merchants flexible solutions for accepting e-commerce payments, suitable for any type of online business, from the simplest e-commerce sites, to the largest and most complex ones.</p><p style=\"margin-left:0px;\">Our solutions include the possibility of accepting different payment methods and are suitable for collecting online payments also from social media channels.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "2.69140625",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.69140625')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.69140625')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "624985e3-fd5a-4e42-b6f1-9bdae9b14bdb",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "Bank icon.PNG",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "99896fa2-8d67-48cd-aa68-e95fd4cbef59",
+                    "imgWidth": 1004,
+                    "imgHeight": 1004,
+                    "isOverlayTextVisible": false,
+                    "resizeCoefficient": 0.08164983164983165,
+                    "resizeDesiredWidth": 97,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "captionText",
+                        "value": "Banks"
+                      }
+                    ],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/893806728-Bank-icon.PNG"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "99896fa2-8d67-48cd-aa68-e95fd4cbef59",
+                          "width": "1004",
+                          "height": "1004"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "twoColumns",
+        "id": "2.703125",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.703125')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.703125')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "6a7b672a-cc56-4bc6-a238-db54ebe8b942",
+                "innerHtml": "<h3>Cards &amp; Digital Payments / Issuing Solutions</h3>"
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "5c5dfcd9-6aaf-4f63-be60-47387349e1f4",
+                "innerHtml": "<p>The Group, through its Cards &amp; Digital Payments unit, together with its partner banks, offers a wide range of issuing services (including services relating to the procurement, issuing, and management of payment cards for individuals and companies) using advanced anti-fraud systems to guarantee speed, reliability, and security of user authentication systems and rap\u0002id execution of payment transactions.</p>"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "width": 6,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.703125')/columns('2')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "72143fd0-75ab-489f-a057-4a1d06613b87",
+                "innerHtml": "<h3>Digital Banking Solutions</h3>"
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "49554e7d-5454-4f8d-b8ac-2148f2813c88",
+                "innerHtml": "<p>Through its Digital Banking Solutions Business Unit, the Nexi Group offers three different types of services: ATM management, clearing services1, and Digital Corporate Banking services.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "2.73828125",
+        "emphasis": "strong",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.73828125')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.73828125')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "a9bd1666-c74c-4bf0-b1b7-7b3e8f53b2cc",
+                "innerHtml": "<h2>Wiktionary</h2>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "2.7412109375",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.7412109375')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.7412109375')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "4f469236-3881-4d5e-9df3-0e932507f23b",
+                "innerHtml": "<p>If you come from a different industry, you might hear a lot of special expressions that we use. But don't worry, you will get used to them very quickly. To get you started, we've written down the most important expressions for you. Later, when you have joined us, you can find a complete version on our intranet.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "threeColumns",
+        "id": "2.744140625",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.744140625')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 4,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.744140625')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "241e8f54-ab5d-41d3-8f85-70880b6598dc",
+                "innerHtml": "<p><strong>A</strong></p><p>&nbsp;</p><p><strong>​​​​​​​A2A&nbsp;</strong></p><p>Account-to-Account. An&nbsp;alternative to accepting credit cards online,&nbsp; by&nbsp;allowing merchants to accept online payments directly to their bank account in real-time. A&nbsp;great option for merchants to offer their customers when the latter do not have access to&nbsp;a credit card. Combined with HPP (Hosted Payment Page), this is a cutting-edge solution for today's online retailers and service providers.</p><p aria-hidden=\"true\">&nbsp;</p><p><strong>Acquirer/acquiring bank&nbsp;</strong></p><p>A financial institution that processes a payment transaction (e.g.&nbsp;credit or debit card payments)&nbsp;on behalf of a merchant. In the payments value chain, the Acquirer&nbsp;enables businesses to accept credit card payments for the purchase of goods and services. The Acquirer underwrites the merchant account, and may provide the hardware and software to enable the merchant to process transactions.</p><p>&nbsp;</p><p><strong>Acquiring</strong>&nbsp;</p><p>The process whereby a bank or financial institution (also known as acquiring bank or acquirer) processes credit or debit card transactions on behalf of a merchant, thereby enabling the&nbsp;merchant to accept card payment for the purchase of goods or services.</p><p>&nbsp;</p><p><strong>Alternative payments/local payments</strong></p><p>Payment types that eliminate card associations and are used as an alternative to credit-card transactions&nbsp;e.g.&nbsp;debit cards, prepaid or stored-value cards, direct debit, bank transfers, mobile payments, checks, cash, or money orders.</p><p>&nbsp;</p><p><strong>AML</strong></p><p>Anti Money Laundering. The laws, regulations and procedures intended to prevent criminals from disguising illegally obtained&nbsp;funds&nbsp;as legitimate income.</p><p>&nbsp;</p><p><strong>Annual fee&nbsp;</strong></p><p>An amount of money the cardholder pays to the issuer for the right to carry and use they payment card.</p><p>&nbsp;</p><p><strong>Authentication</strong></p><p>This is the process to verify the identity of a credit-card user, such as when a cardholder is required to provide secret information, such as a&nbsp;Personal Identification Number&nbsp;(PIN), to complete a transaction or request information.</p><p>&nbsp;</p><p><strong>Authorisation</strong></p><p>This refers to the initial electronic request made by a merchant for a customer’s card issuer to release funds. This verification process confirms that a credit card has adequate funds to cover a transaction.</p><p>&nbsp;</p><p><strong>B</strong></p><p>&nbsp;</p><p><strong>Backbook</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p><span class=\"fontSizeLarge\">Backbook terminals are those&nbsp;that our customers are using,&nbsp;including terminals that we are gradually phasing out. Frontbook terminals are only&nbsp;those terminals that we are still selling.</span></p><p>&nbsp;</p><p><strong>BAU</strong>&nbsp;</p><p>Business as Usual.</p><p>&nbsp;</p><p><strong>Blockchain</strong></p><p>This is a term used in the field of cryptocurrency transactions (or the use of digital currencies exchanged for payments). A blockchain is a digital ledger where all transactions, in the form of blocks, made in a specific cryptocurrency are recorded in chronological order. That digital ledger is then made publicly available to anyone using that cryptocurrency. Blockchains are decentralized, in fact copies are stored across multiple computers, and then synchronized as needed, allowing markets to track and verify transactions without the need for central bookkeeping.</p><p>&nbsp;</p><p><strong>BTC</strong></p><p>Bitcoin. The&nbsp;most recognizable of an increasing number of decentralized digital currencies, also known as&nbsp;cryptocurrencies. They be traded for goods or services, though only with vendors accepting that cryptocurrency as payment.</p><p>&nbsp;</p><p><strong>BU</strong></p><p>Business Unit (e.g. Merchant Solutions, Issuing Solutions...).</p><p>&nbsp;</p><p><strong>​​​​​C</strong></p><p>&nbsp;</p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/79763749.png\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-imagenaturalheight=\"397\" data-imagenaturalwidth=\"398\" data-siteid=\"c9335f83-d02c-4059-b880-ef9f3cd5ad99\" data-webid=\"b18d0f2f-88c5-46d9-aa3d-2e3da7a26816\" data-listid=\"ae078b33-729e-4b11-b9fa-f7ef57f53abc\" data-uniqueid=\"cd9a962b-a520-461a-b727-e432040e96c0\" data-height=\"397\" data-width=\"398\" data-widthpercentage=\"100\" data-uploading=\"0\"></div><p><strong>Card account&nbsp;</strong></p><p>A credit line for deposit facility accessed by a card issued to a cardholder that enables the cardholder to purchase goods and services or obtain cash.</p><p>&nbsp;</p><p><strong>Cardholder</strong></p><p>Authorised user of a card issued by a licensed issuer.</p><p>&nbsp;</p><p><strong>Card scheme</strong>&nbsp;</p><p>A&nbsp;card scheme&nbsp;is a central payment network that uses credit and debit&nbsp;cards&nbsp;to process payments.</p><p>&nbsp;</p><p><strong>Chargeback</strong></p><p><strong>​​​​​​​</strong>The message sent by an issuer to claim back from the acquirer all or part of the amount of a disputed transaction. Often also used as a synonym of Dispute Resolution.</p><p>&nbsp;</p><p><strong>Contactless payments</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p><span class=\"fontSizeLarge\">Contactless payments refer to a secure method of transaction that leverages mobile devices and payment terminals equipped with radio frequency identification (RFID) or near-field communication (NFC) technologies. For instance, Clover provides the latest in contactless payment terminals that enable payments with the tap of a mobile device, including Apple&nbsp;PayTM.</span></p><p>&nbsp;</p><p><strong>Credit card&nbsp;&nbsp;</strong></p><p><span class=\"fontSizeLarge\">A payment card where all transactions for a given period (often one month) are reported on a single statement. The cardholder is expected to pay back at least a portion of amount by the payment date, and pays interest to the issuer on the remaining amounts. See also: Revolving credit card</span></p><p>&nbsp;</p><p><strong>D</strong></p><p>&nbsp;</p><p><strong>DBS</strong></p><p style=\"margin-left:0px;\">Digital Banking Solutions</p><p style=\"margin-left:0px;\">Provide banks&nbsp;with services around ATM management, Clearing (exchanging flows between banks) and digital banking (mgmt. of current accounts and payments).</p><p style=\"margin-left:0px;\" aria-hidden=\"true\">&nbsp;</p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/2188835523.png\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-imagenaturalheight=\"1004\" data-imagenaturalwidth=\"1004\" data-siteid=\"c9335f83-d02c-4059-b880-ef9f3cd5ad99\" data-webid=\"b18d0f2f-88c5-46d9-aa3d-2e3da7a26816\" data-listid=\"ae078b33-729e-4b11-b9fa-f7ef57f53abc\" data-uniqueid=\"902779b7-5562-407e-946d-82d5b314268e\" data-height=\"129.29165649414062\" data-width=\"129.29165649414062\" data-widthpercentage=\"35.917466861815264\" data-uploading=\"0\"></div><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>DCC</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p><span class=\"fontSizeLarge\">Dynamic Currency Conversion. Consumer sees local currency in the display when paying.</span></p><p>&nbsp;</p><p><strong>Debit card</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p><span class=\"fontSizeLarge\">Any card that primarily accesses a deposit account.</span></p><p>&nbsp;</p><p><strong>Digital wallet</strong></p><p><span class=\"fontSizeLarge\">Also known as an eWallet, this is a software application usually used in conjunction with a mobile payment system to facilitate electronic payments. Linked to a user’s bank account, they use&nbsp;a computer or smartphone for online and in-store transactions.</span></p><p>&nbsp;</p><p><strong>E</strong></p><p>&nbsp;</p><p><strong>E-commerce</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p><span class=\"fontSizeLarge\">Business performed via internet.</span></p><p aria-hidden=\"true\">&nbsp;</p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/4236904138.png\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-imagenaturalheight=\"1004\" data-imagenaturalwidth=\"1004\" data-siteid=\"c9335f83-d02c-4059-b880-ef9f3cd5ad99\" data-webid=\"b18d0f2f-88c5-46d9-aa3d-2e3da7a26816\" data-listid=\"ae078b33-729e-4b11-b9fa-f7ef57f53abc\" data-uniqueid=\"197c5bdf-4a4d-49f6-b659-d87e0b376ad1\" data-height=\"147.9166259765625\" data-width=\"147.9166259765625\" data-widthpercentage=\"41.09151863225974\" data-uploading=\"0\"></div><p><strong>F</strong></p><p aria-hidden=\"true\">&nbsp;</p><p><strong>Fraud</strong></p><p><span class=\"fontSizeLarge\">In payments, this refers to dishonest means to perpetrate false or illegal transactions, including account takeovers, identity theft, card counterfeiting, and other illicit schemes.</span></p><p>&nbsp;</p><p><strong>Frontbook</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p><span class=\"fontSizeLarge\">In the context of payment terminals, our frontbook terminals are only&nbsp;those terminals that we are still selling. Backbook terminals, on the other hand, include all&nbsp;terminals that we are no longer selling but our customers are still using (e.g.&nbsp;terminals that are being phased out).&nbsp;</span></p><p>&nbsp;</p><p><strong>Front-end Processor</strong></p><p><span class=\"fontSizeLarge\">Payment processors are third parties designated by merchants to handle credit card and debit card transactions, and include both front-end processors and back-end processors. Front-end processors provide the connections to the card associations, as well as authorization and settlement services. Back-end processor accept the settlement information from the front-end processor and route the payment from the bank that issued the card to the merchant to complete the transaction.</span></p><p>&nbsp;</p><p><span class=\"fontSizeLarge\"><strong>G</strong></span></p><p>&nbsp;</p><p><strong>Gateway</strong><span class=\"fontSizeLarge\">​​​​​​​&nbsp;</span></p><p><span class=\"fontSizeLarge\">In the payment industry, this refers to an&nbsp;</span>eCommerce payment service<span class=\"fontSizeLarge\">&nbsp;to process credit card transactions and direct payments for both online and traditional brick-and-mortar businesses.</span></p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/3776032929.png\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-imagenaturalheight=\"398\" data-imagenaturalwidth=\"398\" data-siteid=\"c9335f83-d02c-4059-b880-ef9f3cd5ad99\" data-webid=\"b18d0f2f-88c5-46d9-aa3d-2e3da7a26816\" data-listid=\"ae078b33-729e-4b11-b9fa-f7ef57f53abc\" data-uniqueid=\"5088419f-f09e-4e0e-90e5-efe9d5c72957\" data-height=\"398\" data-width=\"398\" data-widthpercentage=\"100\" data-uploading=\"0\"></div>"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "width": 4,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.744140625')/columns('2')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "fe5d5568-cebe-4772-8bca-1a73018f7616",
+                "innerHtml": "<p><strong>I</strong></p><p aria-hidden=\"true\">&nbsp;</p><p><strong>Issuing Solutions</strong></p><p>Enable banks&nbsp;to&nbsp;supply, issue and manage private and corporate cards, with fraud prevention systems ensuring fast, reliable and secure user authentication and fast payments.</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/1714382601.png\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-imagenaturalheight=\"1004\" data-imagenaturalwidth=\"1004\" data-siteid=\"c9335f83-d02c-4059-b880-ef9f3cd5ad99\" data-webid=\"b18d0f2f-88c5-46d9-aa3d-2e3da7a26816\" data-listid=\"ae078b33-729e-4b11-b9fa-f7ef57f53abc\" data-uniqueid=\"834f9567-c8aa-4258-913b-0720b7fd66e9\" data-height=\"129.2708740234375\" data-width=\"129.2708740234375\" data-widthpercentage=\"35.91169345212258\" data-uploading=\"0\"></div><p aria-hidden=\"true\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Interchange&nbsp;</strong></p><p style=\"margin-left:0px;\">The exchange of transaction data between acquirers and issuers.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Interchange Fee&nbsp;</strong></p><p style=\"margin-left:0px;\">A fee applied to an interchange transaction, applicable to the two members participating in the transaction as issuer and acquirer.</p><p>&nbsp;</p><p><strong>Issuer</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p><span class=\"fontSizeLarge\">An&nbsp;issuer&nbsp;is a legal entity that develops, registers and sells securities to&nbsp;finance&nbsp;its operations.&nbsp;Issuers&nbsp;may be corporations, investment trusts, or domestic or foreign governments.&nbsp;Issuers&nbsp;make available securities such as equity shares, bonds, and warrants.</span></p><p>&nbsp;</p><p><strong>K</strong></p><p>&nbsp;</p><p><strong>KYC</strong><span class=\"fontSizeLarge\"> - Know Your Customer (registration&nbsp;requirement).</span></p><p>&nbsp;</p><p style=\"margin-left:0px;\"><strong>L</strong></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>LAKA</strong>&nbsp;</p><p style=\"margin-left:0px;\">Large and Key Account&nbsp;segment is Merchant Services. Consists of merchants with numerous points of sales such as supermarkets and department stores, restaurant and hotel chains, amusement parks and health care services.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Local payments/alternative payments</strong></p><p style=\"margin-left:0px;\">Payment types that eliminate card associations, used as an alternative to credit card transactions (e.g., debit cards, prepaid or stored-value cards, direct debit, bank transfers, mobile payments, checks, cash, money orders).</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Loyalty Card</strong>&nbsp;</p><p style=\"margin-left:0px;\">A card designed to reinforce the relationship between a merchant and its customers, by providing the customer with some kind of benefit (points, miles, cash back, etc.). These cards are designed to encourage regular use of the card.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>M</strong></p><p><strong>​​​​​​​</strong></p><p><strong>Mastercard</strong></p><p><span class=\"fontSizeLarge\">Global bank card payments brand and network that provides its services to banks. Through thousands of financial institutions, it markets a wide portfolio of brands and products, offering a network of more than 24 million acceptance locations worldwide. It does not manage the relationships with the cardholders and merchants.</span></p><p aria-hidden=\"true\">&nbsp;</p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/1316804478.png\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-imagenaturalheight=\"1004\" data-imagenaturalwidth=\"1004\" data-siteid=\"c9335f83-d02c-4059-b880-ef9f3cd5ad99\" data-webid=\"b18d0f2f-88c5-46d9-aa3d-2e3da7a26816\" data-listid=\"ae078b33-729e-4b11-b9fa-f7ef57f53abc\" data-uniqueid=\"137e62ca-f79c-4f71-ad6b-3cdd88217a92\" data-height=\"150.62496948242188\" data-width=\"150.62496948242188\" data-widthpercentage=\"41.84390158379634\" data-uploading=\"0\"></div><p><strong>Merchant</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p><span class=\"fontSizeLarge\">A retailer, or any other person, firm, or corporation that, according to a Merchant Agreement signed with an Acquirer or Independent Sales Organization (ISO), agrees to accept credit cards, debit cards, or both, when properly presented.</span></p><p>&nbsp;</p><p><strong>Mobile wallets</strong></p><p><span class=\"fontSizeLarge\">Also known as an eWallet or Digital Wallet, this is a software application usually used in conjunction with a mobile payment system to facilitate electronic payments using a smartphone for online transactions as well as purchases at physical stores. Digital wallets need to be linked to a user’s bank or credit card account.</span></p><p>&nbsp;</p><p><strong>MOTO</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p><span class=\"fontSizeLarge\">Mail Order and Telephone Order.</span></p><p>&nbsp;</p><p style=\"margin-left:0px;\"><strong>mPOS</strong></p><p style=\"margin-left:0px;\">A portable Point of Sale device that functions as a register. Also known as MobilePOS. An mPOS system is ideal for businesses&nbsp;that collect payments on the go.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>MS</strong></p><p style=\"margin-left:0px;\">Merchant Solutions.&nbsp;MS provides merchants with cross-channel payment solutions and services, whether in-store, online or mobile, and offers the broadest range of payment card acceptance. Our offerings consist of payment terminals, payment solutions for e-commerce, loyalty solutions, in addition to card acquiring for the most commonly used payment cards in the world. We work with a broad set of value-adding partners and simplify merchants’ payments flows across all industries.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>MSC</strong></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">Merchant Service Charge.&nbsp;MSC&nbsp;is a fee paid by the merchant to the acquiring financial organization. This fee is influenced by a wide range of factors, such as regulated/unregulated debit, card type, capture approach, channel, the location of the holder, or the merchant’s field of trade and capacity.</span></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>N</strong></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>NFC</strong></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">Near-Field Communication. Close-range, contactless, wireless technology that enables contactless payment between devices i.e. making a contactless payment for goods at a payment terminal using a bank card or smartphone.</span></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>O</strong></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Omnichannel</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">Omnichannel is the concept of integrating multiple channels for retail sales (online purchases, in-store purchase, mobile shopping, etc.) focused on presenting a seamless, high-quality shopping experience for the buyer.&nbsp;</span></p><p>&nbsp;</p><p style=\"margin-left:0px;\"><strong>Onboarding</strong></p><p style=\"margin-left:0px;\">The process of welcoming a new employee into the <span class=\"sp-mseditorfix\" data-mseditorfix=\"363d7011-83dd-4cc0-bdec-ea4af4df4dbb:organisation\">organization</span>. Human Resources is the main driver of this process.</p><p style=\"margin-left:0px;\">The term is also used in connection with registering new merchants or enabling new services to existing merchants.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Online Debit</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">Also known as PIN debit, during an online debit card transaction, once the card is inserted/swiped at the Point-of-Sale, the cardholder is required to enter a Personal Identification Number (PIN), and the funds for the transaction are deducted from the cardholder’s bank account.</span></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>P</strong></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Payment Gateway&nbsp;</strong></p><p style=\"margin-left:0px;\">A system that provides electronic commerce services to merchants for the authorization and clearing of secure electronic transactions.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>PayPass&nbsp;</strong></p><p style=\"margin-left:0px;\">Type of payment system allowing shoppers to pay for low-value goods by touching their debit or credit card against an electronic reader.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>PCI</strong></p><p style=\"margin-left:0px;\">Payment Card Industry Security Standard.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>PCI DSS</strong></p><p style=\"margin-left:0px;\">The&nbsp;PCI DSS&nbsp;(Payment Card Industry Data Security Standard) is an information security standard designed to reduce payment card fraud by increasing security controls around cardholder data.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>PO</strong>&nbsp;</p><p style=\"margin-left:0px;\">Purchase Order.</p><p style=\"margin-left:0px;\" aria-hidden=\"true\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>POS</strong></p><p style=\"margin-left:0px;\">Point of Sale.&nbsp;The location at the card terminals on the merchants' premises at which a sale is completed.&nbsp;</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Point of Transaction&nbsp;</strong></p><p style=\"margin-left:0px;\">The physical location where a merchant or acquirer (in a face-to-face environment) or an unattended terminal (in an unattended environment) completes a transaction receipt.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Point-Of-Sale (POS) Terminal&nbsp;</strong></p><p style=\"margin-left:0px;\">An attended or unattended access device located in or at a card acceptor’s (merchant’s) premises that permits the effecting of a transaction for the purchase of goods or services sold by the merchant. A POS terminal is connected to the acquiring financial institution’s system through telecommunications lines and is designed to capture and forward transaction information by electronic means.</p><p>&nbsp;</p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/4234017752.png\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-imagenaturalheight=\"1004\" data-imagenaturalwidth=\"1004\" data-siteid=\"c9335f83-d02c-4059-b880-ef9f3cd5ad99\" data-webid=\"b18d0f2f-88c5-46d9-aa3d-2e3da7a26816\" data-listid=\"ae078b33-729e-4b11-b9fa-f7ef57f53abc\" data-uniqueid=\"50eda879-67ac-4369-9b75-e2755ff164d7\" data-height=\"149.29171752929688\" data-width=\"149.29171752929688\" data-widthpercentage=\"41.473521668005034\" data-uploading=\"0\"></div><p>&nbsp;</p><p style=\"margin-left:0px;\"><strong>Prepaid Card</strong></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">A card that stores value and is used to pay for goods or services, and in some cases, to procure cash disbursements.</span></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Processing Fee&nbsp;</strong></p><p style=\"margin-left:0px;\">Compensation paid by issuers or acquirers to a financial network organization for processing interchange transactions according to the business agreements established by that financial network.&nbsp;&nbsp;&nbsp;</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Processor&nbsp;</strong></p><p style=\"margin-left:0px;\">An organization that provides services associated with processing of card transactions between merchants, payment card issuers, and merchant account providers.&nbsp;&nbsp;&nbsp;</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\">&nbsp;</p>"
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "width": 4,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.744140625')/columns('3')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "75e360aa-1ad4-403c-9e69-b222bd282182",
+                "innerHtml": "<p style=\"margin-left:0px;\"><strong>PSP</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">Payment Service Platform.&nbsp;This service is used for&nbsp;receiving/handling&nbsp; transactions&nbsp;from&nbsp;payment&nbsp;terminals&nbsp; running&nbsp;Viking&nbsp; payment&nbsp;application&nbsp; software and&nbsp;the Netaxept&nbsp;eCommerce platform. Communications&nbsp; between&nbsp; payment&nbsp; terminals&nbsp; and&nbsp; the&nbsp; PSP&nbsp; are encrypted, and transaction data is signed by the&nbsp;payment&nbsp;terminal&nbsp;for&nbsp;the&nbsp;PSP.&nbsp; This end-to-end&nbsp;encryption&nbsp;ensures that only&nbsp;the&nbsp;dedicated&nbsp;PSP&nbsp;service is able to decrypt and interpret the data. The PSP service is connected to other Nets group services, Nordic acquirers and loyalty program processors. Authorization requests are sent directly from the terminal to the PSP&nbsp; service&nbsp;when&nbsp;the&nbsp; transaction&nbsp;rules&nbsp;of&nbsp;the&nbsp;card&nbsp;or&nbsp;acquirer&nbsp; require an authorization. Each&nbsp;terminal&nbsp; sends&nbsp;transaction&nbsp;data&nbsp;automatically to&nbsp; the&nbsp;PSP; this is done in the background continuously, whenever the network connection is available to the PSP. The PSP service then consolidates, validates, archives and forwards the transaction&nbsp; data&nbsp;according&nbsp;to&nbsp;the&nbsp;rules&nbsp;defined&nbsp; for&nbsp; the&nbsp;terminal&nbsp;and the merchant.</span></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>R</strong></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Retailer</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">A retailer is an individual or business that sells goods or services to the public. More retailers today are offering their customers the convenience of an increasing array of payment options to complete purchases (e.g., cash, credit or debit transactions, store credit or gift cards, Point-of-Sale loans, alternative payment methods, digital wallets) across various channels (e.g., in-store purchases, eCommerce, mobile shopping).</span></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Routing&nbsp;</strong></p><p style=\"margin-left:0px;\">Direct or intermediated message flow&nbsp;between acquirer and issuer.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Routing Number</strong>&nbsp;</p><p style=\"margin-left:0px;\">Series of numbers assigned to checking accounts, savings accounts, or other accounts that identify the financial institution associated with the specific account.​​​​​​​</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>RTC</strong>&nbsp;</p><p style=\"margin-left:0px;\">Real-Time Clearing, instant clearing of the payment.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>S</strong></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>SecureCode&nbsp;</strong></p><p style=\"margin-left:0px;\">MasterCard's solution to secure e-commerce transactions.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>SEPA&nbsp;</strong></p><p style=\"margin-left:0px;\">The&nbsp;Single Euro Payments Area&nbsp;(SEPA) is a payment-integration initiative of the European Union&nbsp;for simplification of bank transfers denominated in euro.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Settlement</strong>&nbsp;</p><p style=\"margin-left:0px;\">The reporting of settlement amounts owed by one member to another, or to a card issuing concern, as a result of clearing. Settlement is the actual buying and selling of transactions between the merchants, processors and acquirers; along with the card-issuing entities.</p><p style=\"margin-left:0px;\">​​​​​​​</p><p style=\"margin-left:0px;\"><strong>Smart Card</strong></p><p style=\"margin-left:0px;\">A smart card is a plastic card resembling a traditional credit or debit card that contains a computer microprocessor chip capable of storing significantly more information than a magnetic stripe. Also called an integrated circuit card (ICC) or a chip card.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>SmartPAY</strong>&nbsp;</p><p style=\"margin-left:0px;\">Fully digitized payment solution by Nexi Germany. The offering includes its own set of portal tools for the customer to follow the payment flow&nbsp;i.e. card transactions for terminals,&nbsp;and e-commerce. It has&nbsp;its own app available for Android and iOS,&nbsp;from where one can follow up on e.g. the development of transactions, including via a sales heat map.&nbsp;</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>SmartPOS</strong>&nbsp;</p><p style=\"margin-left:0px;\">An all-in-one&nbsp;payment terminal solution&nbsp;that runs both the ECR and the payment application&nbsp;on the same device. This means that&nbsp;SmartPOS offers&nbsp;mobility since&nbsp;a separate ECR solution is not required.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>SME</strong> - Small and Medium-sized Enterprises.&nbsp;The main factors determining whether an enterprise is an SME are&nbsp;staff headcount&nbsp;and either&nbsp;turnover&nbsp;or&nbsp;balance sheet total.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Statement&nbsp;</strong></p><p style=\"margin-left:0px;\">A written record prepared by a financial institution, usually once a month, listing all transactions for an account, including deposits, withdrawals, checks, electronic transfers, fees and other charges, and interest credited or earned. The statement is usually mailed to the customer (also known as a billing statement).</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Statement - merchant&nbsp;</strong></p><p style=\"margin-left:0px;\">Information sent to the merchant's head office about all authorized and processed transactions in a given period of time.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>T</strong></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Terminal&nbsp;</strong></p><p style=\"margin-left:0px;\">Equipment used to capture, transmit and store credit card transactions.</p><p>&nbsp;</p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/389007392.png\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-imagenaturalheight=\"1004\" data-imagenaturalwidth=\"1004\" data-siteid=\"c9335f83-d02c-4059-b880-ef9f3cd5ad99\" data-webid=\"b18d0f2f-88c5-46d9-aa3d-2e3da7a26816\" data-listid=\"ae078b33-729e-4b11-b9fa-f7ef57f53abc\" data-uniqueid=\"06989a20-e2a1-4b2e-afaa-8e4fb5c7ee13\" data-height=\"126.62496948242188\" data-width=\"126.62496948242188\" data-widthpercentage=\"35.17665616318691\" data-uploading=\"0\"></div><p aria-hidden=\"true\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Terminal Identification Number (TID)&nbsp;</strong></p><p style=\"margin-left:0px;\"><strong>U</strong>nique numerical identifier that denotes the specific Point-of-Sale device or computer where a payment transaction initiated, used by merchants, card associations and others to source the origin of fraud transactions.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Third-Party Processing</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">Processing of transactions by service providers acting under contract to card issuers or acquirers. First&nbsp;Data is a third-party processor.</span></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>TOM</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">Target Operating Model.</span></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Transaction</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">In payments, a transaction refers to an agreement between a buyer and seller to exchange an asset for payment for goods or services. A transaction involves the change in financial status between the two parties. One example of a transaction is the process that takes place when a consumer makes a purchase at a retail store using a credit card.</span></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Transaction Fee&nbsp;</strong></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">A fee charged by the acquirer for transaction activity at one of the acquirer’s terminals.​​​​​​​</span></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>U</strong></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>UAT</strong></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">User Acceptance Test.</span></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Unauthorized Transaction</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">During a purchase, the use of a credit or debit card, or via other method, to make a payment not authorized by that account holder, often the result of fraud or cybercrime. Note that this does not refer to an issuer declining authorization for payment on a transaction.</span></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>V</strong></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Virtual Account (Non Plastic Account)</strong></p><p style=\"margin-left:0px;\">Special type of current account that involves virtual card is used exclusively for e-commerce. Bank issues all the elements that would be normally printed on the card but this card product does not imply actual plastic. All the data is communicated to customer who uses it only for e-commerce i.e. Internet payments.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Visa</strong></p><p style=\"margin-left:0px;\">Global payments technology company and large processing network. Just as MasterCard, Visa does not issue cards, extend credit, set rates and fees or manage the relationships with the cardholders and merchants, but enable its bank customers to offer consumers payment choices. Global bank card payments brand and network that provides its services to banks. Through thousands of financial institutions, it markets a wide portfolio of brands and products, offering a network of more than 24 million acceptance locations worldwide.</p><p style=\"margin-left:0px;\" aria-hidden=\"true\">&nbsp;</p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/2266910846.png\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-imagenaturalheight=\"1004\" data-imagenaturalwidth=\"1004\" data-siteid=\"c9335f83-d02c-4059-b880-ef9f3cd5ad99\" data-webid=\"b18d0f2f-88c5-46d9-aa3d-2e3da7a26816\" data-listid=\"ae078b33-729e-4b11-b9fa-f7ef57f53abc\" data-uniqueid=\"4befe429-e16b-48e2-8776-b2f748034725\" data-height=\"139.9374237060547\" data-width=\"139.9374237060547\" data-widthpercentage=\"38.874881140669764\" data-uploading=\"0\"></div><p style=\"margin-left:0px;\"><strong>W</strong></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Whistleblower</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">An employee disclosing information about any wrongdoing, which could be in the form of fraud, corruption, etc.</span></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>X</strong></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>xPays&nbsp;</strong>-<br>Xpay Service is a&nbsp;service, which checks if a card can be added to a mobile wallet as a virtual card.</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Z</strong></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>Zip-Zap Machine</strong><span class=\"fontSizeLarge\">&nbsp;</span></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">An old-style device rarely in use today for credit card transactions, where the card is physically placed in the counter-top device and an impression is created by sliding a bar across carbon paper. Also known as a knuckle buster.</span></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>2</strong></p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\"><strong>2FA</strong></p><p style=\"margin-left:0px;\">Two-Factor Authentication.&nbsp;A secure way for consumers to identify themselves&nbsp;in the transaction process. The two factors must be independent of each other and should be from the following categories:</p><ol><li>Knowledge -&nbsp;something only the consumer knows (a password, or PIN&nbsp;code).</li><li>Possession -&nbsp;something only the consumer has (a secure token, or a mobile device).</li><li>Inherence -&nbsp;something only the consumer is (biometric fingerprint, facial recognition).</li></ol>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "3.744140625",
+        "emphasis": "strong",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('3.744140625')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('3.744140625')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "9cfd932b-a989-40ca-b450-2056169a78b3",
+                "webPartType": "c70391ea-0b10-4ee9-b2b4-006d3fcad0cd",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "2.3",
+                  "description": "Zeigen Sie eine Sammlung von Links zu Inhalten wie Dokumenten, Bildern, Videos und mehr in einer Vielzahl von Layouts mit Optionen für Symbole, Bilder und Zielgruppenadressierung an.",
+                  "title": "Quicklinks",
+                  "properties": {
+                    "isMigrated": true,
+                    "layoutId": "FilmStrip",
+                    "shouldShowThumbnail": true,
+                    "imageWidth": 400,
+                    "hideWebPartWhenEmpty": true,
+                    "dataProviderId": "QuickLinks",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "imagePicker": "https://christianiabpos.sharepoint.com/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/2984625849-where-we-are.png",
+                    "pane_link_button": 0,
+                    "items@odata.type": "#Collection(graph.Json)",
+                    "items": [
+                      {
+                        "thumbnailType": 1,
+                        "id": 3,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 32767,
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 0,
+                          "fileExtension": ".ASPX",
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "listId": "c922147c-5770-4799-aba6-b1730fc48ff3",
+                            "uniqueId": "68d6979e-4300-4d3a-b49c-cf21751c5a9f"
+                          }
+                        },
+                        "image": {
+                          "@odata.type": "#graph.Json",
+                          "imageFit": 2,
+                          "minCanvasWidth": 1,
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                            "uniqueId": "52b5372b-c31f-4f2b-bdee-ba9a3c1f72a5",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99"
+                          }
+                        }
+                      },
+                      {
+                        "thumbnailType": 1,
+                        "id": 1,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 32767,
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 0,
+                          "fileExtension": ".ASPX",
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "listId": "c922147c-5770-4799-aba6-b1730fc48ff3",
+                            "uniqueId": "f125bb61-d413-4da1-aea3-27d53cc41224"
+                          }
+                        },
+                        "image": {
+                          "@odata.type": "#graph.Json",
+                          "imageFit": 2,
+                          "minCanvasWidth": 1,
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                            "uniqueId": "{84997832-2f7c-41b6-9fcc-e09b5bd6d6d4}",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99"
+                          }
+                        }
+                      }
+                    ],
+                    "listLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "showDescription": false,
+                      "showIcon": true
+                    },
+                    "buttonLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "showDescription": false,
+                      "buttonTreatment": 2,
+                      "iconPositionType": 2,
+                      "textAlignmentVertical": 2,
+                      "textAlignmentHorizontal": 2,
+                      "linesOfText": 2
+                    },
+                    "waffleLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "iconSize": 1,
+                      "onlyShowThumbnail": false
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "items[0].title",
+                        "value": "Onboarding Information"
+                      },
+                      {
+                        "key": "items[1].title",
+                        "value": "Your Homespot - Country Onboarding Information"
+                      }
+                    ],
+                    "links": [
+                      {
+                        "key": "baseUrl",
+                        "value": "/sites/welcome-to-nexi"
+                      },
+                      {
+                        "key": "items[0].sourceItem.url",
+                        "value": "/sites/welcome-to-nexi/SitePages/Home.aspx#onboarding-information"
+                      },
+                      {
+                        "key": "items[1].sourceItem.url",
+                        "value": "/sites/welcome-to-nexi/SitePages/Your-Homespot---Onboarding-information.aspx"
+                      }
+                    ],
+                    "imageSources": [
+                      {
+                        "key": "items[0].image.url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/listener.jpg"
+                      },
+                      {
+                        "key": "items[1].image.url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/2984625849-where-we-are.png"
+                      }
+                    ],
+                    "componentDependencies": [
+                      {
+                        "key": "layoutComponentId",
+                        "value": "8ac0c53c-e8d0-4e3e-87d0-7449eb0d4027"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "items[0].image.url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "52b5372b-c31f-4f2b-bdee-ba9a3c1f72a5",
+                          "mincanvaswidth": "1",
+                          "fixedwidth": "400"
+                        }
+                      },
+                      {
+                        "key": "items[1].image.url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "{84997832-2f7c-41b6-9fcc-e09b5bd6d6d4}",
+                          "mincanvaswidth": "1",
+                          "fixedwidth": "400"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

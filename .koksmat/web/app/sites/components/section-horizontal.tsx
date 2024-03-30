@@ -1,5 +1,7 @@
+import { de } from "date-fns/locale";
 import { HorizontalSection } from "../schema/canvas";
 import WebpartWrapper from "./webpart-wrapper";
+import { sectionHeaderAnchor } from "../util";
 
 type SectionHorizontalProps = {
   debug?: boolean;
@@ -56,29 +58,56 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
       gridClassname =
         "container grid grid-cols-1 gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3";
       break;
+    case "oneThirdLeftColumn":
+      gridClassname =
+        "container grid grid-cols-1 gap-4 grid-cols-1 md:grid-cols-3 ";
+      break;
+    case "oneThirdRightColumn":
+      gridClassname =
+        "container grid grid-cols-1 gap-4 grid-cols-1 md:grid-cols-3 ";
+      break;
     default:
       gridClassname = "container grid grid-cols-1 gap-4";
       break;
   }
 
+  const anchorId = sectionHeaderAnchor(
+    section.emphasis,
+    section.columns[0].webparts[0]
+  );
+
   return (
-    <div key={key}>
-      <div className={sectionStyle.className}>
-        <div className={gridClassname}>
-          {section.columns.map((column) => {
-            return (
-              <div key={column.id} className=" ">
-                {column.webparts.map((webpart) => {
-                  return (
-                    <div key={webpart.id}>
-                      <WebpartWrapper webpart={webpart} debug={debug} />
-                    </div>
-                  );
-                })}
-              </div>
-            );
-          })}
+    <div key={key} id={anchorId} className="pt-[50px]">
+      <div className="pt-[-50px]">
+        <div className={sectionStyle.className}>
+          <div className={gridClassname}>
+            {section.columns.map((column) => {
+              return (
+                <div key={column.id} className=" ">
+                  {column.webparts.map((webpart, index) => {
+                    return (
+                      <div key={webpart.id}>
+                        <WebpartWrapper webpart={webpart} debug={debug} />
+                      </div>
+                    );
+                  })}
+                </div>
+              );
+            })}
+          </div>
         </div>
+        {debug && (
+          <pre>
+            {JSON.stringify(
+              {
+                ...section,
+                columns: "...hidden",
+              },
+              null,
+              2
+            )}
+          </pre>
+        )}
       </div>
     </div>
   );

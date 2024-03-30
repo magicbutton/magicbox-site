@@ -1,6 +1,7 @@
 import { ICanvas } from "../schema/canvas";
 import SectionHorizontal from "./section-horizontal";
 import SectionVertical from "./section-vertical";
+import TitleAreaComponent from "./titlearea";
 
 export type CanvasProps = {
   debug?: boolean;
@@ -10,9 +11,12 @@ export default function Canvas(props: CanvasProps) {
   const { canvas, debug } = props;
   return (
     <div>
+      {canvas?.titleArea && (
+        <TitleAreaComponent titelArea={canvas?.titleArea} debug={debug} />
+      )}
       <div className="flex">
         <div className="grow">
-          {canvas.canvasLayout.horizontalSections.map((section) => {
+          {canvas?.canvasLayout.horizontalSections.map((section) => {
             return (
               <SectionHorizontal
                 key={section.id}
@@ -23,7 +27,7 @@ export default function Canvas(props: CanvasProps) {
           })}
         </div>
         <div>
-          {canvas.canvasLayout.verticalSection && (
+          {canvas?.canvasLayout.verticalSection && (
             <SectionVertical
               section={canvas.canvasLayout.verticalSection}
               debug={debug}

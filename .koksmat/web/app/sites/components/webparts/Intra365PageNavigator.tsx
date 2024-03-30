@@ -1,5 +1,6 @@
 export interface Intra365PageNavigatorWebPartProps {
   data: Data | undefined;
+  debug?: boolean;
 }
 export interface Root {
   "@odata.type": string;

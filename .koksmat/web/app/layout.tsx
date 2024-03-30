@@ -1,6 +1,7 @@
 "use client";
 import type { Metadata } from "next";
 import "./globals.css";
+import "./embla.css";
 import { ThemeProvider } from "next-themes";
 import { MagicboxProvider } from "@/koksmat/magicbox-providers";
 import { MSALWrapper } from "@/koksmat/msal/auth";

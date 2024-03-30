@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@import "~react-image-gallery/styles/css/image-gallery.css";
 @layer base {
   :root {
     --background: 0 0% 100%;  
@@ -78,6 +78,9 @@
 
     a {
       @apply text-[#2D32AA]
+    }
+    a:hover {
+      @apply underline;
     }
   }
   p {
