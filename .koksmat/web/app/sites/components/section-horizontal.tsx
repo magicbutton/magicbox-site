@@ -46,6 +46,8 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
       break;
   }
   let gridClassname = "grid-cols-3";
+  let leftClassname = "w-full md:w-1/3";
+  let rightClassname = "w-full md:w-2/3";
   switch (section.layout) {
     case "oneColumn":
       gridClassname = "container grid grid-cols-1 gap-4 ";
@@ -59,12 +61,14 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
         "container grid grid-cols-1 gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3";
       break;
     case "oneThirdLeftColumn":
-      gridClassname =
-        "container grid grid-cols-1 gap-4 grid-cols-1 md:grid-cols-3 ";
+      gridClassname = "container md:flex  gap-4  ";
+      leftClassname = "w-full md:w-1/3";
+      rightClassname = "w-full md:w-2/3";
       break;
     case "oneThirdRightColumn":
-      gridClassname =
-        "container grid grid-cols-1 gap-4 grid-cols-1 md:grid-cols-3 ";
+      gridClassname = "container md:flex  gap-4  ";
+      leftClassname = "w-full md:w-2/3";
+      rightClassname = "w-full md:w-1/3";
       break;
     default:
       gridClassname = "container grid grid-cols-1 gap-4";
@@ -75,10 +79,63 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
     section.emphasis,
     section.columns[0].webparts[0]
   );
-
-  return (
-    <div key={key} id={anchorId} className="pt-[50px]">
-      <div className="pt-[-50px]">
+  let sectionComponent = null;
+  switch (section.layout) {
+    case "oneThirdLeftColumn":
+    case "oneThirdRightColumn":
+      sectionComponent = (
+        <div className={sectionStyle.className}>
+          <div className={gridClassname}>
+            <div className={leftClassname}>
+              {section.columns[0].webparts.map((webpart, index) => {
+                return (
+                  <div key={webpart.id}>
+                    <WebpartWrapper webpart={webpart} debug={debug} />
+                  </div>
+                );
+              })}
+            </div>
+            <div className={rightClassname}>
+              {section.columns[1].webparts.map((webpart, index) => {
+                return (
+                  <div key={webpart.id}>
+                    <WebpartWrapper webpart={webpart} debug={debug} />
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      );
+      break;
+    case "oneThirdRightColumn":
+      sectionComponent = (
+        <div className={sectionStyle.className}>
+          <div className={gridClassname}>
+            <div>
+              {section.columns[0].webparts.map((webpart, index) => {
+                return (
+                  <div key={webpart.id}>
+                    <WebpartWrapper webpart={webpart} debug={debug} />
+                  </div>
+                );
+              })}
+            </div>
+            <div>
+              {section.columns[1].webparts.map((webpart, index) => {
+                return (
+                  <div key={webpart.id}>
+                    <WebpartWrapper webpart={webpart} debug={debug} />
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      );
+      break;
+    default:
+      sectionComponent = (
         <div className={sectionStyle.className}>
           <div className={gridClassname}>
             {section.columns.map((column) => {
@@ -96,6 +153,13 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
             })}
           </div>
         </div>
+      );
+      break;
+  }
+  return (
+    <div key={key} id={anchorId} className="pt-[50px]">
+      <div className="pt-[-50px]">
+        {sectionComponent}
         {debug && (
           <pre>
             {JSON.stringify(

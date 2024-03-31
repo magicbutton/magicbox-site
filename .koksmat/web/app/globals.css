@@ -114,6 +114,9 @@
     @apply list-disc;
   ;
   }
+  .nav-active {
+    @apply font-bold;
+  }
   /* .fontSizeMega {
     @apply text-6xl;
   }

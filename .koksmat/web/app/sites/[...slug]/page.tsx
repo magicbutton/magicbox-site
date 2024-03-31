@@ -6,7 +6,12 @@ import { LinkItem, TopNav } from "../components/topnav";
 import { ICanvas } from "../schema/canvas";
 import { innerText, sectionHeaderAnchor } from "../util";
 import { redirect } from "next/navigation";
-
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Before your 1st day",
+  description:
+    "Nexi drives progress by innovating technologies and simplifying digital transactions that can empower people and businesses to enjoy closer relationships.",
+};
 export default function Page(param: { params: { slug: string[] } }) {
   const { slug } = param.params;
 

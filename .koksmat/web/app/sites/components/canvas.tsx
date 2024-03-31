@@ -1,3 +1,4 @@
+import { ca } from "date-fns/locale";
 import { ICanvas } from "../schema/canvas";
 import SectionHorizontal from "./section-horizontal";
 import SectionVertical from "./section-vertical";
@@ -34,6 +35,9 @@ export default function Canvas(props: CanvasProps) {
             />
           )}
         </div>
+      </div>
+      <div className="text-sm">
+        {canvas.lastModifiedBy.user.displayName} | {canvas.lastModifiedDateTime}
       </div>
     </div>
   );
