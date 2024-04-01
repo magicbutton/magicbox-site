@@ -100,16 +100,6 @@ export default function InputOTPForm() {
         </div>
         <div className="grow"></div>
       </div>
-      <CookieConsent>
-        We improve this site by using Microsoft Clarity to see how you use it.
-        By using this site, you agree that we and Microsoft can collect and use
-        this data. Our{" "}
-        <Link className="text-white underline" href="/privacy">
-          privacy statement{" "}
-        </Link>{" "}
-        has more details. Beside that, we store the pincode you have entered for
-        easing you next visit.
-      </CookieConsent>
     </div>
   );
 }
