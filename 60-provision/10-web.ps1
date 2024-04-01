@@ -62,6 +62,8 @@ spec:
         env:
         - name: KEY
           value: VALUE2
+        - name: DATAPATH
+          value: /data          
         volumeMounts:
         - mountPath: /data
           name: data          
