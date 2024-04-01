@@ -28,7 +28,7 @@ func ProcessRotatePasswordPost() usecase.Interactor {
 		Months  string               `query:"months" binding:"required"`
 		Body    schemas.Oldpasswords `json:"body" binding:"required"`
 	}
-	u := usecase.NewInteractor(func(ctx context.Context, input Request, output *schemas.Newpasswords) error {
+	u := usecase.NewInteractor(func(ctx context.Context, input Request, output *schemas.Passwords) error {
 		body, inputErr := json.Marshal(input.Body)
 		if inputErr != nil {
 			return inputErr
@@ -44,12 +44,12 @@ func ProcessRotatePasswordPost() usecase.Interactor {
 			return err
 		}
 
-		resultingFile := path.Join(utils.WorkDir("magicbox-site"), "newpasswords.json")
+		resultingFile := path.Join(utils.WorkDir("magicbox-site"), "passwords.json")
 		data, err := os.ReadFile(resultingFile)
 		if err != nil {
 			return err
 		}
-		resultObject := schemas.Newpasswords{}
+		resultObject := schemas.Passwords{}
 		err = json.Unmarshal(data, &resultObject)
 		*output = resultObject
 		return err

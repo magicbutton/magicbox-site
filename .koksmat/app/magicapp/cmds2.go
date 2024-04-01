@@ -43,6 +43,29 @@ func RegisterCmds() {
 	healthCmd.AddCommand(HealthCoreversionPostCmd)
 
 	RootCmd.AddCommand(healthCmd)
+	downloadCmd := &cobra.Command{
+		Use:   "download",
+		Short: "Download",
+		Long:  `Describe the main purpose of this kitchen`,
+	}
+	Download25DownloadPagesps1PostCmd := &cobra.Command{
+		Use:   "25-download-pages.ps1 ",
+		Short: "Get Site Pages",
+		Long:  ``,
+		Args:  cobra.MinimumNArgs(0),
+		Run: func(cmd *cobra.Command, args []string) {
+			ctx := cmd.Context()
+			body, err := os.ReadFile(args[0])
+			if err != nil {
+				panic(err)
+			}
+
+			cmds.Download25DownloadPagesps1Post(ctx, body, args)
+		},
+	}
+	downloadCmd.AddCommand(Download25DownloadPagesps1PostCmd)
+
+	RootCmd.AddCommand(downloadCmd)
 	processCmd := &cobra.Command{
 		Use:   "process",
 		Short: "Process",
@@ -64,6 +87,22 @@ func RegisterCmds() {
 		},
 	}
 	processCmd.AddCommand(ProcessRotatePasswordPostCmd)
+	ProcessAnalysePagePostCmd := &cobra.Command{
+		Use:   "analyse-page ",
+		Short: "Analyse Page",
+		Long:  ``,
+		Args:  cobra.MinimumNArgs(0),
+		Run: func(cmd *cobra.Command, args []string) {
+			ctx := cmd.Context()
+			body, err := os.ReadFile(args[0])
+			if err != nil {
+				panic(err)
+			}
+
+			cmds.ProcessAnalysePagePost(ctx, body, args)
+		},
+	}
+	processCmd.AddCommand(ProcessAnalysePagePostCmd)
 
 	RootCmd.AddCommand(processCmd)
 	provisionCmd := &cobra.Command{

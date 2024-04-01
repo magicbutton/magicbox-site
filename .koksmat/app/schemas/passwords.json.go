@@ -1,5 +1,5 @@
 package schemas
 
-type Newpasswords struct {
+type Passwords struct {
 	Passwords string `json:"passwords"`
 }

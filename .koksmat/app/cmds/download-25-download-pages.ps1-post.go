@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------
 /*
 ---
-title: Rotate Passwords
+title: Get Site Pages
 ---
 */
 package cmds
@@ -20,23 +20,23 @@ import (
 	"github.com/365admin/magicbox-site/utils"
 )
 
-func ProcessRotatePasswordPost(ctx context.Context, body []byte, args []string) (*schemas.Passwords, error) {
-	inputErr := os.WriteFile(path.Join(utils.WorkDir("magicbox-site"), "oldpasswords.json"), body, 0644)
+func Download25DownloadPagesps1Post(ctx context.Context, body []byte, args []string) (*schemas.DownloadedPages, error) {
+	inputErr := os.WriteFile(path.Join(utils.WorkDir("magicbox-site"), "pages.json"), body, 0644)
 	if inputErr != nil {
 		return nil, inputErr
 	}
 
-	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-process", "10-rotate-passwords.ps1", "", "-maxKeys", args[1], "-length", args[2], "-months", args[3])
+	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "20-download", "25-download-pages.ps1", "")
 	if pwsherr != nil {
 		return nil, pwsherr
 	}
 
-	resultingFile := path.Join(utils.WorkDir("magicbox-site"), "passwords.json")
+	resultingFile := path.Join(utils.WorkDir("magicbox-site"), "downloaded-pages.json")
 	data, err := os.ReadFile(resultingFile)
 	if err != nil {
 		return nil, err
 	}
-	resultObject := schemas.Passwords{}
+	resultObject := schemas.DownloadedPages{}
 	err = json.Unmarshal(data, &resultObject)
 	if utils.Output == "json" {
 		fmt.Println(string(data))

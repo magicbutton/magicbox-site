@@ -17,7 +17,11 @@ export default function Canvas(props: CanvasProps) {
   const links = props.links.map((link) => {
     return (
       <div key={link.href}>
-        <a href={link.href} key={link.href} className="ml-2 pt-1 text-nowrap">
+        <a
+          href={link.href}
+          key={link.href}
+          className="ml-2 pt-1 text-nowrap text-white"
+        >
           {link.title}
         </a>
       </div>
@@ -51,9 +55,9 @@ export default function Canvas(props: CanvasProps) {
           </div>
         </div>
         {links.length > 0 && (
-          <div className="relative">
-            <div className="sticky top-24 right-0">
-              <div className="m-4 p-4 mt-14 pt-10 border rounded-md  hidden lg:block bg-slate-100 ">
+          <div className="relative  bg-[#2D32AA]">
+            <div className="sticky top-20  hidden lg:block text-white h-screen">
+              <div className="m-4 p-4 mt-14 pt-10   ">
                 <ScrollSpy activeClass="nav-active">
                   <div className="mb-4">On this page</div>
                   {links}

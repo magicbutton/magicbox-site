@@ -3,6 +3,7 @@ title: Get Site Pages
 connection: graph
 input: pages.json
 output: downloaded-pages.json
+api: post
 ---#>
 
 
@@ -16,7 +17,7 @@ $workdir = Resolve-Path $workdir
 $siteInfo = Get-Content "$env:WORKDIR/pages.json" | ConvertFrom-Json
 
 
-$sitedir = join-path $workdir $siteInfo.name
+$sitedir = join-path $workdir "sites" $siteInfo.name
 if (-not (Test-Path $sitedir )) {
     New-Item -Path $sitedir  -ItemType Directory | Out-Null
 }

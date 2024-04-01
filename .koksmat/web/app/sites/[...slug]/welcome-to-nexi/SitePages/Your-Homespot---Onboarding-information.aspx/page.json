@@ -1,9 +1,9 @@
 {
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
-  "@odata.etag": "\"{F125BB61-D413-4DA1-AEA3-27D53CC41224},2541\"",
+  "@odata.etag": "\"{F125BB61-D413-4DA1-AEA3-27D53CC41224},2545\"",
   "createdDateTime": "2023-04-17T11:07:12Z",
   "description": "European by scale, local by nature Nexi Group has more than 60 offices spread across Europe. The northernmost placed office is in Jyväskylä (Finland), and the southernmost placed office is in Pretoria (South Africa). Between the two offices, there a…",
-  "eTag": "\"{F125BB61-D413-4DA1-AEA3-27D53CC41224},2541\"",
+  "eTag": "\"{F125BB61-D413-4DA1-AEA3-27D53CC41224},2545\"",
   "id": "f125bb61-d413-4da1-aea3-27d53cc41224",
   "lastModifiedDateTime": "2024-03-21T14:33:15Z",
   "name": "Your-Homespot---Onboarding-information.aspx",
