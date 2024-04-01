@@ -32,6 +32,7 @@ export function BurgerMenu(prop: { links: JSX.Element[] }) {
           </SheetDescription>
         </SheetHeader> */}
         <div className="grid gap-4 py-4 overflow-y-scroll">
+          <div className="mb-1">On this page</div>
           <ScrollSpy activeClass="nav-active">{prop.links}</ScrollSpy>
         </div>
 
@@ -74,7 +75,7 @@ export function TopNav(props: TopNavProps) {
             <div className="ml-4 pt-2 text-2xl text-nowrap">{SITENAME}</div>
           </Link>
           <div className="grow"></div>
-          <div className="mt-4">
+          <div className="mt-4 lg:hidden">
             {links.length > 0 && <BurgerMenu links={links} />}
           </div>
           {/* <div className="hidden lg:flex ml-10  items-center space-x-4 overflow-x-scroll">

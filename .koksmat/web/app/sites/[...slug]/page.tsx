@@ -62,7 +62,7 @@ export default function Page(param: { params: { slug: string[] } }) {
         <TopNav title={""} links={links} />
       </div>
       <div className="mt-[40px]">
-        <Canvas canvas={pageData as any} />
+        <Canvas canvas={pageData as any} links={links} />
       </div>
       {/* <pre>{JSON.stringify({ here }, null, 2)}</pre> */}
     </div>
