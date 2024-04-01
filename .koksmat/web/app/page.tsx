@@ -1,15 +1,21 @@
-"use client"
+"use client";
 
-import { APPNAME } from "@/app/global";
-import { redirect } from "next/navigation";
+import { redirect, useRouter } from "next/navigation";
 import { useEffect } from "react";
+import { hasValidPasswordInCookieStore } from "./login/server";
 
-export default function Home(){
-    useEffect(() => {
-   redirect("/"+APPNAME)
-    }, [])
-    
-    return <div>
-       
-    </div>
+export default function Home() {
+  const router = useRouter();
+  useEffect(() => {
+    const load = async () => {
+      if (await hasValidPasswordInCookieStore()) {
+        router.push("/sites/welcome-to-nexi/SitePages/Home.aspx");
+      } else {
+        router.push("/login");
+      }
+    };
+    load();
+  }, []);
+
+  return <div></div>;
 }

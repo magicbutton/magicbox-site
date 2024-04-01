@@ -1,3 +1,5 @@
+import { TopNav } from "../sites/components/topnav";
+
 interface RootLayoutProps {
   children: React.ReactNode;
 }
@@ -5,7 +7,8 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <div>
-      <div className="h-screen w-screen overflow-hidden p-10 container">
+      <TopNav title={"Before you start"} links={[]} />
+      <div className="h-screen w-screen overflow-scroll p-10 container ">
         <div>{children}</div>
       </div>
     </div>

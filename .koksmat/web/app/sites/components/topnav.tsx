@@ -74,12 +74,12 @@ export function TopNav(props: TopNavProps) {
             <div className="ml-4 pt-2 text-2xl text-nowrap">{SITENAME}</div>
           </Link>
           <div className="grow"></div>
-          <div className="lg:hidden mt-4">
-            <BurgerMenu links={links} />
+          <div className="mt-4">
+            {links.length > 0 && <BurgerMenu links={links} />}
           </div>
-          <div className="hidden lg:flex ml-10  items-center space-x-4 overflow-x-scroll">
+          {/* <div className="hidden lg:flex ml-10  items-center space-x-4 overflow-x-scroll">
             <ScrollSpy activeClass="nav-active">{links}</ScrollSpy>
-          </div>
+          </div> */}
         </div>
         {debug && <pre>{JSON.stringify(props, null, 2)}</pre>}
       </div>

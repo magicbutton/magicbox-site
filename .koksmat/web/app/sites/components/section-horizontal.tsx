@@ -58,7 +58,7 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
       break;
     case "threeColumns":
       gridClassname =
-        "container grid grid-cols-1 gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3";
+        "container grid grid-cols-1 gap-4 grid-cols-1  lg:grid-cols-3";
       break;
     case "oneThirdLeftColumn":
       gridClassname = "container md:flex  gap-4  ";
