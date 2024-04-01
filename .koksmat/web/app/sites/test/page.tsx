@@ -4,7 +4,7 @@ import p from "./page.json";
 export default function Page() {
   return (
     <div className="container">
-      <Canvas canvas={p} />
+      <Canvas canvas={p} links={[]} />
     </div>
   );
 }
