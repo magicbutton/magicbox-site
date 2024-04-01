@@ -32,6 +32,7 @@ foreach ($file in $files) {
 
     $path = split-path $file.href -Parent
     $filename = split-path $file.href -Leaf
+    $filename = [System.Web.HttpUtility]::UrlDecode($filename )
     $destDir = "$workdir$path"
     $destFilename = Join-Path $destDir $filename
     if ( (Test-Path $destFilename )) {

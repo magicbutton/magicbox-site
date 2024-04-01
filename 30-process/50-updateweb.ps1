@@ -76,5 +76,10 @@ else {
 $koksmatDir = Resolve-Path $path
 
 $pages = join-path $workdir "sites"  $siteName "SitePages"
-$destPath = join-path $koksmatDir "web" "app" "sites" "[...slug]" $siteName "SitePages"
-CopyFiles $pages $destPath
+$pagesDestPath = join-path $koksmatDir "web" "app" "sites" "[...slug]" $siteName "SitePages"
+
+$images = join-path $workdir "sites"  $siteName "SiteAssets"
+$imagesDestPath = join-path $koksmatDir "web" "public" "sites" $siteName "SiteAssets"
+
+CopyFiles $pages $pagesDestPath
+CopyFiles $images $imagesDestPath
