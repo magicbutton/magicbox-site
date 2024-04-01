@@ -2,6 +2,8 @@
 title: Get Site Pages
 connection: graph
 output: pages.json
+tag: site-pages
+api: post
 ---#>
 
 param (

@@ -17,8 +17,20 @@ func RegisterCmds() {
 		Short: "Download",
 		Long:  `Describe the main purpose of this kitchen`,
 	}
-	Download25DownloadPagesps1PostCmd := &cobra.Command{
-		Use:   "25-download-pages.ps1 ",
+	DownloadSitePagesPostCmd := &cobra.Command{
+		Use:   "site-pages  siteUrl",
+		Short: "Get Site Pages",
+		Long:  ``,
+		Args:  cobra.MinimumNArgs(1),
+		Run: func(cmd *cobra.Command, args []string) {
+			ctx := cmd.Context()
+
+			cmds.DownloadSitePagesPost(ctx, args)
+		},
+	}
+	downloadCmd.AddCommand(DownloadSitePagesPostCmd)
+	DownloadDownloadPagesPostCmd := &cobra.Command{
+		Use:   "download-pages ",
 		Short: "Get Site Pages",
 		Long:  ``,
 		Args:  cobra.MinimumNArgs(0),
@@ -29,10 +41,10 @@ func RegisterCmds() {
 				panic(err)
 			}
 
-			cmds.Download25DownloadPagesps1Post(ctx, body, args)
+			cmds.DownloadDownloadPagesPost(ctx, body, args)
 		},
 	}
-	downloadCmd.AddCommand(Download25DownloadPagesps1PostCmd)
+	downloadCmd.AddCommand(DownloadDownloadPagesPostCmd)
 
 	RootCmd.AddCommand(downloadCmd)
 	processCmd := &cobra.Command{

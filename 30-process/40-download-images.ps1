@@ -2,6 +2,7 @@
 title: Download medias
 tag : download-medias
 input: analysed-pages.json
+.output: downloaded-medias.json
 connection: graph, sharepoint
 api: post
 ---
@@ -42,7 +43,10 @@ foreach ($file in $files) {
         New-Item -Path $destDir  -ItemType Directory | Out-Null
     }
     write-host $file.href -ForegroundColor Gray
+    $oldPref = $ErrorActionPreference
+    $ErrorActionPreference = "Continue"
     Get-PnPFile -Url $file.href -Path $destDir -filename $filename -AsFile -Force
+    $ErrorActionPreference = $oldPref
    
 }
 

@@ -3,6 +3,7 @@ title: Get Site Pages
 connection: graph
 input: pages.json
 output: downloaded-pages.json
+tag: download-pages
 api: post
 ---#>
 

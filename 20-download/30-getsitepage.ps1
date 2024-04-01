@@ -1,7 +1,7 @@
 <#---
 title: Get Site Page
 connection: graph
-output: pages.json
+output: page.json
 ---#>
 
 param (
