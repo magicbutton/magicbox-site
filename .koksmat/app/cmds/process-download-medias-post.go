@@ -3,21 +3,27 @@
 // -------------------------------------------------------------------
 /*
 ---
-title: Ping
+title: Download medias
 ---
 */
 package cmds
 
 import (
 	"context"
+	"os"
+	"path"
 
 	"github.com/365admin/magicbox-site/execution"
 	"github.com/365admin/magicbox-site/utils"
 )
 
-func HealthPingPost(ctx context.Context, args []string) (*string, error) {
+func ProcessDownloadMediasPost(ctx context.Context, body []byte, args []string) (*string, error) {
+	inputErr := os.WriteFile(path.Join(utils.WorkDir("magicbox-site"), "analysed-pages.json"), body, 0644)
+	if inputErr != nil {
+		return nil, inputErr
+	}
 
-	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "99-health", "10-ping.ps1", "", "-pong", args[0])
+	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-process", "40-download-images.ps1", "", "-siteUrl", args[1])
 	if pwsherr != nil {
 		return nil, pwsherr
 	}

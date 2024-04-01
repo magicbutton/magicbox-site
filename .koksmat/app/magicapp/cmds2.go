@@ -12,37 +12,6 @@ import (
 func RegisterCmds() {
 	RootCmd.PersistentFlags().StringVarP(&utils.Output, "output", "o", "", "Output format (json, yaml, xml, etc.)")
 
-	healthCmd := &cobra.Command{
-		Use:   "health",
-		Short: "Health",
-		Long:  `Describe the main purpose of this kitchen`,
-	}
-	HealthPingPostCmd := &cobra.Command{
-		Use:   "ping  pong",
-		Short: "Ping",
-		Long:  `Simple ping endpoint`,
-		Args:  cobra.MinimumNArgs(1),
-		Run: func(cmd *cobra.Command, args []string) {
-			ctx := cmd.Context()
-
-			cmds.HealthPingPost(ctx, args)
-		},
-	}
-	healthCmd.AddCommand(HealthPingPostCmd)
-	HealthCoreversionPostCmd := &cobra.Command{
-		Use:   "coreversion ",
-		Short: "Core Version",
-		Long:  ``,
-		Args:  cobra.MinimumNArgs(0),
-		Run: func(cmd *cobra.Command, args []string) {
-			ctx := cmd.Context()
-
-			cmds.HealthCoreversionPost(ctx, args)
-		},
-	}
-	healthCmd.AddCommand(HealthCoreversionPostCmd)
-
-	RootCmd.AddCommand(healthCmd)
 	downloadCmd := &cobra.Command{
 		Use:   "download",
 		Short: "Download",
@@ -103,6 +72,50 @@ func RegisterCmds() {
 		},
 	}
 	processCmd.AddCommand(ProcessAnalysePagePostCmd)
+	ProcessAnalysePagesPostCmd := &cobra.Command{
+		Use:   "analyse-pages ",
+		Short: "Analyse Pages",
+		Long:  ``,
+		Args:  cobra.MinimumNArgs(0),
+		Run: func(cmd *cobra.Command, args []string) {
+			ctx := cmd.Context()
+			body, err := os.ReadFile(args[0])
+			if err != nil {
+				panic(err)
+			}
+
+			cmds.ProcessAnalysePagesPost(ctx, body, args)
+		},
+	}
+	processCmd.AddCommand(ProcessAnalysePagesPostCmd)
+	ProcessDownloadMediasPostCmd := &cobra.Command{
+		Use:   "download-medias  siteUrl",
+		Short: "Download medias",
+		Long:  ``,
+		Args:  cobra.MinimumNArgs(1),
+		Run: func(cmd *cobra.Command, args []string) {
+			ctx := cmd.Context()
+			body, err := os.ReadFile(args[0])
+			if err != nil {
+				panic(err)
+			}
+
+			cmds.ProcessDownloadMediasPost(ctx, body, args)
+		},
+	}
+	processCmd.AddCommand(ProcessDownloadMediasPostCmd)
+	ProcessUpdateWebPostCmd := &cobra.Command{
+		Use:   "update-web  siteName",
+		Short: "Update Web",
+		Long:  ``,
+		Args:  cobra.MinimumNArgs(1),
+		Run: func(cmd *cobra.Command, args []string) {
+			ctx := cmd.Context()
+
+			cmds.ProcessUpdateWebPost(ctx, args)
+		},
+	}
+	processCmd.AddCommand(ProcessUpdateWebPostCmd)
 
 	RootCmd.AddCommand(processCmd)
 	provisionCmd := &cobra.Command{
@@ -124,4 +137,35 @@ func RegisterCmds() {
 	provisionCmd.AddCommand(ProvisionWebdeployproductionPostCmd)
 
 	RootCmd.AddCommand(provisionCmd)
+	healthCmd := &cobra.Command{
+		Use:   "health",
+		Short: "Health",
+		Long:  `Describe the main purpose of this kitchen`,
+	}
+	HealthPingPostCmd := &cobra.Command{
+		Use:   "ping  pong",
+		Short: "Ping",
+		Long:  `Simple ping endpoint`,
+		Args:  cobra.MinimumNArgs(1),
+		Run: func(cmd *cobra.Command, args []string) {
+			ctx := cmd.Context()
+
+			cmds.HealthPingPost(ctx, args)
+		},
+	}
+	healthCmd.AddCommand(HealthPingPostCmd)
+	HealthCoreversionPostCmd := &cobra.Command{
+		Use:   "coreversion ",
+		Short: "Core Version",
+		Long:  ``,
+		Args:  cobra.MinimumNArgs(0),
+		Run: func(cmd *cobra.Command, args []string) {
+			ctx := cmd.Context()
+
+			cmds.HealthCoreversionPost(ctx, args)
+		},
+	}
+	healthCmd.AddCommand(HealthCoreversionPostCmd)
+
+	RootCmd.AddCommand(healthCmd)
 }

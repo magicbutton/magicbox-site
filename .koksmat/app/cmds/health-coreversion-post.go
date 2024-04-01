@@ -17,7 +17,7 @@ import (
 
 func HealthCoreversionPost(ctx context.Context, args []string) (*string, error) {
 
-	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "00-health", "20-coreversion.ps1", "")
+	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "99-health", "20-coreversion.ps1", "")
 	if pwsherr != nil {
 		return nil, pwsherr
 	}

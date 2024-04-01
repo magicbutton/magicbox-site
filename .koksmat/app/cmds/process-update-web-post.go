@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------
 /*
 ---
-title: Ping
+title: Update Web
 ---
 */
 package cmds
@@ -15,9 +15,9 @@ import (
 	"github.com/365admin/magicbox-site/utils"
 )
 
-func HealthPingPost(ctx context.Context, args []string) (*string, error) {
+func ProcessUpdateWebPost(ctx context.Context, args []string) (*string, error) {
 
-	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "99-health", "10-ping.ps1", "", "-pong", args[0])
+	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-process", "50-updateweb.ps1", "", "-siteName", args[0])
 	if pwsherr != nil {
 		return nil, pwsherr
 	}

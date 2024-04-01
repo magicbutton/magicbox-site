@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------
 /*
 ---
-title: Ping
+title: Update Web
 ---
 */
 package endpoints
@@ -16,13 +16,13 @@ import (
 	"github.com/365admin/magicbox-site/execution"
 )
 
-func HealthPingPost() usecase.Interactor {
+func ProcessUpdateWebPost() usecase.Interactor {
 	type Request struct {
-		Pong string `query:"pong" binding:"required"`
+		Sitename string `query:"siteName" binding:"required"`
 	}
 	u := usecase.NewInteractor(func(ctx context.Context, input Request, output *string) error {
 
-		_, err := execution.ExecutePowerShell("john", "*", "magicbox-site", "99-health", "10-ping.ps1", "", "-pong", input.Pong)
+		_, err := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-process", "50-updateweb.ps1", "", "-siteName", input.Sitename)
 		if err != nil {
 			return err
 		}
@@ -30,8 +30,8 @@ func HealthPingPost() usecase.Interactor {
 		return err
 
 	})
-	u.SetTitle("Ping")
+	u.SetTitle("Update Web")
 	// u.SetExpectedErrors(status.InvalidArgument)
-	u.SetTags("Health")
+	u.SetTags("Process")
 	return u
 }
