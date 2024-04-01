@@ -12,10 +12,9 @@ if ($null -eq $env:WORKDIR ) {
 }
 
 $workdir = $env:WORKDIR
-magicbox-site download site-pages "https://christianiabpos.sharepoint.com/sites/$siteName"
 
+magicbox-site download site-pages "https://christianiabpos.sharepoint.com/sites/$siteName"
 magicbox-site download download-pages (Join-Path $workdir "pages.json")
 magicbox-site process analyse-pages (Join-Path $workdir "downloaded-pages.json")
-
 magicbox-site process download-medias (Join-Path $workdir "analysed-pages.json") "https://christianiabpos.sharepoint.com/sites/$siteName"
 magicbox-site process update-web $siteName
