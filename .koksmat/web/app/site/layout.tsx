@@ -1,5 +1,3 @@
-import Logo from "@/koksmat/components/logo";
-
 interface RootLayoutProps {
   children: React.ReactNode;
 }

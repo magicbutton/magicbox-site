@@ -28,6 +28,18 @@ The we build the deployment file
 $image = "ghcr.io/magicbutton/$($imagename)-web:$($version)"
 
 $config = @"
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pvc-$appname
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+  storageClassName: default
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -50,7 +62,13 @@ spec:
         env:
         - name: KEY
           value: VALUE2
-        
+        volumeMounts:
+        - mountPath: /data
+          name: data          
+      volumes:
+      - name: data
+        persistentVolumeClaim:
+          claimName: pvc-$appname       
 ---
 apiVersion: v1
 kind: Service

@@ -4,7 +4,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { useRouter } from "next/navigation";
-
+import { REGEXP_ONLY_DIGITS_AND_CHARS } from "input-otp";
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -22,6 +22,7 @@ import {
 } from "@/components/ui/input-otp";
 import { toast } from "@/components/ui/use-toast";
 import { TopNav } from "../sites/components/topnav";
+import { validatePassword } from "./server";
 
 const FormSchema = z.object({
   pin: z.string().min(6, {
@@ -38,7 +39,13 @@ export default function InputOTPForm() {
     },
   });
 
-  function onSubmit(data: z.infer<typeof FormSchema>) {
+  async function onSubmit(data: z.infer<typeof FormSchema>) {
+    const isValidPassword = await validatePassword(data.pin);
+    if (!isValidPassword) {
+      router.push("/invalid");
+      return;
+    }
+
     router.push("/sites/welcome-to-nexi/SitePages/Home.aspx");
     toast({
       title: "You submitted the following values:",
@@ -64,9 +71,13 @@ export default function InputOTPForm() {
               name="pin"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>One-Time Password</FormLabel>
+                  <FormLabel>Pin code</FormLabel>
                   <FormControl>
-                    <InputOTP maxLength={6} {...field}>
+                    <InputOTP
+                      maxLength={6}
+                      {...field}
+                      pattern={REGEXP_ONLY_DIGITS_AND_CHARS}
+                    >
                       <InputOTPGroup>
                         <InputOTPSlot index={0} />
                         <InputOTPSlot index={1} />
@@ -78,7 +89,7 @@ export default function InputOTPForm() {
                     </InputOTP>
                   </FormControl>
                   <FormDescription>
-                    Please enter the one-time password sent to your email.
+                    Please enter the pin code you have received.
                   </FormDescription>
                   <FormMessage />
                 </FormItem>

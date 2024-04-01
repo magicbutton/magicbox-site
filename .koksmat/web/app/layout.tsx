@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./embla.css";
-import { ThemeProvider } from "next-themes";
+import { ThemeProvider } from "../components/theme-provider";
 import { MagicboxProvider } from "@/koksmat/magicbox-providers";
 import { MSALWrapper } from "@/koksmat/msal/auth";
 import Script from "next/script";
@@ -15,6 +15,13 @@ export default function RootLayout2({
   return (
     <html lang="en">
       <body>
+        {" "}
+        {/* <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        > */}
         <MagicboxProvider>
           <Script id="clarity">
             {`
@@ -28,6 +35,7 @@ export default function RootLayout2({
 
           <MSALWrapper>{children}</MSALWrapper>
         </MagicboxProvider>
+        {/* </ThemeProvider> */}
       </body>
     </html>
   );

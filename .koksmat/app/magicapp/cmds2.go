@@ -1,6 +1,8 @@
 package magicapp
 
 import (
+	"os"
+
 	"github.com/spf13/cobra"
 
 	"github.com/365admin/magicbox-site/cmds"
@@ -41,4 +43,46 @@ func RegisterCmds() {
 	healthCmd.AddCommand(HealthCoreversionPostCmd)
 
 	RootCmd.AddCommand(healthCmd)
+	processCmd := &cobra.Command{
+		Use:   "process",
+		Short: "Process",
+		Long:  `Describe the main purpose of this kitchen`,
+	}
+	ProcessRotatePasswordPostCmd := &cobra.Command{
+		Use:   "rotate-password  maxKeys length months",
+		Short: "Rotate Passwords",
+		Long:  ``,
+		Args:  cobra.MinimumNArgs(3),
+		Run: func(cmd *cobra.Command, args []string) {
+			ctx := cmd.Context()
+			body, err := os.ReadFile(args[0])
+			if err != nil {
+				panic(err)
+			}
+
+			cmds.ProcessRotatePasswordPost(ctx, body, args)
+		},
+	}
+	processCmd.AddCommand(ProcessRotatePasswordPostCmd)
+
+	RootCmd.AddCommand(processCmd)
+	provisionCmd := &cobra.Command{
+		Use:   "provision",
+		Short: "Provision",
+		Long:  `Describe the main purpose of this kitchen`,
+	}
+	ProvisionWebdeployproductionPostCmd := &cobra.Command{
+		Use:   "webdeployproduction ",
+		Short: "Web deploy to production",
+		Long:  ``,
+		Args:  cobra.MinimumNArgs(0),
+		Run: func(cmd *cobra.Command, args []string) {
+			ctx := cmd.Context()
+
+			cmds.ProvisionWebdeployproductionPost(ctx, args)
+		},
+	}
+	provisionCmd.AddCommand(ProvisionWebdeployproductionPostCmd)
+
+	RootCmd.AddCommand(provisionCmd)
 }
