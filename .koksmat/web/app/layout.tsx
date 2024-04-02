@@ -26,7 +26,7 @@ export default function RootLayout2({
           disableTransitionOnChange
         > */}
         <MagicboxProvider>
-          <Script id="clarity">
+          <Script id="clarityinjection">
             {`
     (function(c,l,a,r,i,t,y){
       c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
