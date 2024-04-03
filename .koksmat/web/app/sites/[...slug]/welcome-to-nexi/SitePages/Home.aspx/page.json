@@ -1,11 +1,11 @@
 {
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
-  "@odata.etag": "\"{68D6979E-4300-4D3A-B49C-CF21751C5A9F},1582\"",
+  "@odata.etag": "\"{68D6979E-4300-4D3A-B49C-CF21751C5A9F},1596\"",
   "createdDateTime": "2023-02-05T00:01:13Z",
   "description": "Explore Nexi - Welcome to the European PayTech - welcome to the Nexi Familiy! We bring together our energy to shape the world of PayTech. Congratulations on joining Nexi - you definitely made the right decision! With Explore Nexi , we would like to …",
-  "eTag": "\"{68D6979E-4300-4D3A-B49C-CF21751C5A9F},1582\"",
+  "eTag": "\"{68D6979E-4300-4D3A-B49C-CF21751C5A9F},1596\"",
   "id": "68d6979e-4300-4d3a-b49c-cf21751c5a9f",
-  "lastModifiedDateTime": "2024-03-21T07:42:45Z",
+  "lastModifiedDateTime": "2024-04-02T14:19:18Z",
   "name": "Home.aspx",
   "webUrl": "https://christianiabpos.sharepoint.com/sites/welcome-to-nexi/SitePages/Home.aspx",
   "title": "Home",
@@ -34,7 +34,7 @@
   },
   "publishingState": {
     "level": "published",
-    "versionId": "191.0"
+    "versionId": "194.0"
   },
   "reactions": {},
   "canvasLayout@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/$entity",
@@ -55,7 +55,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "0aca8ec2-48c7-4c16-b525-d38b73ebe493",
-                "innerHtml": "<h4 style=\"text-align:center;\"><span class=\"fontSizeMega\">Explore Nexi -&nbsp;</span></h4><h4 style=\"text-align:center;\"><span class=\"fontSizeXxLargePlus\"><strong>Welcome to&nbsp;the European PayTech - welcome to the Nexi Familiy!</strong></span></h4><p style=\"text-align:center;\"><span class=\"fontSizeXxLargePlus\"><strong>&nbsp;&nbsp;</strong></span></p><p style=\"text-align:center;\" aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h4 style=\"text-align:center;\"><span class=\"fontSizeSuper\">Explore Nexi -&nbsp;</span></h4><h4 style=\"text-align:center;\">&nbsp;</h4><h4 style=\"text-align:center;\"><span class=\"fontSizeXxxLarge\"><strong>Welcome to&nbsp;the European PayTech - welcome to the Nexi Familiy!</strong></span></h4>"
               }
             ]
           }
@@ -75,21 +75,21 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "834aef9d-f5c4-47db-93c7-0f889feaae69",
-                "innerHtml": "<p style=\"text-align:center;\"><span class=\"fontSizeXxxLarge\">We bring together our energy to shape the world of PayTech.&nbsp;</span></p>"
+                "innerHtml": "<p style=\"text-align:center;\"><span class=\"fontSizeXxLarge\">We bring together our energy to shape the world of PayTech.&nbsp;</span></p>"
               }
             ]
           }
         ]
       },
       {
-        "layout": "oneColumn",
+        "layout": "oneThirdRightColumn",
         "id": "0.625",
         "emphasis": "none",
         "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.625')/columns",
         "columns": [
           {
             "id": "1",
-            "width": 12,
+            "width": 8,
             "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.625')/columns('1')/webparts",
             "webparts": [
               {
@@ -145,6 +145,12 @@
                 }
               }
             ]
+          },
+          {
+            "id": "2",
+            "width": 4,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.625')/columns('2')/webparts",
+            "webparts": []
           }
         ]
       },
@@ -162,7 +168,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "545b44d4-07c6-4fd7-b2ea-a71356daea4b",
-                "innerHtml": "<p><span class=\"fontSizeXxxLarge\"><strong>Congratulations on joining Nexi - you definitely made the right decision!</strong></span></p><p>&nbsp;</p><p><span class=\"fontSizeXLargePlus\">With<i><strong> Explore Nexi</strong></i>, we would like to give you some more insights about our Group - the <strong>Onboarding Process</strong>, your future <strong>Homespot </strong>and our <strong>Organization and</strong> <strong>Business</strong>.&nbsp;</span></p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<p><span class=\"fontSizeXxLarge\"><strong>Congratulations on joining Nexi - you definitely made the right decision!</strong></span></p><p>&nbsp;</p><p><span class=\"fontSizeXLargePlus\">With<i><strong> Explore Nexi</strong></i>, we would like to give you some more insights about our Group - the <strong>Onboarding Process</strong>, your future <strong>Homespot </strong>and our <strong>Organization and</strong> <strong>Business</strong>.&nbsp;</span></p><p aria-hidden=\"true\">&nbsp;</p>"
               }
             ]
           }
@@ -506,6 +512,8 @@
                     "isOverlayTextVisible": true,
                     "alignment": "Center",
                     "fixAspectRatio": false,
+                    "resizeCoefficient": 0.8,
+                    "resizeDesiredWidth": 456,
                     "overlayTextStyles": {
                       "@odata.type": "#graph.Json",
                       "textColor": "light",
@@ -575,6 +583,8 @@
                     "isOverlayTextVisible": true,
                     "alignment": "Center",
                     "fixAspectRatio": false,
+                    "resizeCoefficient": 0.8070175438596491,
+                    "resizeDesiredWidth": 460,
                     "overlayTextStyles": {
                       "@odata.type": "#graph.Json",
                       "textColor": "light",
@@ -630,7 +640,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "6907f0ee-c086-4121-a222-cc4ea8ca4b4b",
-                "innerHtml": "<p>&nbsp;</p><p><span class=\"fontSizeXxLarge\"><strong>Read here to learn more...</strong></span></p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<p><span class=\"fontSizeXLargePlus\"><strong>Read here to learn more…</strong></span></p>"
               }
             ]
           }
@@ -667,26 +677,6 @@
                     "imageSources": []
                   }
                 }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "layout": "oneColumn",
-        "id": "0.99560546875",
-        "emphasis": "none",
-        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.99560546875')/columns",
-        "columns": [
-          {
-            "id": "1",
-            "width": 12,
-            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('68d6979e-4300-4d3a-b49c-cf21751c5a9f')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.99560546875')/columns('1')/webparts",
-            "webparts": [
-              {
-                "@odata.type": "#microsoft.graph.textWebPart",
-                "id": "02d0183b-6588-4ce6-b567-736ecb917bb6",
-                "innerHtml": ""
               }
             ]
           }

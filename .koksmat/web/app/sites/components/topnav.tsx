@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import ScrollSpy from "react-scrollspy-navigation";
+
 import {
   Sheet,
   SheetClose,
@@ -33,7 +33,7 @@ export function BurgerMenu(prop: { links: JSX.Element[] }) {
         </SheetHeader> */}
         <div className="grid gap-4 py-4 overflow-y-scroll">
           <div className="mb-1">On this page</div>
-          <ScrollSpy activeClass="nav-active">{prop.links}</ScrollSpy>
+          {prop.links}
         </div>
 
         {/* <SheetFooter>

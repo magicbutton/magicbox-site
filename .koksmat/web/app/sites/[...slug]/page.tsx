@@ -7,13 +7,23 @@ import { ICanvas } from "../schema/canvas";
 import { innerText, sectionHeaderAnchor } from "../util";
 import { redirect } from "next/navigation";
 import { Metadata } from "next";
+import { useHeadsObserver } from "../hooks/useHeadsObserver";
 export const metadata: Metadata = {
   title: "Before your 1st day",
   description:
     "Nexi drives progress by innovating technologies and simplifying digital transactions that can empower people and businesses to enjoy closer relationships.",
 };
-export default function Page(param: { params: { slug: string[] } }) {
+function showDebug(debug: string) {
+  if (!debug) return false;
+  if (debug === "") return false;
+  return true;
+}
+export default function Page(param: {
+  params: { slug: string[] };
+  searchParams: { debug: string };
+}) {
   const { slug } = param.params;
+  const { debug } = param.searchParams;
 
   if (slug.length < 2) {
     redirect("/sites/welcome-to-nexi/SitePages/Home.aspx");
@@ -62,7 +72,11 @@ export default function Page(param: { params: { slug: string[] } }) {
         <TopNav title={""} links={links} />
       </div>
       <div className="mt-[40px]">
-        <Canvas canvas={pageData as any} links={links} />
+        <Canvas
+          canvas={pageData as any}
+          links={links}
+          debug={showDebug(debug)}
+        />
       </div>
       {/* <pre>{JSON.stringify({ here }, null, 2)}</pre> */}
     </div>

@@ -8,9 +8,11 @@ param (
     $siteName = "welcome-to-nexi"
 )
 function CopyFiles($source, $destination) {
-    if (-not (Test-Path $destination)) {
+  
+    $exists = (Test-Path $destination )
+    if (-not $exists) {
         # write-host "Creating directory $destinationFolder"
-        $x = New-Item -Path $destination -ItemType Directory 
+        $x = New-Item -Path $destination -ItemType Directory  -ErrorAction SilentlyContinue
     }
     # write-host "Copying files to $destination"
     $files = Get-ChildItem -Path $source -Force
@@ -45,7 +47,7 @@ function CopyFiles($source, $destination) {
             $destinationFile = Join-Path  $destination  $file.Name
 	
             if (-not (Test-Path $destinationFile)) {
-                write-host "Copying $destinationFile" -ForegroundColor Green
+                write-host "Copying $destinationFile" -ForegroundColor Cyan
                 $x = Copy-Item -Path $file.FullName -Destination $destinationFile 
             }
             else {

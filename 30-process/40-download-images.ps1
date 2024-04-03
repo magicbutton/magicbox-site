@@ -45,7 +45,7 @@ foreach ($file in $files) {
     write-host $file.href -ForegroundColor Gray
     $oldPref = $ErrorActionPreference
     $ErrorActionPreference = "Continue"
-    Get-PnPFile -Url $file.href -Path $destDir -filename $filename -AsFile -Force
+    Get-PnPFile -Url $file.href -Path $destDir -filename $filename -AsFile -Force -ErrorAction SilentlyContinue
     $ErrorActionPreference = $oldPref
    
 }
