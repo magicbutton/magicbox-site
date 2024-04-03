@@ -7,6 +7,7 @@ import TitleAreaComponent from "./titlearea";
 import { LinkItem } from "./topnav";
 
 import { useEffect, useState } from "react";
+import PageNavigator from "./pagenavigator";
 
 export type CanvasProps = {
   debug?: boolean;
@@ -14,41 +15,8 @@ export type CanvasProps = {
   links: LinkItem[];
 };
 export default function Canvas(props: CanvasProps) {
-  const { canvas, debug } = props;
+  const { canvas, debug, links } = props;
 
-  useEffect(() => {
-    let options = {
-      defaultLinkActive: true,
-      updateATagClass: true,
-      changeOffset: 50,
-      parentsObtainingActiveClass: [],
-      setClassesOnSections: false,
-      exactMatch: false,
-      navLinkActiveClass: "active",
-      sectionActiveClass: "active",
-      defaultActiveElement: undefined,
-      updateHash: false,
-      saveHashBetweenSections: true,
-      onInit: [],
-      onChange: [],
-      debugLine: false,
-    };
-    //setpagenav(new OnePageNav(options));
-  }, []);
-
-  const links = props.links.map((link) => {
-    return (
-      <div key={link.href}>
-        <a
-          href={link.href}
-          key={link.href}
-          className="ml-2 pt-1 text-nowrap text-white whitespace-nowrap "
-        >
-          {link.title}
-        </a>
-      </div>
-    );
-  });
   return (
     <div>
       {canvas?.titleArea && (
@@ -81,8 +49,11 @@ export default function Canvas(props: CanvasProps) {
             <div className="sticky top-20  hidden lg:block text-white h-screen">
               <div className="m-4 p-4 mt-14 pt-10   ">
                 {/* <ScrollSpy activeClass="nav-active"> */}
-                <div className="mb-4">On this page</div>
-                <nav>{links}</nav>
+                <div className="mb-4 text-white">On this page</div>
+                <PageNavigator
+                  links={links}
+                  linkClassname="ml-2 pt-1 text-nowrap whitespace-nowrap text-white hover:underline"
+                />
                 {/* </ScrollSpy> */}
               </div>
             </div>

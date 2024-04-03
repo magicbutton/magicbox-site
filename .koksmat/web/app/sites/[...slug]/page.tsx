@@ -4,10 +4,10 @@ import * as fs from "fs";
 import * as path from "path";
 import { LinkItem, TopNav } from "../components/topnav";
 import { ICanvas } from "../schema/canvas";
-import { innerText, sectionHeaderAnchor } from "../util";
+import { getSectionHeaderText, innerText, sectionHeaderAnchor } from "../util";
 import { redirect } from "next/navigation";
 import { Metadata } from "next";
-import { useHeadsObserver } from "../hooks/useHeadsObserver";
+
 export const metadata: Metadata = {
   title: "Before your 1st day",
   description:
@@ -48,15 +48,12 @@ export default function Page(param: {
     pageData = JSON.parse(fs.readFileSync(here, "utf-8"));
 
     pageData?.canvasLayout.horizontalSections.forEach((section) => {
-      const text = sectionHeaderAnchor(
-        section.emphasis,
-        section.columns[0].webparts[0]
-      );
-
+      const text = getSectionHeaderText(section);
       if (text === "") return;
       links.push({
         title: text,
         href: `#${text}`,
+        id: text,
       });
     });
   } catch (e) {

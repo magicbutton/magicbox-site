@@ -57,3 +57,12 @@ export function fixHtml(html: string | undefined): string {
 
   return $.html();
 }
+
+export function getSectionHeaderText(section: HorizontalSection): string {
+  const text = sectionHeaderAnchor(
+    section.emphasis,
+    section.columns[0].webparts[0]
+  );
+
+  return text;
+}

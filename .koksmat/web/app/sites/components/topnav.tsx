@@ -17,8 +17,9 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { GiHamburgerMenu } from "react-icons/gi";
+import PageNavigator from "./pagenavigator";
 
-export function BurgerMenu(prop: { links: JSX.Element[] }) {
+export function BurgerMenu(prop: { links: LinkItem[] }) {
   return (
     <Sheet>
       <SheetTrigger asChild>
@@ -33,7 +34,10 @@ export function BurgerMenu(prop: { links: JSX.Element[] }) {
         </SheetHeader> */}
         <div className="grid gap-4 py-4 overflow-y-scroll">
           <div className="mb-1">On this page</div>
-          {prop.links}
+          <PageNavigator
+            links={prop.links}
+            linkClassname="ml-2 pt-1 text-nowrap whitespace-nowrap text-black hover:underline"
+          />
         </div>
 
         {/* <SheetFooter>
@@ -49,6 +53,7 @@ export function BurgerMenu(prop: { links: JSX.Element[] }) {
 export type LinkItem = {
   title: string;
   href: string;
+  id?: string;
 };
 export type TopNavProps = {
   title: string;
@@ -56,14 +61,8 @@ export type TopNavProps = {
   debug?: boolean;
 };
 export function TopNav(props: TopNavProps) {
-  const { title, debug } = props;
-  const links = props.links.map((link) => {
-    return (
-      <a href={link.href} key={link.href} className="ml-2 pt-1 text-nowrap">
-        {link.title}
-      </a>
-    );
-  });
+  const { title, debug, links } = props;
+
   return (
     <div className=" bg-white p-4 border-b" style={{ zIndex: 1 }}>
       <div className="container">
@@ -75,7 +74,7 @@ export function TopNav(props: TopNavProps) {
             <div className="ml-4 pt-2 text-2xl text-nowrap">{SITENAME}</div>
           </Link>
           <div className="grow"></div>
-          <div className="mt-4 lg:hidden">
+          <div className="mt-4 lg:hidden text-black">
             {links.length > 0 && <BurgerMenu links={links} />}
           </div>
           {/* <div className="hidden lg:flex ml-10  items-center space-x-4 overflow-x-scroll">
