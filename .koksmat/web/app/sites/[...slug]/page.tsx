@@ -75,6 +75,7 @@ export default function Page(param: {
           debug={showDebug(debug)}
         />
       </div>
+      {"v0.0.0.1"}
       {/* <pre>{JSON.stringify({ here }, null, 2)}</pre> */}
     </div>
   );
