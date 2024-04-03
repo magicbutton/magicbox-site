@@ -22,7 +22,6 @@ func AddEndpoints(s *web.Service, jwtAuth func(http.Handler) http.Handler) {
 			r.Method(http.MethodPost, "/download/site-pages", nethttp.NewHandler(DownloadSitePagesPost()))
 			r.Method(http.MethodPost, "/download/download-pages", nethttp.NewHandler(DownloadDownloadPagesPost()))
 			r.Method(http.MethodPost, "/process/rotate-password", nethttp.NewHandler(ProcessRotatePasswordPost()))
-			r.Method(http.MethodPost, "/process/analyse-page", nethttp.NewHandler(ProcessAnalysePagePost()))
 			r.Method(http.MethodPost, "/process/analyse-pages", nethttp.NewHandler(ProcessAnalysePagesPost()))
 			r.Method(http.MethodPost, "/process/download-medias", nethttp.NewHandler(ProcessDownloadMediasPost()))
 			r.Method(http.MethodPost, "/process/update-web", nethttp.NewHandler(ProcessUpdateWebPost()))

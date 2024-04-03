@@ -15,7 +15,7 @@ func RegisterCmds() {
 	downloadCmd := &cobra.Command{
 		Use:   "download",
 		Short: "Download",
-		Long:  `Describe the main purpose of this kitchen`,
+		Long:  `Make a SharePoint site available on the internet`,
 	}
 	DownloadSitePagesPostCmd := &cobra.Command{
 		Use:   "site-pages  siteUrl",
@@ -50,7 +50,7 @@ func RegisterCmds() {
 	processCmd := &cobra.Command{
 		Use:   "process",
 		Short: "Process",
-		Long:  `Describe the main purpose of this kitchen`,
+		Long:  `Make a SharePoint site available on the internet`,
 	}
 	ProcessRotatePasswordPostCmd := &cobra.Command{
 		Use:   "rotate-password  maxKeys length months",
@@ -68,22 +68,6 @@ func RegisterCmds() {
 		},
 	}
 	processCmd.AddCommand(ProcessRotatePasswordPostCmd)
-	ProcessAnalysePagePostCmd := &cobra.Command{
-		Use:   "analyse-page ",
-		Short: "Analyse Page",
-		Long:  ``,
-		Args:  cobra.MinimumNArgs(0),
-		Run: func(cmd *cobra.Command, args []string) {
-			ctx := cmd.Context()
-			body, err := os.ReadFile(args[0])
-			if err != nil {
-				panic(err)
-			}
-
-			cmds.ProcessAnalysePagePost(ctx, body, args)
-		},
-	}
-	processCmd.AddCommand(ProcessAnalysePagePostCmd)
 	ProcessAnalysePagesPostCmd := &cobra.Command{
 		Use:   "analyse-pages ",
 		Short: "Analyse Pages",
@@ -133,7 +117,7 @@ func RegisterCmds() {
 	provisionCmd := &cobra.Command{
 		Use:   "provision",
 		Short: "Provision",
-		Long:  `Describe the main purpose of this kitchen`,
+		Long:  `Make a SharePoint site available on the internet`,
 	}
 	ProvisionWebdeployproductionPostCmd := &cobra.Command{
 		Use:   "webdeployproduction ",
@@ -152,7 +136,7 @@ func RegisterCmds() {
 	healthCmd := &cobra.Command{
 		Use:   "health",
 		Short: "Health",
-		Long:  `Describe the main purpose of this kitchen`,
+		Long:  `Make a SharePoint site available on the internet`,
 	}
 	HealthPingPostCmd := &cobra.Command{
 		Use:   "ping  pong",
