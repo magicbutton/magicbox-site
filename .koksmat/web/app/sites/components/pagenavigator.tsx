@@ -31,7 +31,7 @@ export default function PageNavigator(props: PageNavigatorProps) {
   const [spying, setspying] = useState<string[]>([]);
   useEffect(() => {
     const handleObsever: IntersectionObserverCallback = (entries) => {
-      entries.forEach((entry) => {
+      entries.forEach((entry, index) => {
         if (entry?.isIntersecting) {
           setActiveId(entry.target.id);
         }
