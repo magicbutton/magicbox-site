@@ -1,6 +1,6 @@
 "use client";
 import { ca } from "date-fns/locale";
-import { ICanvas } from "../schema/canvas";
+import { HorizontalSection, ICanvas } from "../schema/canvas";
 import SectionHorizontal from "./section-horizontal";
 import SectionVertical from "./section-vertical";
 import TitleAreaComponent from "./titlearea";
@@ -14,9 +14,22 @@ export type CanvasProps = {
   canvas: ICanvas;
   links: LinkItem[];
 };
+type SectionGroup = {
+  id: string;
+  sections: HorizontalSection[];
+};
 export default function Canvas(props: CanvasProps) {
   const { canvas, debug, links } = props;
+  const horisontalSectionGroups: SectionGroup[] = [];
 
+  let sectionGroup: SectionGroup = { id: "", sections: [] };
+  let sections = canvas?.canvasLayout.horizontalSections ?? [];
+
+  for (let index = 0; index < sections.length; index++) {
+    const section = sections[index];
+    sectionGroup.sections.push(section);
+  }
+  horisontalSectionGroups.push(sectionGroup);
   return (
     <div>
       {canvas?.titleArea && (
@@ -25,13 +38,17 @@ export default function Canvas(props: CanvasProps) {
       <div className="flex">
         <div className="flex grow">
           <div className="grow">
-            {canvas?.canvasLayout.horizontalSections.map((section) => {
+            {horisontalSectionGroups.map((sectionGroup, index) => {
               return (
-                <SectionHorizontal
-                  key={section.id}
-                  section={section}
-                  debug={debug}
-                />
+                <div key={index} className="min-h-screen">
+                  {sectionGroup.sections.map((section) => (
+                    <SectionHorizontal
+                      key={section.id}
+                      section={section}
+                      debug={debug}
+                    />
+                  ))}
+                </div>
               );
             })}
           </div>
@@ -45,14 +62,14 @@ export default function Canvas(props: CanvasProps) {
           </div>
         </div>
         {links.length > 0 && (
-          <div className="relative  bg-[#2D32AA]">
-            <div className="sticky top-20  hidden lg:block text-white h-screen">
-              <div className="m-4 p-4 mt-14 pt-10   ">
+          <div className="relative  bg-white">
+            <div className="border-l sticky top-20  hidden lg:block text-white h-screen">
+              <div className="m-4 p-4 mt-14 pt-10  min-w-64 ">
                 {/* <ScrollSpy activeClass="nav-active"> */}
-                <div className="mb-4 text-white">On this page</div>
+                <div className="mb-4 text-black">On this page</div>
                 <PageNavigator
                   links={links}
-                  linkClassname="ml-2 pt-1 text-nowrap whitespace-nowrap text-white hover:underline"
+                  linkClassname="ml-2 pt-1 text-nowrap whitespace-nowrap text-white hover:underline  text-black"
                 />
                 {/* </ScrollSpy> */}
               </div>

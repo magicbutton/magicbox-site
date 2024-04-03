@@ -5,6 +5,7 @@ import ImageGalleryWebPart from "./webparts/ImageGallery";
 import ImageWebPart from "./webparts/ImageWebPart";
 import Intra365PageNavigatorWebPart from "./webparts/Intra365PageNavigator";
 import QuickLinksWebPart from "./webparts/QuickLinksWebPart";
+import SharedPageWebPart from "./webparts/SharedPage";
 
 export type WebpartProps = {
   debug?: boolean;
@@ -58,6 +59,12 @@ export default function WebpartWrapper(props: WebpartProps) {
             <ImageGalleryWebPart data={webpart.data as any} debug={debug} />
           );
 
+          break;
+
+        case "d13cb0a4-6bf9-4e9d-b164-90abb6a053e9": // Shared Page
+          render = (
+            <SharedPageWebPart data={webpart.data as any} debug={debug} />
+          );
           break;
         default:
           render = (

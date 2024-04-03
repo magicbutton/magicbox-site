@@ -17,7 +17,7 @@ function NavItem(props: {
     <div key={props.link.id}>
       <a
         href={props.link.href}
-        className={cn(props.classname, props.active ? "font-bold text-xl" : "")}
+        className={cn(props.classname, props.active ? "font-bold" : "")}
       >
         {props.link.title}
       </a>

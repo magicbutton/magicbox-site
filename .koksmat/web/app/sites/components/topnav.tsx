@@ -33,7 +33,6 @@ export function BurgerMenu(prop: { links: LinkItem[] }) {
           </SheetDescription>
         </SheetHeader> */}
         <div className="grid gap-4 py-4 overflow-y-scroll">
-          <div className="mb-1">On this page</div>
           <PageNavigator
             links={prop.links}
             linkClassname="ml-2 pt-1 text-nowrap whitespace-nowrap text-black hover:underline"

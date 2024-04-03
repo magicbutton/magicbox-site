@@ -18,6 +18,7 @@ type SectionStyle = {
 export default function SectionHorizontal(props: SectionHorizontalProps) {
   const { section, key, debug } = props;
   let sectionStyle: SectionStyle;
+  let setScreenHeight: boolean = false;
   switch (section.emphasis) {
     case "soft":
       sectionStyle = {
@@ -81,6 +82,7 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
     section.columns[0].webparts[0]
   );
   let sectionComponent = null;
+
   switch (section.layout) {
     case "oneThirdLeftColumn":
     case "oneThirdRightColumn":
@@ -158,25 +160,27 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
       break;
   }
   return (
-    <div
-      key={key}
-      id={anchorId}
-      className={cn("pt-[50px]", anchorId ? "scrollspy" : "")}
-    >
-      <div className="pt-[-50px]">
-        {sectionComponent}
-        {debug && (
-          <pre>
-            {JSON.stringify(
-              {
-                ...section,
-                columns: "...hidden",
-              },
-              null,
-              2
-            )}
-          </pre>
-        )}
+    <div>
+      <div
+        key={key}
+        id={anchorId}
+        className={cn("pt-[50px]", anchorId ? "scrollspy" : "")}
+      >
+        <div className="pt-[-50px]">
+          {sectionComponent}
+          {debug && (
+            <pre>
+              {JSON.stringify(
+                {
+                  ...section,
+                  columns: "...hidden",
+                },
+                null,
+                2
+              )}
+            </pre>
+          )}
+        </div>
       </div>
     </div>
   );

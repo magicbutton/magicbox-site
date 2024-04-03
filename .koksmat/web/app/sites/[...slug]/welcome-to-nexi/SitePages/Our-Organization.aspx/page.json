@@ -1,11 +1,11 @@
 {
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
-  "@odata.etag": "\"{2A2B13B1-3E74-47D6-A437-078F97B3B190},718\"",
+  "@odata.etag": "\"{2A2B13B1-3E74-47D6-A437-078F97B3B190},721\"",
   "createdDateTime": "2023-04-19T05:15:22Z",
   "description": "Get familiar with our Nexi Group Organization. Overview Nexi Group is the result of the merger of Nexi, Nets, and SIA, three of Europe's largest players in the payments market and, to date, present in more than 20 countries. The European PayTech has…",
-  "eTag": "\"{2A2B13B1-3E74-47D6-A437-078F97B3B190},718\"",
+  "eTag": "\"{2A2B13B1-3E74-47D6-A437-078F97B3B190},721\"",
   "id": "2a2b13b1-3e74-47d6-a437-078f97b3b190",
-  "lastModifiedDateTime": "2024-04-02T14:20:29Z",
+  "lastModifiedDateTime": "2024-04-03T10:28:43Z",
   "name": "Our-Organization.aspx",
   "webUrl": "https://christianiabpos.sharepoint.com/sites/welcome-to-nexi/SitePages/Our-Organization.aspx",
   "title": "Our Organization",
@@ -35,7 +35,7 @@
   },
   "publishingState": {
     "level": "published",
-    "versionId": "73.0"
+    "versionId": "74.0"
   },
   "reactions": {},
   "titleArea": {
@@ -272,14 +272,14 @@
         ]
       },
       {
-        "layout": "oneColumn",
+        "layout": "oneThirdRightColumn",
         "id": "2.28125",
         "emphasis": "none",
         "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.28125')/columns",
         "columns": [
           {
             "id": "1",
-            "width": 12,
+            "width": 8,
             "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.28125')/columns('1')/webparts",
             "webparts": [
               {
@@ -416,6 +416,12 @@
                 "innerHtml": "<p><span class=\"fontSizeXSmall\">Source: Managerial estimates. Notes: (1) Refers to Continental Europe (excluding UK and Russia) - Based on Visa and Mastercard transactions; (2) Includes merchants served in servicing model; (3) FY22 - CMD perimeter</span></p>"
               }
             ]
+          },
+          {
+            "id": "2",
+            "width": 4,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.28125')/columns('2')/webparts",
+            "webparts": []
           }
         ]
       },
