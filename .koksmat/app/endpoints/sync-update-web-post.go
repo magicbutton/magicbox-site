@@ -16,13 +16,13 @@ import (
 	"github.com/365admin/magicbox-site/execution"
 )
 
-func ProcessUpdateWebPost() usecase.Interactor {
+func SyncUpdateWebPost() usecase.Interactor {
 	type Request struct {
 		Sitename string `query:"siteName" binding:"required"`
 	}
 	u := usecase.NewInteractor(func(ctx context.Context, input Request, output *string) error {
 
-		_, err := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-process", "50-updateweb.ps1", "", "-siteName", input.Sitename)
+		_, err := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-sync", "50-updateweb.ps1", "", "-siteName", input.Sitename)
 		if err != nil {
 			return err
 		}
@@ -32,6 +32,6 @@ func ProcessUpdateWebPost() usecase.Interactor {
 	})
 	u.SetTitle("Update Web")
 	// u.SetExpectedErrors(status.InvalidArgument)
-	u.SetTags("Process")
+	u.SetTags("Syncronise SharePoint with web")
 	return u
 }

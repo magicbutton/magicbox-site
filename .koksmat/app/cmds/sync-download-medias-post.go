@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------
 /*
 ---
-title: Analyse Page
+title: Download medias
 ---
 */
 package cmds
@@ -17,13 +17,13 @@ import (
 	"github.com/365admin/magicbox-site/utils"
 )
 
-func ProcessAnalysePagePost(ctx context.Context, body []byte, args []string) (*string, error) {
-	inputErr := os.WriteFile(path.Join(utils.WorkDir("magicbox-site"), "page.json"), body, 0644)
+func SyncDownloadMediasPost(ctx context.Context, body []byte, args []string) (*string, error) {
+	inputErr := os.WriteFile(path.Join(utils.WorkDir("magicbox-site"), "analysed-pages.json"), body, 0644)
 	if inputErr != nil {
 		return nil, inputErr
 	}
 
-	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-process", "30-analyse-page.ps1", "")
+	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-sync", "40-download-images.ps1", "", "-siteUrl", args[1])
 	if pwsherr != nil {
 		return nil, pwsherr
 	}

@@ -20,13 +20,13 @@ import (
 	"github.com/365admin/magicbox-site/utils"
 )
 
-func ProcessRotatePasswordPost(ctx context.Context, body []byte, args []string) (*schemas.Passwords, error) {
+func PasswordsRotatePasswordPost(ctx context.Context, body []byte, args []string) (*schemas.Passwords, error) {
 	inputErr := os.WriteFile(path.Join(utils.WorkDir("magicbox-site"), "oldpasswords.json"), body, 0644)
 	if inputErr != nil {
 		return nil, inputErr
 	}
 
-	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-process", "10-rotate-passwords.ps1", "", "-maxKeys", args[1], "-length", args[2], "-months", args[3])
+	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "35-password", "10-rotate-passwords.ps1", "", "-maxKeys", args[1], "-length", args[2], "-months", args[3])
 	if pwsherr != nil {
 		return nil, pwsherr
 	}

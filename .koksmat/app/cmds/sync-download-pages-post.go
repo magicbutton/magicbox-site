@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------
 /*
 ---
-title: Analyse Pages
+title: Download Pages
 ---
 */
 package cmds
@@ -20,23 +20,23 @@ import (
 	"github.com/365admin/magicbox-site/utils"
 )
 
-func ProcessAnalysePagesPost(ctx context.Context, body []byte, args []string) (*schemas.AnalysedPages, error) {
-	inputErr := os.WriteFile(path.Join(utils.WorkDir("magicbox-site"), "downloaded-pages.json"), body, 0644)
+func SyncDownloadPagesPost(ctx context.Context, body []byte, args []string) (*schemas.DownloadedPages, error) {
+	inputErr := os.WriteFile(path.Join(utils.WorkDir("magicbox-site"), "pages.json"), body, 0644)
 	if inputErr != nil {
 		return nil, inputErr
 	}
 
-	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-process", "30-analyse-pages.ps1", "")
+	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-sync", "25-download-pages.ps1", "")
 	if pwsherr != nil {
 		return nil, pwsherr
 	}
 
-	resultingFile := path.Join(utils.WorkDir("magicbox-site"), "analysed-pages.json")
+	resultingFile := path.Join(utils.WorkDir("magicbox-site"), "downloaded-pages.json")
 	data, err := os.ReadFile(resultingFile)
 	if err != nil {
 		return nil, err
 	}
-	resultObject := schemas.AnalysedPages{}
+	resultObject := schemas.DownloadedPages{}
 	err = json.Unmarshal(data, &resultObject)
 	if utils.Output == "json" {
 		fmt.Println(string(data))

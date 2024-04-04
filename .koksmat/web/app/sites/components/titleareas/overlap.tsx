@@ -81,10 +81,10 @@ export default function Overlap(props: OverlapProps) {
     //   backgroundSize: "cover",
     // }}
     >
-      <div className="relative">
+      <div className="relative ">
         <img className="w-screen h-48 object-cover" src={file} alt={alt} />
         <div className="w-screen absolute bottom-[-30px] h-[64px]">
-          <div className="container  bg-white flex ">
+          <div className="container  bg-white flex  ">
             <div className="items-center justify-center">
               <h1 className="text-black text-3xl font-bold ">
                 {titleArea?.title}

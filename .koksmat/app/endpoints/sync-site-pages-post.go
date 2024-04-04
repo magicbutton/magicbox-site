@@ -21,13 +21,13 @@ import (
 	"github.com/365admin/magicbox-site/utils"
 )
 
-func DownloadSitePagesPost() usecase.Interactor {
+func SyncSitePagesPost() usecase.Interactor {
 	type Request struct {
 		Siteurl string `query:"siteUrl" binding:"required"`
 	}
 	u := usecase.NewInteractor(func(ctx context.Context, input Request, output *schemas.Pages) error {
 
-		_, err := execution.ExecutePowerShell("john", "*", "magicbox-site", "20-download", "20-getsitepages.ps1", "", "-siteUrl", input.Siteurl)
+		_, err := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-sync", "20-getsitepages.ps1", "", "-siteUrl", input.Siteurl)
 		if err != nil {
 			return err
 		}
@@ -45,6 +45,6 @@ func DownloadSitePagesPost() usecase.Interactor {
 	})
 	u.SetTitle("Get Site Pages")
 	// u.SetExpectedErrors(status.InvalidArgument)
-	u.SetTags("Download")
+	u.SetTags("Syncronise SharePoint with web")
 	return u
 }

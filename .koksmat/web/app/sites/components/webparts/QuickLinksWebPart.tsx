@@ -154,7 +154,7 @@ function FilmstripItem(props: {
 }) {
   const { item, imageSource, text, key, link } = props;
   return (
-    <div className="mr-3 border rounded-xl shadow-md" key={key}>
+    <div className="mr-3 border rounded-xl shadow-md bg-white" key={key}>
       <Link href={link}>
         <img
           className="w-80 h-48 object-cover"
@@ -172,7 +172,7 @@ export default function QuickLinksWebPart(props: QuickLinksWebPartProps) {
   const components = items.map((item, index) => {
     const imageSource = data.serverProcessedContent.imageSources[index];
     const text = data.serverProcessedContent.searchablePlainTexts[index];
-    const link = data.serverProcessedContent.links[index];
+    const link = data.serverProcessedContent.links[index + 1];
     return (
       <FilmstripItem
         key={index}

@@ -24,16 +24,24 @@ export default function Canvas(props: CanvasProps) {
 
   let sectionGroup: SectionGroup = { id: "", sections: [] };
   let sections = canvas?.canvasLayout.horizontalSections ?? [];
-
+  let heroSection = null;
   for (let index = 0; index < sections.length; index++) {
     const section = sections[index];
+    if (index === 0 && section.layout === "fullWidth") {
+      heroSection = section;
+      continue;
+    }
     sectionGroup.sections.push(section);
   }
   horisontalSectionGroups.push(sectionGroup);
+
   return (
     <div>
       {canvas?.titleArea && (
         <TitleAreaComponent titelArea={canvas?.titleArea} debug={debug} />
+      )}
+      {heroSection && (
+        <SectionHorizontal section={heroSection} debug={debug} key={"x"} />
       )}
       <div className="flex">
         <div className="flex grow">
@@ -63,8 +71,8 @@ export default function Canvas(props: CanvasProps) {
         </div>
         {links.length > 0 && (
           <div className="relative  bg-white">
-            <div className="border-l sticky top-20  hidden lg:block text-white h-screen">
-              <div className="m-4 p-4 mt-14 pt-10  min-w-64 ">
+            <div className="m-4 mt-8 border rounded-lg border-[#123123] sticky top-24  hidden lg:block text-white">
+              <div className="m-4 p-4  pt-10  min-w-64 ">
                 {/* <ScrollSpy activeClass="nav-active"> */}
                 <div className="mb-4 text-black">On this page</div>
                 <PageNavigator
@@ -76,10 +84,6 @@ export default function Canvas(props: CanvasProps) {
             </div>
           </div>
         )}
-      </div>
-      <div className="text-sm p-3 ">
-        Last edited by: {canvas.lastModifiedBy.user.displayName} | Date:{" "}
-        {canvas.lastModifiedDateTime}
       </div>
     </div>
   );

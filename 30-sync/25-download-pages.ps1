@@ -1,5 +1,5 @@
 <#---
-title: Get Site Pages
+title: Download Pages
 connection: graph
 input: pages.json
 output: downloaded-pages.json

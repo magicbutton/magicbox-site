@@ -9,7 +9,7 @@ import { redirect } from "next/navigation";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Before your 1st day",
+  title: "Explore Nexi before your 1st day",
   description:
     "Nexi drives progress by innovating technologies and simplifying digital transactions that can empower people and businesses to enjoy closer relationships.",
 };
@@ -36,6 +36,12 @@ export default function Page(param: {
     ...slug,
     "page.json"
   );
+  const here2 = path.join(
+    process.env.DATAPATH ?? process.cwd(),
+    "sites",
+    ...slug,
+    "page.json"
+  );
   let pageData: ICanvas | null = null;
   const links: LinkItem[] = [];
   let error = "";
@@ -59,7 +65,7 @@ export default function Page(param: {
   } catch (e) {
     error = "Page not found " + (e as any).message;
   }
-
+  if (error) return <div>{error}</div>;
   return (
     <div>
       <div
@@ -75,7 +81,7 @@ export default function Page(param: {
           debug={showDebug(debug)}
         />
       </div>
-      {"v0.0.0.1"}
+
       {/* <pre>{JSON.stringify({ here }, null, 2)}</pre> */}
     </div>
   );

@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------
 /*
 ---
-title: Analyse Page
+title: Download medias
 ---
 */
 package endpoints
@@ -21,9 +21,10 @@ import (
 	"github.com/365admin/magicbox-site/utils"
 )
 
-func ProcessAnalysePagePost() usecase.Interactor {
+func SyncDownloadMediasPost() usecase.Interactor {
 	type Request struct {
-		Body schemas.Page `json:"body" binding:"required"`
+		Siteurl string                `query:"siteUrl" binding:"required"`
+		Body    schemas.AnalysedPages `json:"body" binding:"required"`
 	}
 	u := usecase.NewInteractor(func(ctx context.Context, input Request, output *string) error {
 		body, inputErr := json.Marshal(input.Body)
@@ -31,12 +32,12 @@ func ProcessAnalysePagePost() usecase.Interactor {
 			return inputErr
 		}
 
-		inputErr = os.WriteFile(path.Join(utils.WorkDir("magicbox-site"), "page.json"), body, 0644)
+		inputErr = os.WriteFile(path.Join(utils.WorkDir("magicbox-site"), "analysed-pages.json"), body, 0644)
 		if inputErr != nil {
 			return inputErr
 		}
 
-		_, err := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-process", "30-analyse-page.ps1", "")
+		_, err := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-sync", "40-download-images.ps1", "", "-siteUrl", input.Siteurl)
 		if err != nil {
 			return err
 		}
@@ -44,8 +45,8 @@ func ProcessAnalysePagePost() usecase.Interactor {
 		return err
 
 	})
-	u.SetTitle("Analyse Page")
+	u.SetTitle("Download medias")
 	// u.SetExpectedErrors(status.InvalidArgument)
-	u.SetTags("Process")
+	u.SetTags("Syncronise SharePoint with web")
 	return u
 }

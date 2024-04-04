@@ -20,23 +20,19 @@ import (
 	"github.com/365admin/magicbox-site/utils"
 )
 
-func DownloadDownloadPagesPost(ctx context.Context, body []byte, args []string) (*schemas.DownloadedPages, error) {
-	inputErr := os.WriteFile(path.Join(utils.WorkDir("magicbox-site"), "pages.json"), body, 0644)
-	if inputErr != nil {
-		return nil, inputErr
-	}
+func SyncSitePagesPost(ctx context.Context, args []string) (*schemas.Pages, error) {
 
-	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "20-download", "25-download-pages.ps1", "")
+	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-sync", "20-getsitepages.ps1", "", "-siteUrl", args[0])
 	if pwsherr != nil {
 		return nil, pwsherr
 	}
 
-	resultingFile := path.Join(utils.WorkDir("magicbox-site"), "downloaded-pages.json")
+	resultingFile := path.Join(utils.WorkDir("magicbox-site"), "pages.json")
 	data, err := os.ReadFile(resultingFile)
 	if err != nil {
 		return nil, err
 	}
-	resultObject := schemas.DownloadedPages{}
+	resultObject := schemas.Pages{}
 	err = json.Unmarshal(data, &resultObject)
 	if utils.Output == "json" {
 		fmt.Println(string(data))

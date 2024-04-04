@@ -72,6 +72,13 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
       leftClassname = "w-full md:w-2/3";
       rightClassname = "w-full md:w-1/3";
       break;
+    case "fullWidth":
+      gridClassname = " grid grid-cols-1 gap-4";
+      sectionStyle = {
+        emphasis: "none",
+        className: "bg-[white] text-[black] pt-10",
+      };
+      break;
     default:
       gridClassname = "container grid grid-cols-1 gap-4";
       break;
@@ -164,9 +171,9 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
       <div
         key={key}
         id={anchorId}
-        className={cn("pt-[50px]", anchorId ? "scrollspy" : "")}
+        className={cn("pt-[0px]", anchorId ? "scrollspy" : "")}
       >
-        <div className="pt-[-50px]">
+        <div className="pt-[0px]">
           {sectionComponent}
           {debug && (
             <pre>

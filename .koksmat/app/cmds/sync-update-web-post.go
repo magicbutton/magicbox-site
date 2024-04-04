@@ -15,9 +15,9 @@ import (
 	"github.com/365admin/magicbox-site/utils"
 )
 
-func ProcessUpdateWebPost(ctx context.Context, args []string) (*string, error) {
+func SyncUpdateWebPost(ctx context.Context, args []string) (*string, error) {
 
-	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-process", "50-updateweb.ps1", "", "-siteName", args[0])
+	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-sync", "50-updateweb.ps1", "", "-siteName", args[0])
 	if pwsherr != nil {
 		return nil, pwsherr
 	}

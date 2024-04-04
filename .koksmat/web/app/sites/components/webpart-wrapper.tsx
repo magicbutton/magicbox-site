@@ -1,6 +1,7 @@
 import { Webpart } from "../schema/canvas";
 import { fixHtml, sectionHeaderAnchor } from "../util";
 import FileViewerWebPart from "./webparts/FileViewerWebPart";
+import HeroWebPart from "./webparts/HeroWebpart";
 import ImageGalleryWebPart from "./webparts/ImageGallery";
 import ImageWebPart from "./webparts/ImageWebPart";
 import Intra365PageNavigatorWebPart from "./webparts/Intra365PageNavigator";
@@ -65,6 +66,9 @@ export default function WebpartWrapper(props: WebpartProps) {
           render = (
             <SharedPageWebPart data={webpart.data as any} debug={debug} />
           );
+          break;
+        case "c4bd7b2f-7b6e-4599-8485-16504575f590": // Hero
+          render = <HeroWebPart data={webpart.data as any} debug={debug} />;
           break;
         default:
           render = (

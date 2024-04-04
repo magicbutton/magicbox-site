@@ -1,11 +1,11 @@
 {
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
-  "@odata.etag": "\"{F125BB61-D413-4DA1-AEA3-27D53CC41224},2545\"",
+  "@odata.etag": "\"{F125BB61-D413-4DA1-AEA3-27D53CC41224},2555\"",
   "createdDateTime": "2023-04-17T11:07:12Z",
   "description": "European by scale, local by nature Nexi Group has more than 60 offices spread across Europe. The northernmost placed office is in Jyväskylä (Finland), and the southernmost placed office is in Pretoria (South Africa). Between the two offices, there a…",
-  "eTag": "\"{F125BB61-D413-4DA1-AEA3-27D53CC41224},2545\"",
+  "eTag": "\"{F125BB61-D413-4DA1-AEA3-27D53CC41224},2555\"",
   "id": "f125bb61-d413-4da1-aea3-27d53cc41224",
-  "lastModifiedDateTime": "2024-03-21T14:33:15Z",
+  "lastModifiedDateTime": "2024-04-04T07:00:09Z",
   "name": "Your-Homespot---Onboarding-information.aspx",
   "webUrl": "https://christianiabpos.sharepoint.com/sites/welcome-to-nexi/SitePages/Your-Homespot---Onboarding-information.aspx",
   "title": "Your Homespot - Country Onboarding Information",
@@ -26,8 +26,8 @@
   },
   "lastModifiedBy": {
     "user": {
-      "displayName": "Johanna Berger",
-      "email": "johanna.berger@nexigroup.com"
+      "displayName": "Niels Gregers Johansen",
+      "email": "niels.johansen@nexigroup.com"
     }
   },
   "parentReference": {
@@ -35,7 +35,7 @@
   },
   "publishingState": {
     "level": "published",
-    "versionId": "154.0"
+    "versionId": "155.0"
   },
   "reactions": {},
   "titleArea": {
@@ -154,11 +154,12 @@
                     "uniqueId": "{db896edc-864f-46e2-a493-fd87f0c3542a}",
                     "imgWidth": 2560,
                     "imgHeight": 3994,
-                    "resizeCoefficient": 0.36000007128714284,
-                    "resizeDesiredWidth": 202,
+                    "resizeCoefficient": 0.4900990099009901,
+                    "resizeDesiredWidth": 198,
                     "alignment": "Center",
                     "fixAspectRatio": false,
                     "isOverlayTextVisible": false,
+                    "isAspectRatioLockedOnLoad": false,
                     "overlayTextStyles": {
                       "@odata.type": "#graph.Json",
                       "textColor": "light",
@@ -207,67 +208,6 @@
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "7f210882-d466-4b0d-a689-a08f0d2bda32",
                 "innerHtml": "<p>&nbsp;</p><p><span class=\"fontSizeXLarge\">Nexi Group has&nbsp;more than 60 offices spread across Europe.&nbsp;</span></p><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXLarge\">The northernmost placed office is in Jyväskylä (Finland), and the southernmost placed office is in Pretoria (South Africa).&nbsp;</span></p><p>&nbsp;</p><p><span class=\"fontSizeXLarge\">Between the two offices, there are 15,063 kilometers – that is just&nbsp;290km shorter than the longest-ever scheduled commercial flight!</span></p>"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "layout": "oneColumn",
-        "id": "3.75",
-        "emphasis": "strong",
-        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f125bb61-d413-4da1-aea3-27d53cc41224')/microsoft.graph.sitePage/canvasLayout/horizontalSections('3.75')/columns",
-        "columns": [
-          {
-            "id": "1",
-            "width": 12,
-            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f125bb61-d413-4da1-aea3-27d53cc41224')/microsoft.graph.sitePage/canvasLayout/horizontalSections('3.75')/columns('1')/webparts",
-            "webparts": [
-              {
-                "@odata.type": "#microsoft.graph.textWebPart",
-                "id": "88df2f04-75df-4bc8-a3e1-97f10947ca8f",
-                "innerHtml": "<p><span class=\"fontSizeXxLarge\"><strong>Our locations</strong></span></p>"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "layout": "oneColumn",
-        "id": "4",
-        "emphasis": "none",
-        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f125bb61-d413-4da1-aea3-27d53cc41224')/microsoft.graph.sitePage/canvasLayout/horizontalSections('4')/columns",
-        "columns": [
-          {
-            "id": "1",
-            "width": 12,
-            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f125bb61-d413-4da1-aea3-27d53cc41224')/microsoft.graph.sitePage/canvasLayout/horizontalSections('4')/columns('1')/webparts",
-            "webparts": [
-              {
-                "@odata.type": "#microsoft.graph.textWebPart",
-                "id": "84775941-f39e-4f1b-8629-6cb5b3319708",
-                "innerHtml": "<p><span class=\"fontSizeXLarge\">We are delighted that you will soon be working with us. <strong>Select your location</strong> here and find out more about your new working environment and our local onboarding processes.</span></p>"
-              },
-              {
-                "@odata.type": "#microsoft.graph.standardWebPart",
-                "id": "84fbce2f-5bad-4d67-853b-be9c1d98e3ab",
-                "webPartType": "c350c624-2eb1-47f4-9e94-ba2393929b46",
-                "data": {
-                  "audiences": [],
-                  "dataVersion": "1.0",
-                  "description": "Insert a Nets styled button with bookmark links to section on the page having a colored background and a heading inside",
-                  "title": "Page Navigation",
-                  "properties": {
-                    "description": "n.a.",
-                    "script": "default"
-                  },
-                  "serverProcessedContent": {
-                    "htmlStrings": [],
-                    "searchablePlainTexts": [],
-                    "links": [],
-                    "imageSources": []
-                  }
-                }
               }
             ]
           }
@@ -466,7 +406,7 @@
                     "uniqueId": "1a0bc84e-41d5-4385-89f0-e1efcff01864",
                     "imgWidth": 800,
                     "imgHeight": 800,
-                    "isOverlayTextVisible": false,
+                    "isOverlayTextVisible": true,
                     "alignment": "Center",
                     "fixAspectRatio": false,
                     "resizeCoefficient": 0.554909991951058,
@@ -1795,7 +1735,7 @@
                     "uniqueId": "1dab021a-a411-45da-8f14-22643fc93759",
                     "imgWidth": 1333,
                     "imgHeight": 2000,
-                    "isOverlayTextVisible": false,
+                    "isOverlayTextVisible": true,
                     "resizeCoefficient": 0.7307862415286946,
                     "resizeDesiredWidth": 266.023,
                     "alignment": "Center",
@@ -1911,7 +1851,7 @@
                     "uniqueId": "662b92da-e280-4fee-95bb-252393600579",
                     "imgWidth": 800,
                     "imgHeight": 800,
-                    "isOverlayTextVisible": false,
+                    "isOverlayTextVisible": true,
                     "resizeCoefficient": 0.4010643471189272,
                     "resizeDesiredWidth": 145.97899999999998,
                     "alignment": "Center",
@@ -2487,7 +2427,7 @@
                     "uniqueId": "9d9456db-ebfb-41b8-9839-b7c49fc6d72b",
                     "imgWidth": 800,
                     "imgHeight": 800,
-                    "isOverlayTextVisible": false,
+                    "isOverlayTextVisible": true,
                     "resizeCoefficient": 0.4560151419003744,
                     "resizeDesiredWidth": 166,
                     "alignment": "Center",
@@ -2966,7 +2906,7 @@
                     "uniqueId": "86ea4120-7744-4e6d-a8c1-c38cd3b8176e",
                     "imgWidth": 2222,
                     "imgHeight": 1906,
-                    "isOverlayTextVisible": false,
+                    "isOverlayTextVisible": true,
                     "resizeCoefficient": 0.6483313597762508,
                     "resizeDesiredWidth": 235.97899999999998,
                     "alignment": "Center",
@@ -3855,7 +3795,7 @@
                     "fixAspectRatio": false,
                     "resizeCoefficient": 0.5385566296635103,
                     "resizeDesiredWidth": 196.04700000000003,
-                    "isOverlayTextVisible": false,
+                    "isOverlayTextVisible": true,
                     "captionText": "",
                     "overlayTextStyles": {
                       "@odata.type": "#graph.Json",
@@ -4413,7 +4353,7 @@
                     "uniqueId": "c26a4b89-60f6-47f9-96d1-af1f6e629643",
                     "imgWidth": 2717,
                     "imgHeight": 1984,
-                    "isOverlayTextVisible": false,
+                    "isOverlayTextVisible": true,
                     "resizeCoefficient": 0.3956272202517178,
                     "resizeDesiredWidth": 144,
                     "alignment": "Center",
@@ -4706,7 +4646,7 @@
                     "uniqueId": "5554cbb4-9961-4805-9634-5fd645cb5ae7",
                     "imgWidth": 1065,
                     "imgHeight": 1824,
-                    "isOverlayTextVisible": false,
+                    "isOverlayTextVisible": true,
                     "resizeCoefficient": 0.7527329873426764,
                     "resizeDesiredWidth": 273.979,
                     "alignment": "Center",
@@ -5689,7 +5629,7 @@
                     "uniqueId": "47603877-2c5e-47fb-b5af-2c18e4913ac4",
                     "imgWidth": 276,
                     "imgHeight": 276,
-                    "isOverlayTextVisible": false,
+                    "isOverlayTextVisible": true,
                     "alignment": "Center",
                     "fixAspectRatio": false,
                     "resizeCoefficient": 0.48348593358111985,
@@ -8665,7 +8605,7 @@
                     "uniqueId": "28a5c588-3d2d-4f20-ae0e-1c933d78ffca",
                     "imgWidth": 2457,
                     "imgHeight": 3591,
-                    "isOverlayTextVisible": false,
+                    "isOverlayTextVisible": true,
                     "resizeCoefficient": 0.4505177496503919,
                     "resizeDesiredWidth": 163.97899999999998,
                     "alignment": "Center",
@@ -9211,7 +9151,7 @@
                     "uniqueId": "afdab88d-8e17-4964-98a9-106ad6050dfa",
                     "imgWidth": 1600,
                     "imgHeight": 1029,
-                    "isOverlayTextVisible": false,
+                    "isOverlayTextVisible": true,
                     "resizeCoefficient": 0.8436055620564752,
                     "resizeDesiredWidth": 302.069,
                     "alignment": "Center",
@@ -9395,16 +9335,16 @@
                     "dataProviderId": "QuickLinks",
                     "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
                     "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
-                    "imagePicker": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/listener.jpg",
+                    "imagePicker": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/nextgen.png",
                     "pane_link_button": 0,
                     "items@odata.type": "#Collection(graph.Json)",
                     "items": [
                       {
-                        "thumbnailType": 3,
+                        "thumbnailType": 1,
                         "id": 2,
                         "description": "",
                         "altText": "",
-                        "rawPreviewImageMinCanvasWidth": 1,
+                        "rawPreviewImageMinCanvasWidth": 32767,
                         "sourceItem": {
                           "@odata.type": "#graph.Json",
                           "itemType": 0,
@@ -9415,6 +9355,18 @@
                             "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
                             "listId": "c922147c-5770-4799-aba6-b1730fc48ff3",
                             "uniqueId": "2a2b13b1-3e74-47d6-a437-078f97b3b190"
+                          }
+                        },
+                        "image": {
+                          "@odata.type": "#graph.Json",
+                          "imageFit": 2,
+                          "minCanvasWidth": 1,
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "listId": "{AE078B33-729E-4B11-B9FA-F7EF57F53ABC}",
+                            "uniqueId": "ec529a4a-52bc-4b83-b62d-756d27c422c3",
+                            "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                            "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99"
                           }
                         }
                       },
@@ -9498,6 +9450,10 @@
                     ],
                     "imageSources": [
                       {
+                        "key": "items[0].image.url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Home/nextgen.png"
+                      },
+                      {
                         "key": "items[1].image.url",
                         "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/listener.jpg"
                       }
@@ -9509,6 +9465,17 @@
                       }
                     ],
                     "customMetadata": [
+                      {
+                        "key": "items[0].image.url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "{AE078B33-729E-4B11-B9FA-F7EF57F53ABC}",
+                          "uniqueid": "ec529a4a-52bc-4b83-b62d-756d27c422c3",
+                          "mincanvaswidth": "1",
+                          "fixedwidth": "400"
+                        }
+                      },
                       {
                         "key": "items[1].image.url",
                         "value": {

@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------
 /*
 ---
-title: Get Site Pages
+title: Download Pages
 ---
 */
 package endpoints
@@ -21,7 +21,7 @@ import (
 	"github.com/365admin/magicbox-site/utils"
 )
 
-func DownloadDownloadPagesPost() usecase.Interactor {
+func SyncDownloadPagesPost() usecase.Interactor {
 	type Request struct {
 		Body schemas.Pages `json:"body" binding:"required"`
 	}
@@ -36,7 +36,7 @@ func DownloadDownloadPagesPost() usecase.Interactor {
 			return inputErr
 		}
 
-		_, err := execution.ExecutePowerShell("john", "*", "magicbox-site", "20-download", "25-download-pages.ps1", "")
+		_, err := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-sync", "25-download-pages.ps1", "")
 		if err != nil {
 			return err
 		}
@@ -52,8 +52,8 @@ func DownloadDownloadPagesPost() usecase.Interactor {
 		return err
 
 	})
-	u.SetTitle("Get Site Pages")
+	u.SetTitle("Download Pages")
 	// u.SetExpectedErrors(status.InvalidArgument)
-	u.SetTags("Download")
+	u.SetTags("Syncronise SharePoint with web")
 	return u
 }

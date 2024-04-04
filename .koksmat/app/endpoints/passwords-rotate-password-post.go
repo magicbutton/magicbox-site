@@ -21,7 +21,7 @@ import (
 	"github.com/365admin/magicbox-site/utils"
 )
 
-func ProcessRotatePasswordPost() usecase.Interactor {
+func PasswordsRotatePasswordPost() usecase.Interactor {
 	type Request struct {
 		Maxkeys string               `query:"maxKeys" binding:"required"`
 		Length  string               `query:"length" binding:"required"`
@@ -39,7 +39,7 @@ func ProcessRotatePasswordPost() usecase.Interactor {
 			return inputErr
 		}
 
-		_, err := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-process", "10-rotate-passwords.ps1", "", "-maxKeys", input.Maxkeys, "-length", input.Length, "-months", input.Months)
+		_, err := execution.ExecutePowerShell("john", "*", "magicbox-site", "35-password", "10-rotate-passwords.ps1", "", "-maxKeys", input.Maxkeys, "-length", input.Length, "-months", input.Months)
 		if err != nil {
 			return err
 		}
@@ -57,6 +57,6 @@ func ProcessRotatePasswordPost() usecase.Interactor {
 	})
 	u.SetTitle("Rotate Passwords")
 	// u.SetExpectedErrors(status.InvalidArgument)
-	u.SetTags("Process")
+	u.SetTags("Password management")
 	return u
 }

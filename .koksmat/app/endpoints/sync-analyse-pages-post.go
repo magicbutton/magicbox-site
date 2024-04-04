@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------
 /*
 ---
-title: Get Site Pages
+title: Analyse Pages
 ---
 */
 package endpoints
@@ -21,39 +21,39 @@ import (
 	"github.com/365admin/magicbox-site/utils"
 )
 
-func Download25DownloadPagesps1Post() usecase.Interactor {
+func SyncAnalysePagesPost() usecase.Interactor {
 	type Request struct {
-		Body schemas.Pages `json:"body" binding:"required"`
+		Body schemas.DownloadedPages `json:"body" binding:"required"`
 	}
-	u := usecase.NewInteractor(func(ctx context.Context, input Request, output *schemas.DownloadedPages) error {
+	u := usecase.NewInteractor(func(ctx context.Context, input Request, output *schemas.AnalysedPages) error {
 		body, inputErr := json.Marshal(input.Body)
 		if inputErr != nil {
 			return inputErr
 		}
 
-		inputErr = os.WriteFile(path.Join(utils.WorkDir("magicbox-site"), "pages.json"), body, 0644)
+		inputErr = os.WriteFile(path.Join(utils.WorkDir("magicbox-site"), "downloaded-pages.json"), body, 0644)
 		if inputErr != nil {
 			return inputErr
 		}
 
-		_, err := execution.ExecutePowerShell("john", "*", "magicbox-site", "20-download", "25-download-pages.ps1", "")
+		_, err := execution.ExecutePowerShell("john", "*", "magicbox-site", "30-sync", "30-analyse-pages.ps1", "")
 		if err != nil {
 			return err
 		}
 
-		resultingFile := path.Join(utils.WorkDir("magicbox-site"), "downloaded-pages.json")
+		resultingFile := path.Join(utils.WorkDir("magicbox-site"), "analysed-pages.json")
 		data, err := os.ReadFile(resultingFile)
 		if err != nil {
 			return err
 		}
-		resultObject := schemas.DownloadedPages{}
+		resultObject := schemas.AnalysedPages{}
 		err = json.Unmarshal(data, &resultObject)
 		*output = resultObject
 		return err
 
 	})
-	u.SetTitle("Get Site Pages")
+	u.SetTitle("Analyse Pages")
 	// u.SetExpectedErrors(status.InvalidArgument)
-	u.SetTags("Download")
+	u.SetTags("Syncronise SharePoint with web")
 	return u
 }

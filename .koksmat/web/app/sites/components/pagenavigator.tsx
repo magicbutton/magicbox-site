@@ -53,9 +53,9 @@ export default function PageNavigator(props: PageNavigatorProps) {
 
   return (
     <div>
-      {props.links.map((link) => {
+      {props.links.map((link, key) => {
         return (
-          <div>
+          <div key={key}>
             <NavItem
               classname={props.linkClassname}
               key={link.href}
