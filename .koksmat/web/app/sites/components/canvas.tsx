@@ -71,10 +71,10 @@ export default function Canvas(props: CanvasProps) {
         </div>
         {links.length > 0 && (
           <div className="relative  bg-white">
-            <div className="m-4 mt-8 border rounded-lg border-[#123123] sticky top-24  hidden lg:block text-white">
+            <div className="m-4 mt-8 border-l  border-[#123123] sticky top-24  hidden lg:block text-white">
               <div className="m-4 p-4  pt-10  min-w-64 ">
                 {/* <ScrollSpy activeClass="nav-active"> */}
-                <div className="mb-4 text-black">On this page</div>
+                {/* <div className="mb-4 text-black">On this page</div> */}
                 <PageNavigator
                   links={links}
                   linkClassname="ml-2 pt-1 text-nowrap whitespace-nowrap text-white hover:underline  text-black"

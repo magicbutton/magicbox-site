@@ -1,16 +1,12 @@
 <#---
-title: Web deploy to production
-tag: webdeployproduction
+title: Web deploy to Test
+tag: webdeploytest
 api: post
 ---
-We start by finding which version tag to use
 
-eventually 
-
-nexi-tools provision webdeployproduction 
 #>
 
-$appname = "nexi-welcome-test"
+$appname = "nexi-test-welcome"
 $imagename = "magicbox-site"
 $dnsname = "test.welcome.home.nexi-intra.com"
 $inputFile = join-path  $env:KITCHENROOT $imagename  ".koksmat", "koksmat.json"
