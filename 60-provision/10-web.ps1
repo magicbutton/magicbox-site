@@ -31,14 +31,14 @@ $config = @"
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: pvc-$appname
+  name: pvc-$appname-v2
 spec:
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   resources:
     requests:
       storage: 1Gi
-  storageClassName: default
+  storageClassName: azurefile
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -61,7 +61,7 @@ spec:
           - containerPort: $port
         env:
         - name: KEY
-          value: VALUE2
+          value: VALUE3
         - name: DATAPATH
           value: /data          
         volumeMounts:
@@ -70,7 +70,7 @@ spec:
       volumes:
       - name: data
         persistentVolumeClaim:
-          claimName: pvc-$appname       
+          claimName: pvc-$appname-v2    
 ---
 apiVersion: v1
 kind: Service
