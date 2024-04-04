@@ -35,8 +35,8 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
     case "strong":
       sectionStyle = {
         emphasis: "none",
-
-        className: "bg-[#2D32AA] text-[white] py-10",
+        className: "bg-white text-[black] pt-40 mt-10 ",
+        // className: "bg-[#2D32AA] text-[white] py-10",
       };
       break;
     default:
