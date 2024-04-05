@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { LinkItem } from "./topnav";
 import { cn } from "@/lib/utils";
+import { getIdFromText } from "../util";
 
 export interface PageNavigatorProps {
   linkClassname: string;
@@ -16,7 +17,7 @@ function NavItem(props: {
   return (
     <div key={props.link.id}>
       <a
-        href={props.link.href}
+        href={getIdFromText(props.link.href)}
         className={cn(props.classname, props.active ? "font-bold" : "")}
       >
         {props.link.title}

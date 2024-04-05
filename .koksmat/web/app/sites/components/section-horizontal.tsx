@@ -1,7 +1,7 @@
 import { de } from "date-fns/locale";
 import { HorizontalSection } from "../schema/canvas";
 import WebpartWrapper from "./webpart-wrapper";
-import { sectionHeaderAnchor } from "../util";
+import { getIdFromText, sectionHeaderAnchor } from "../util";
 import { cn } from "@/lib/utils";
 import Debugger from "./debugger";
 
@@ -167,7 +167,11 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
   }
   return (
     <div>
-      <div key={key} id={anchorId} className={anchorId ? "scrollspy" : ""}>
+      <div
+        key={key}
+        id={getIdFromText(anchorId)}
+        className={anchorId ? "scrollspy" : ""}
+      >
         <div className={anchorId ? "h-[70px]" : ""}>&nbsp;</div>
         <div>
           {sectionComponent}

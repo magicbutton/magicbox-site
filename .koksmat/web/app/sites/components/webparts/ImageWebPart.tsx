@@ -5,6 +5,7 @@ export interface ImageWebPartProps {
 
   data: Data | undefined;
 }
+
 export interface Root {
   "@odata.type": string;
   id: string;
@@ -23,7 +24,6 @@ export interface Data {
 
 export interface Properties {
   imageSourceType: number;
-  captionText: string;
   altText: string;
   linkUrl: string;
   overlayText: string;
@@ -34,18 +34,12 @@ export interface Properties {
   uniqueId: string;
   imgWidth: number;
   imgHeight: number;
-  resizeCoefficient?: number;
-  resizeDesiredWidth?: number;
   isOverlayTextVisible: boolean;
+  resizeCoefficient: number;
+  resizeDesiredWidth: number;
   alignment: string;
   fixAspectRatio: boolean;
-  advancedImageEditorData: AdvancedImageEditorData;
   overlayTextStyles: OverlayTextStyles;
-}
-
-export interface AdvancedImageEditorData {
-  "@odata.type": string;
-  isAdvancedEdited: boolean;
 }
 
 export interface OverlayTextStyles {
@@ -61,10 +55,15 @@ export interface OverlayTextStyles {
 
 export interface ServerProcessedContent {
   htmlStrings: any[];
-  searchablePlainTexts: any[];
+  searchablePlainTexts: SearchablePlainText[];
   links: any[];
   imageSources: ImageSource[];
   customMetadata: CustomMetadaum[];
+}
+
+export interface SearchablePlainText {
+  key: string;
+  value: string;
 }
 
 export interface ImageSource {
@@ -95,8 +94,21 @@ export default function ImageWebPart(props: ImageWebPartProps) {
   const height = props.data?.properties.imgHeight ?? 100;
   const alt = props.data?.properties.altText ?? "";
 
+  let className = "w-full justify-center flex";
+  switch (props.data?.properties.alignment) {
+    case "center":
+      className = "w-full justify-center flex";
+      break;
+    case "left":
+      className = "w-full justify-start flex";
+      break;
+    case "right":
+      className = "w-full justify-end flex";
+      break;
+  }
+
   return (
-    <div>
+    <div className={className}>
       <img
         src={file}
         alt={alt}

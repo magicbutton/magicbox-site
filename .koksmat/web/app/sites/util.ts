@@ -66,3 +66,7 @@ export function getSectionHeaderText(section: HorizontalSection): string {
 
   return text;
 }
+
+export function getIdFromText(anchorId: string) {
+  return anchorId ? encodeURI(anchorId.toLowerCase()) : "";
+}
