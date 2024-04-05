@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Debugger from "../debugger";
 
 export interface ImageCoreProps {
   debug?: boolean;
@@ -26,7 +27,7 @@ export default function ImageCore(props: ImageCoreProps) {
         alt={alt}
       />
 
-      {debug && <pre>{file}</pre>}
+      <Debugger debug={debug ?? false} debugData={file} />
     </div>
   );
 }

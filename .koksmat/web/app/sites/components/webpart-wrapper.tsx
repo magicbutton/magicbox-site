@@ -1,5 +1,6 @@
 import { Webpart } from "../schema/canvas";
 import { fixHtml, sectionHeaderAnchor } from "../util";
+import Debugger from "./debugger";
 import FileViewerWebPart from "./webparts/FileViewerWebPart";
 import HeroWebPart from "./webparts/HeroWebpart";
 import ImageGalleryWebPart from "./webparts/ImageGallery";
@@ -23,11 +24,7 @@ export default function WebpartWrapper(props: WebpartProps) {
           <div
             dangerouslySetInnerHTML={{ __html: fixHtml(webpart.innerHtml) }}
           />
-          {debug && (
-            <div className="overflow-scroll max-h-screen whitespace-pre-wrap w-[509px]">
-              {webpart.innerHtml}
-            </div>
-          )}
+          <Debugger debug={debug ?? false} debugData={webpart.innerHtml} />
         </div>
       );
       break;
@@ -88,7 +85,7 @@ export default function WebpartWrapper(props: WebpartProps) {
   return (
     <div className="">
       {render}
-      {debug && <pre>{JSON.stringify(webpart, null, 2)}</pre>}
+      <Debugger debug={debug ?? false} debugData={webpart} />
     </div>
   );
 }

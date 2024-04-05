@@ -53,6 +53,13 @@ export default function PageNavigator(props: PageNavigatorProps) {
 
   return (
     <div>
+      <div className="mb-3">
+        <NavItem
+          classname={props.linkClassname}
+          link={{ title: "Top of page", href: "#top" }}
+          active={false}
+        />
+      </div>
       {props.links.map((link, key) => {
         return (
           <div key={key}>

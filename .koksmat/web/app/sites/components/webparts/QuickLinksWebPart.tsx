@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Debugger from "../debugger";
 
 export interface QuickLinksWebPartProps {
   debug?: boolean;
@@ -189,7 +190,7 @@ export default function QuickLinksWebPart(props: QuickLinksWebPartProps) {
       {components.map((item, index) => (
         <div key={index}>{item}</div>
       ))}
-      {debug && <pre>{JSON.stringify(props, null, 2)}</pre>}
+      <Debugger debug={debug ?? false} debugData={props} />
     </div>
   );
 }

@@ -3,6 +3,7 @@ import { HorizontalSection } from "../schema/canvas";
 import WebpartWrapper from "./webpart-wrapper";
 import { sectionHeaderAnchor } from "../util";
 import { cn } from "@/lib/utils";
+import Debugger from "./debugger";
 
 type SectionHorizontalProps = {
   debug?: boolean;
@@ -23,26 +24,26 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
     case "soft":
       sectionStyle = {
         emphasis: "none",
-        className: "bg-[#F4F4FB] text-[black] py-10",
+        className: "bg-[#F4F4FB] text-[black] p-4",
       };
       break;
     case "neutral":
       sectionStyle = {
         emphasis: "none",
-        className: "bg-[#f0f0f0] text-[black] py-10",
+        className: "bg-[#f0f0f0] text-[black]  p-4",
       };
       break;
     case "strong":
       sectionStyle = {
         emphasis: "none",
-        className: "bg-white text-[black] pt-0 mt-10 ",
+        className: "bg-white text-[black]   p-4",
         // className: "bg-[#2D32AA] text-[white] py-10",
       };
       break;
     default:
       sectionStyle = {
         emphasis: "none",
-        className: "bg-[white] text-[black] py-10",
+        className: "bg-[white] text-[black]  p-4",
       };
       break;
       break;
@@ -52,23 +53,21 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
   let rightClassname = "w-full md:w-2/3";
   switch (section.layout) {
     case "oneColumn":
-      gridClassname = "container grid grid-cols-1 gap-4 ";
+      gridClassname = " grid grid-cols-1 gap-4 ";
       break;
     case "twoColumns":
-      gridClassname =
-        "container grid grid-cols-1 gap-4 grid-cols-1 md:grid-cols-2";
+      gridClassname = "grid grid-cols-1 gap-4 grid-cols-1 md:grid-cols-2";
       break;
     case "threeColumns":
-      gridClassname =
-        "container grid grid-cols-1 gap-4 grid-cols-1  lg:grid-cols-3";
+      gridClassname = "grid grid-cols-1 gap-4 grid-cols-1  lg:grid-cols-3";
       break;
     case "oneThirdLeftColumn":
-      gridClassname = "container md:flex  gap-4  ";
+      gridClassname = " md:flex  gap-4  ";
       leftClassname = "w-full md:w-1/3";
       rightClassname = "w-full md:w-2/3";
       break;
     case "oneThirdRightColumn":
-      gridClassname = "container md:flex  gap-4  ";
+      gridClassname = " md:flex  gap-4  ";
       leftClassname = "w-full md:w-2/3";
       rightClassname = "w-full md:w-1/3";
       break;
@@ -80,7 +79,7 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
       };
       break;
     default:
-      gridClassname = "container grid grid-cols-1 gap-4";
+      gridClassname = " grid grid-cols-1 gap-4";
       break;
   }
 
@@ -168,26 +167,17 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
   }
   return (
     <div>
-      <div
-        key={key}
-        id={anchorId}
-        className={cn("pt-[0px]", anchorId ? "scrollspy" : "")}
-      >
-        <div className={anchorId ? "h-[40px]" : ""}>&nbsp;</div>
-        <div className="pt-[0px]">
+      <div key={key} id={anchorId} className={anchorId ? "scrollspy" : ""}>
+        <div className={anchorId ? "h-[70px]" : ""}>&nbsp;</div>
+        <div>
           {sectionComponent}
-          {debug && (
-            <pre>
-              {JSON.stringify(
-                {
-                  ...section,
-                  columns: "...hidden",
-                },
-                null,
-                2
-              )}
-            </pre>
-          )}
+          <Debugger
+            debug={debug ?? false}
+            debugData={{
+              ...section,
+              columns: "...hidden",
+            }}
+          />
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@
 import useEmblaCarousel from "embla-carousel-react";
 import EmblaCarousel from "../embla/EmblaCarousel";
 import { EmblaOptionsType } from "embla-carousel";
+import Debugger from "../debugger";
 
 export interface ImageGalleryWebPartProps {
   debug?: boolean;
@@ -110,7 +111,7 @@ export default function ImageGalleryWebPart(props: ImageGalleryWebPartProps) {
   return (
     <div className="flex ">
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />
-      {debug && <pre>{JSON.stringify(props, null, 2)}</pre>}
+      <Debugger debug={debug ?? false} debugData={props} />
     </div>
   );
 }

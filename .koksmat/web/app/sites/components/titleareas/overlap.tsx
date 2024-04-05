@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Debugger from "../debugger";
 
 export interface Root {
   enableGradientEffect: boolean;
@@ -93,7 +94,7 @@ export default function Overlap(props: OverlapProps) {
           </div>
         </div>
       </div>
-      {debug && <pre>{file}</pre>}
+      <Debugger debug={debug ?? false} debugData={file} />
     </div>
   );
 }

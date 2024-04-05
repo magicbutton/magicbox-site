@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Debugger from "../debugger";
 
 export interface TitelArea {
   enableGradientEffect: boolean;
@@ -83,7 +84,7 @@ export default function ColorBlock(props: ColorBlockProps) {
     >
       <img className="w-[100%] h-96 object-cover" src={file} alt={alt} />
 
-      {debug && <pre>{file}</pre>}
+      <Debugger debug={debug ?? false} debugData={file} />
     </div>
   );
 }

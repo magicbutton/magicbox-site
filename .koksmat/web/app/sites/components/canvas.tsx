@@ -36,14 +36,14 @@ export default function Canvas(props: CanvasProps) {
   horisontalSectionGroups.push(sectionGroup);
 
   return (
-    <div>
+    <div id="top" className="scrollspy">
       {canvas?.titleArea && (
         <TitleAreaComponent titelArea={canvas?.titleArea} debug={debug} />
       )}
       {heroSection && (
         <SectionHorizontal section={heroSection} debug={debug} key={"x"} />
       )}
-      <div className="flex">
+      <div className="flex container">
         <div className="flex grow">
           <div className="grow">
             {horisontalSectionGroups.map((sectionGroup, index) => {

@@ -1,3 +1,5 @@
+import Debugger from "../debugger";
+
 export interface FileViewerWebPartProps {
   data: Data | undefined;
   debug?: boolean;
@@ -69,7 +71,7 @@ export default function ImageFileViewerWebPart(props: FileViewerWebPartProps) {
       return (
         <div>
           <iframe src={file} width="100%" height="100%"></iframe>
-          {debug && <pre>{file}</pre>}
+          <Debugger debug={debug ?? false} debugData={file} />
         </div>
       );
 
@@ -89,7 +91,7 @@ export default function ImageFileViewerWebPart(props: FileViewerWebPartProps) {
       return (
         <div>
           <img src={file} alt="Image" />
-          {debug && <pre>{file}</pre>}
+          <Debugger debug={debug ?? false} debugData={file} />
         </div>
       );
   }
@@ -98,7 +100,7 @@ export default function ImageFileViewerWebPart(props: FileViewerWebPartProps) {
     <div>
       FileViewerWebPart
       <a href={file}>Download</a>
-      {debug && <pre>{file}</pre>}
+      <Debugger debug={debug ?? false} debugData={file} />
     </div>
   );
 }

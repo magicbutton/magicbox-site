@@ -18,6 +18,7 @@ import {
 } from "@/components/ui/sheet";
 import { GiHamburgerMenu } from "react-icons/gi";
 import PageNavigator from "./pagenavigator";
+import Debugger from "./debugger";
 
 export function BurgerMenu(prop: { links: LinkItem[] }) {
   return (
@@ -80,7 +81,7 @@ export function TopNav(props: TopNavProps) {
             <ScrollSpy activeClass="nav-active">{links}</ScrollSpy>
           </div> */}
         </div>
-        {debug && <pre>{JSON.stringify(props, null, 2)}</pre>}
+        <Debugger debug={debug ?? false} debugData={props} />
       </div>
     </div>
   );
