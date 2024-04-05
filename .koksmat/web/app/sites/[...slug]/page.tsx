@@ -18,6 +18,7 @@ function showDebug(debug: string) {
   if (debug === "") return false;
   return true;
 }
+
 export default function Page(param: {
   params: { slug: string[] };
   searchParams: { debug: string };

@@ -30,11 +30,25 @@ export default function PageNavigator(props: PageNavigatorProps) {
   const observer = useRef<IntersectionObserver>();
   const [activeId, setActiveId] = useState("");
   const [spying, setspying] = useState<string[]>([]);
+  const [initialBookmark, setinitialBookmark] = useState("");
+
+  useEffect(() => {
+    setinitialBookmark(window.location.hash.replace("#", ""));
+  }, []);
+
+  useEffect(() => {
+    if (initialBookmark) {
+      document
+        .getElementById(initialBookmark)
+        ?.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [initialBookmark]);
   useEffect(() => {
     const handleObsever: IntersectionObserverCallback = (entries) => {
       entries.forEach((entry, index) => {
         if (entry?.isIntersecting) {
           setActiveId(entry.target.id);
+          console.log("active", entry.target.id);
         }
       });
     };
@@ -44,9 +58,11 @@ export default function PageNavigator(props: PageNavigatorProps) {
     });
 
     const elements = document.querySelectorAll(".scrollspy");
+
     elements.forEach((elem) => {
       observer?.current?.observe(elem);
       spying.push(elem.id);
+      console.log("observing", elem.id);
     });
 
     return () => observer.current?.disconnect();
@@ -68,7 +84,7 @@ export default function PageNavigator(props: PageNavigatorProps) {
               classname={props.linkClassname}
               key={link.href}
               link={link}
-              active={link.title === activeId}
+              active={link.href.toLowerCase().replace("#", "") === activeId}
             />
           </div>
         );
