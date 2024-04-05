@@ -125,14 +125,14 @@ export default function HeroWebPart(props: HeroWebPartProps) {
   )?.value;
 
   return (
-    <div className="w-full max-h-[300px] h-[300px]">
+    <div className="w-full max-h-[400px] h-[400px]">
       {content.map((item, index) => {
         return (
           <div key={index} className="">
             <div className="relative">
               <div className="absolute  w-full ">
                 <img
-                  className="object-cover max-h-[300px] h-[300px] w-full bg-gradient-to-t to-transparent from-[#444444]"
+                  className="object-cover max-h-[300px] h-[300px] w-full bg-gradient-to-t to-transparent from-[#2D32AA]"
                   src={item.previewImage?.resolvedUrl}
                   alt={item.alternateText}
                 />

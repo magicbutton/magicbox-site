@@ -35,7 +35,7 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
     case "strong":
       sectionStyle = {
         emphasis: "none",
-        className: "bg-white text-[black] pt-40 mt-10 ",
+        className: "bg-white text-[black] pt-0 mt-10 ",
         // className: "bg-[#2D32AA] text-[white] py-10",
       };
       break;
@@ -173,6 +173,7 @@ export default function SectionHorizontal(props: SectionHorizontalProps) {
         id={anchorId}
         className={cn("pt-[0px]", anchorId ? "scrollspy" : "")}
       >
+        <div className={anchorId ? "h-[40px]" : ""}>&nbsp;</div>
         <div className="pt-[0px]">
           {sectionComponent}
           {debug && (
