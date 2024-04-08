@@ -87,7 +87,7 @@ export default function Overlap(props: OverlapProps) {
         <div className="w-screen absolute bottom-[-30px] h-[64px]">
           <div className="container  bg-white flex  ">
             <div className="items-center justify-center">
-              <h1 className="text-black text-3xl font-bold ">
+              <h1 className="text-black text-2xl lg:text-3xl font-bold ">
                 {titleArea?.title}
               </h1>
             </div>

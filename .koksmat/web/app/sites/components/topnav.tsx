@@ -71,7 +71,9 @@ export function TopNav(props: TopNavProps) {
             <Logo homeUrl={"/"} />
           </div>
           <Link href="#" className="text-black">
-            <div className="ml-4 pt-2 text-2xl text-nowrap">{SITENAME}</div>
+            <div className="ml-4 pt-2 mt-1 mr-2 lg:text-2xl lg:mt-0 lg:mr-0 text-nowrap">
+              {SITENAME}
+            </div>
           </Link>
           <div className="grow"></div>
           <div className="mt-4 lg:hidden text-black">

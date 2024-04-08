@@ -1,11 +1,11 @@
 {
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
-  "@odata.etag": "\"{2A2B13B1-3E74-47D6-A437-078F97B3B190},721\"",
+  "@odata.etag": "\"{2A2B13B1-3E74-47D6-A437-078F97B3B190},749\"",
   "createdDateTime": "2023-04-19T05:15:22Z",
   "description": "Get familiar with our Nexi Group Organization. Overview Nexi Group is the result of the merger of Nexi, Nets, and SIA, three of Europe's largest players in the payments market and, to date, present in more than 20 countries. The European PayTech has…",
-  "eTag": "\"{2A2B13B1-3E74-47D6-A437-078F97B3B190},721\"",
+  "eTag": "\"{2A2B13B1-3E74-47D6-A437-078F97B3B190},749\"",
   "id": "2a2b13b1-3e74-47d6-a437-078f97b3b190",
-  "lastModifiedDateTime": "2024-04-03T10:28:43Z",
+  "lastModifiedDateTime": "2024-04-08T07:30:08Z",
   "name": "Our-Organization.aspx",
   "webUrl": "https://christianiabpos.sharepoint.com/sites/welcome-to-nexi/SitePages/Our-Organization.aspx",
   "title": "Our Organization",
@@ -35,7 +35,7 @@
   },
   "publishingState": {
     "level": "published",
-    "versionId": "74.0"
+    "versionId": "80.0"
   },
   "reactions": {},
   "titleArea": {
@@ -171,7 +171,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "23affd0a-0602-4170-b353-58f27405d066",
-                "innerHtml": "<h3>Overview</h3>"
+                "innerHtml": "<h3><span class=\"fontSizeXxLarge\"><strong>Overview</strong></span></h3>"
               },
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
@@ -265,21 +265,21 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "a2db0139-51df-4d63-97c4-2ce969c15c6f",
-                "innerHtml": "<h2>Nexi: key numbers</h2>"
+                "innerHtml": "<h2><strong>Nexi: key numbers</strong></h2>"
               }
             ]
           }
         ]
       },
       {
-        "layout": "oneThirdRightColumn",
+        "layout": "oneColumn",
         "id": "2.28125",
         "emphasis": "none",
         "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.28125')/columns",
         "columns": [
           {
             "id": "1",
-            "width": 8,
+            "width": 12,
             "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.28125')/columns('1')/webparts",
             "webparts": [
               {
@@ -416,12 +416,6 @@
                 "innerHtml": "<p><span class=\"fontSizeXSmall\">Source: Managerial estimates. Notes: (1) Refers to Continental Europe (excluding UK and Russia) - Based on Visa and Mastercard transactions; (2) Includes merchants served in servicing model; (3) FY22 - CMD perimeter</span></p>"
               }
             ]
-          },
-          {
-            "id": "2",
-            "width": 4,
-            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.28125')/columns('2')/webparts",
-            "webparts": []
           }
         ]
       },
@@ -446,14 +440,14 @@
         ]
       },
       {
-        "layout": "twoColumns",
+        "layout": "oneColumn",
         "id": "2.375",
         "emphasis": "none",
         "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.375')/columns",
         "columns": [
           {
             "id": "1",
-            "width": 6,
+            "width": 12,
             "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.375')/columns('1')/webparts",
             "webparts": [
               {
@@ -601,11 +595,11 @@
                       },
                       {
                         "key": "items[0].sourceItem.url",
-                        "value": "https://www.nexigroup.com/content/dam/corp/downloads/media/media-kit/press-kit.pdf"
+                        "value": "https://www.nexigroup.com/en/media-relations/press-kit/"
                       },
                       {
                         "key": "items[1].sourceItem.url",
-                        "value": "https://www.nexigroup.com/content/dam/corp/downloads/investors/investors-kit/Nexi-Corporate-Presentation-IR.pdf"
+                        "value": "https://www.nexigroup.com/en/investor-relations/results-and-reports/investors-kit/"
                       },
                       {
                         "key": "items[2].sourceItem.url",
@@ -671,11 +665,19 @@
                 }
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "2.46875",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.46875')/columns",
+        "columns": [
           {
-            "id": "2",
-            "width": 6,
-            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.375')/columns('2')/webparts",
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('2a2b13b1-3e74-47d6-a437-078f97b3b190')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.46875')/columns('1')/webparts",
             "webparts": [
               {
                 "@odata.type": "#microsoft.graph.standardWebPart",
@@ -907,7 +909,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "e24a69cb-d82c-4bdd-9e6e-a997fac51b38",
-                "innerHtml": "<h2>Our Business</h2>"
+                "innerHtml": "<h2><strong>Our Business</strong></h2>"
               }
             ]
           }
@@ -1109,7 +1111,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "856cca1d-5abd-47c9-8087-c5b6a50baddb",
-                "innerHtml": "<h3>Our 4 Business Units</h3>"
+                "innerHtml": "<h3><span class=\"fontSizeXxLarge\"><strong>Our 4 Business Units</strong></span></h3>"
               }
             ]
           }
@@ -1202,7 +1204,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "d147b51b-7e16-46d8-a5eb-d9d30389f8de",
-                "innerHtml": "<p>The Merchant Solutions Business Unit offers, in support of every type of counterparty, solutions for the acceptance of digital payments, for the management of POS payment terminals, for the acceptance of acquiring flows (i.e., acceptance of payments via cards or other digital instruments belonging to credit or debit circuits) and for customer care activities. Through this offer, in collaboration with partner banks, the organization responds to the needs of all types of businesses: from retail-to-retail chains to supporting merchants for both physical and digital payments.</p>"
+                "innerHtml": "<p>The Merchant Solutions Business Unit offers solutions for the acceptance of digital payments, for the management of POS payment terminals, for the acceptance of acquiring flows (i.e., acceptance of payments via cards or other digital instruments belonging to credit or debit circuits) and for customer care activities. This portfolio of offerings, realized in collaboration with partner banks, makes it possible to respond to the needs of all types of businesses: from retail-to-retail chains to supporting merchants for both physical and digital payments.</p>"
               }
             ]
           },
@@ -1287,7 +1289,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "c9e07722-56b1-4307-b34e-50c7a96f4b95",
-                "innerHtml": "<p style=\"margin-left:0px;\">We offer our Merchants flexible solutions for accepting e-commerce payments, suitable for any type of online business, from the simplest e-commerce sites, to the largest and most complex ones.</p><p style=\"margin-left:0px;\">Our solutions include the possibility of accepting different payment methods and are suitable for collecting online payments also from social media channels.</p>"
+                "innerHtml": "<p>The eCommerce Business Unit aims to achieve mid-market leadership through single modular solutions with local integrations, local front ends with a single pan-European integration layer and a stronger local support and go-to-market model</p>"
               }
             ]
           }
@@ -1330,6 +1332,7 @@
                     "resizeDesiredWidth": 97,
                     "alignment": "Center",
                     "fixAspectRatio": false,
+                    "isAspectRatioLockedOnLoad": false,
                     "overlayTextStyles": {
                       "@odata.type": "#graph.Json",
                       "textColor": "light",
@@ -1390,12 +1393,12 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "6a7b672a-cc56-4bc6-a238-db54ebe8b942",
-                "innerHtml": "<h3>Cards &amp; Digital Payments / Issuing Solutions</h3>"
+                "innerHtml": "<h3>Issuing Solutions</h3>"
               },
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "5c5dfcd9-6aaf-4f63-be60-47387349e1f4",
-                "innerHtml": "<p>The Group, through its Cards &amp; Digital Payments unit, together with its partner banks, offers a wide range of issuing services (including services relating to the procurement, issuing, and management of payment cards for individuals and companies) using advanced anti-fraud systems to guarantee speed, reliability, and security of user authentication systems and rap\u0002id execution of payment transactions.</p>"
+                "innerHtml": "<p>The Issuing Solutions Business Unit focuses on acquiring new banking customers on digital processing across Europe by exploiting the agility and efficiency of innovation platforms; on winning over companies/FinTech and medium/small banks through Payments-as-a-Service propositions; Upsell; on the modular VAS proposition based on banks' customers; in the Payments-as-a-Service proposition for medium/small banks</p>"
               }
             ]
           },
@@ -1412,7 +1415,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "49554e7d-5454-4f8d-b8ac-2148f2813c88",
-                "innerHtml": "<p>Through its Digital Banking Solutions Business Unit, the Nexi Group offers three different types of services: ATM management, clearing services1, and Digital Corporate Banking services.</p>"
+                "innerHtml": "<p>The main objectives of the Digital Banking Solution Business Unit were identified in the sale of integrated B2B payment and collection solutions for corporates and PA; promotion of the growth of instant and account-to-account payments across Europe; on sales/partnership in non-strategic activities.</p>"
               }
             ]
           }
@@ -1432,7 +1435,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "a9bd1666-c74c-4bf0-b1b7-7b3e8f53b2cc",
-                "innerHtml": "<h2>Wiktionary</h2>"
+                "innerHtml": "<h2><strong>Wiktionary</strong></h2>"
               }
             ]
           }

@@ -85,7 +85,9 @@ export default function Overlap(props: OverlapProps) {
       <div className="relative">
         <img className="w-[100%] h-48 object-cover" src={file} alt={alt} />
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
-          <h1 className="text-white text-3xl font-bold">{titleArea?.title}</h1>
+          <div className="text-white md:text-2xl font-bold">
+            {titleArea?.title}
+          </div>
         </div>
       </div>
       <Debugger debug={debug ?? false} debugData={file} />
