@@ -8,7 +8,8 @@ api: post
 
 $appname = "nexi-test-welcome"
 $imagename = "magicbox-site"
-$dnsname = "test.welcome.home.nexi-intra.com"
+$dnsname = "test-welcome.intra.nexigroup.com"
+
 $inputFile = join-path  $env:KITCHENROOT $imagename  ".koksmat", "koksmat.json"
 $port = "4333"
 if (!(Test-Path -Path $inputFile) ) {
