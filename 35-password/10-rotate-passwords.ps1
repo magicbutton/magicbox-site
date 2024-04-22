@@ -22,7 +22,7 @@ function Get-RandomPassword {
     )
     
     #$charSet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789{]+-[*=@:)}$^%;(_!&amp;#?>/|.'.ToCharArray()
-    $charSet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'.ToCharArray()
+    $charSet = '0123456789'.ToCharArray()
     
     $rng = New-Object System.Security.Cryptography.RNGCryptoServiceProvider
     $bytes = New-Object byte[]($length)

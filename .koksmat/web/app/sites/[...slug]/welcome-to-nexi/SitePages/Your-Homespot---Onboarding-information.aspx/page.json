@@ -1,11 +1,11 @@
 {
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
-  "@odata.etag": "\"{F125BB61-D413-4DA1-AEA3-27D53CC41224},2557\"",
+  "@odata.etag": "\"{F125BB61-D413-4DA1-AEA3-27D53CC41224},2719\"",
   "createdDateTime": "2023-04-17T11:07:12Z",
   "description": "European by scale, local by nature Nexi Group has more than 60 offices spread across Europe. The northernmost placed office is in Jyväskylä (Finland), and the southernmost placed office is in Pretoria (South Africa). Between the two offices, there a…",
-  "eTag": "\"{F125BB61-D413-4DA1-AEA3-27D53CC41224},2557\"",
+  "eTag": "\"{F125BB61-D413-4DA1-AEA3-27D53CC41224},2719\"",
   "id": "f125bb61-d413-4da1-aea3-27d53cc41224",
-  "lastModifiedDateTime": "2024-04-08T11:08:17Z",
+  "lastModifiedDateTime": "2024-04-22T05:35:21Z",
   "name": "Your-Homespot---Onboarding-information.aspx",
   "webUrl": "https://christianiabpos.sharepoint.com/sites/welcome-to-nexi/SitePages/Your-Homespot---Onboarding-information.aspx",
   "title": "Your Homespot - Country Onboarding Information",
@@ -35,7 +35,7 @@
   },
   "publishingState": {
     "level": "published",
-    "versionId": "156.0"
+    "versionId": "166.0"
   },
   "reactions": {},
   "titleArea": {
@@ -363,7 +363,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "21837e3f-c2a4-4c95-b3d7-114964ae0a11",
-                "innerHtml": "<h3>DACH in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>439.4</strong></span> M (DACH + Poland)</p><p><span class=\"fontSizeXxLarge\"><strong>+1.198 </strong></span><span class=\"fontSizeLarge\"><strong>employees</strong></span></p><p><span class=\"fontSizeXxLarge\"><strong>+24</strong></span><strong> employees in Austria</strong></p><p><span class=\"fontSizeXxLarge\"><strong>2</strong></span><strong> locations in Austria</strong></p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h3>DACH in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>439.4</strong></span> M (DACH + Poland)</p><p><span class=\"fontSizeXxLarge\"><strong>+1.747 </strong></span><span class=\"fontSizeLarge\"><strong>employees in DACH</strong></span></p><p><span class=\"fontSizeXxLarge\"><strong>~24</strong></span><strong> employees in Austria</strong></p><p><span class=\"fontSizeXxLarge\"><strong>2</strong></span><strong> locations in Austria</strong></p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
               }
             ]
           }
@@ -775,7 +775,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "56e7d207-999b-49aa-b4f4-8adfb08cefcb",
-                "innerHtml": "<h3><span lang=\"EN-US\" dir=\"ltr\">PforCards in numbers:</span></h3><p>&nbsp;</p><p><span class=\"fontSizeXLargePlus\"><span lang=\"EN-US\" dir=\"ltr\"><strong>+25</strong> </span></span><span class=\"fontSizeLarge\"><span lang=\"EN-US\" dir=\"ltr\">Employees</span></span></p><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXLargePlus\"><span lang=\"EN-US\" dir=\"ltr\"><strong>4 </strong></span></span><span class=\"fontSizeLarge\"><span lang=\"EN-US\" dir=\"ltr\">Services (ATM, Acquiring, Issuing, Fraud Management)</span></span></p><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXLargePlus\"><span lang=\"EN-US\" dir=\"ltr\"><strong>876</strong> </span></span><span class=\"fontSizeLarge\"><span lang=\"EN-US\" dir=\"ltr\">monitored devices</span></span></p><p>&nbsp;</p><p><span class=\"fontSizeXLargePlus\"><span lang=\"EN-US\" dir=\"ltr\"><strong>3 bn</strong> </span></span><span class=\"fontSizeLarge\"><span lang=\"EN-US\" dir=\"ltr\">managed transactions</span></span></p>"
+                "innerHtml": "<h3><span lang=\"EN-US\" dir=\"ltr\">PforCards in numbers:</span></h3><p>&nbsp;</p><p><span class=\"fontSizeXxLarge\"><strong>~ </strong></span><span class=\"fontSizeXLargePlus\"><span lang=\"EN-US\" dir=\"ltr\"><strong>25</strong> </span></span><span class=\"fontSizeLarge\"><span lang=\"EN-US\" dir=\"ltr\">Employees</span></span></p><p aria-hidden=\"true\">&nbsp;</p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>439.4</strong></span> M (DACH + Poland)</p><p><span class=\"fontSizeXxLarge\"><strong>+1.747 </strong></span><span class=\"fontSizeLarge\"><strong>employees in DACH</strong></span></p>"
               }
             ]
           }
@@ -1095,7 +1095,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "f835fda0-b0ad-49a1-a893-a84f6c47c9fe",
-                "innerHtml": "<h3>CEE in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+1.178 </strong></span><span class=\"fontSizeLarge\"><strong>employees</strong></span></p><p><span class=\"fontSizeXxxLarge\"><strong>+300</strong></span><strong> employees in Croatia</strong></p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>327.6</strong></span><strong> M</strong> (SE Europe &amp; Other)</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h3>CSEE in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+2.620 </strong></span><span class=\"fontSizeLarge\"><strong>employees in CSEE</strong></span></p><p><span class=\"fontSizeXxLarge\"><strong>~</strong></span><span class=\"fontSizeXxxLarge\"><strong>300</strong></span><strong> employees in Croatia</strong></p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>327.6</strong></span><strong> M</strong> (SE Europe &amp; Other)</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
               }
             ]
           }
@@ -1787,7 +1787,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "a1ca27b2-b73c-49c3-9a7b-b40b61fd1da9",
-                "innerHtml": "<h3>Nordics in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+</strong></span><strong> </strong><span class=\"fontSizeXxLarge\"><strong>2,161</strong> </span>employees</p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>628.6</strong></span><strong> </strong>M</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h3>Nordics in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+</strong></span><strong> </strong><span class=\"fontSizeXxLarge\"><strong>2.313</strong> </span>employees in Nordics</p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>628.6</strong></span><strong> </strong>M</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
               }
             ]
           }
@@ -2383,7 +2383,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "bab122c7-9481-4839-83c3-a9bd55261d62",
-                "innerHtml": "<h3>Nordics in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+</strong></span><strong> </strong><span class=\"fontSizeXxLarge\"><strong>2,161</strong> </span>employees</p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>628.6</strong></span><strong> </strong>M</p><p>&nbsp;</p><p><span class=\"fontSizeXxLarge\"><strong>+430</strong></span><strong> </strong>employees in <span style=\"font-size:inherit;\" data-fontsize=\"inherit\">Helsinki</span></p><p aria-hidden=\"true\">&nbsp;</p><p>+50 employees in Espoo</p><p aria-hidden=\"true\">&nbsp;</p><p>+ 80 employees <span style=\"font-size:inherit;\" data-fontsize=\"inherit\">spread across Jyväskylä and Tampere</span></p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h3>Nordics in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+</strong></span><strong> </strong><span class=\"fontSizeXxLarge\"><strong>2.313</strong> </span>employees in Nordics</p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>628.6</strong></span><strong> </strong>M</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
               }
             ]
           }
@@ -2862,7 +2862,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "aaa1cc30-c833-4aae-a533-468e9ce2529e",
-                "innerHtml": "<h3>Nexi Digital in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+141</strong></span><strong> </strong>Nexi Digital Finland employees&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h3>Nexi Digital in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxLarge\"><strong>~ </strong></span><span class=\"fontSizeXxxLarge\"><strong>141</strong></span><strong> </strong>Nexi Digital Finland employees&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
               }
             ]
           }
@@ -3728,7 +3728,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "c521f2b1-be86-4642-ab36-72140b542df9",
-                "innerHtml": "<h3>DACH in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>439.4</strong></span> M (DACH + Poland)</p><p><span class=\"fontSizeXxLarge\"><strong>+1.198 </strong></span><span class=\"fontSizeLarge\">employees</span></p><p><span class=\"fontSizeXxLarge\"><strong>3</strong></span><span class=\"fontSizeLarge\"> locations in Germany</span></p><p style=\"margin-left:0px;\"><br>&nbsp;</p>"
+                "innerHtml": "<h3>DACH in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>439.4</strong></span> M (DACH + Poland)</p><p><span class=\"fontSizeXxLarge\"><strong>+1.747 </strong></span><span class=\"fontSizeLarge\">employees in DACH</span></p><p><span class=\"fontSizeXxLarge\"><strong>~ 560</strong></span><span class=\"fontSizeLarge\"> employees in Germany</span></p><p><span class=\"fontSizeXxLarge\"><strong>3</strong></span><span class=\"fontSizeLarge\"> locations in Germany</span></p><p style=\"margin-left:0px;\"><br>&nbsp;</p>"
               }
             ]
           }
@@ -4478,6 +4478,11 @@
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "7651c962-e54d-41e1-84d6-750727c5854f",
                 "innerHtml": "<p><span class=\"fontSizeXLargePlus\"><strong>Welcome to Nexi in Greece!</strong></span></p>"
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "f94321b1-9090-45ff-9e6c-04d608bbe81b",
+                "innerHtml": "<p><span lang=\"EN-US\" dir=\"ltr\">Nexi Greece operates through two legal entities: </span><i><span lang=\"EN-US\" dir=\"ltr\">Nexi Greece Processing Services</span></i><span lang=\"EN-US\" dir=\"ltr\"> and </span><i><span lang=\"EN-US\" dir=\"ltr\">Nexi Payments Greece</span></i><span lang=\"EN-US\" dir=\"ltr\">.&nbsp;</span></p><p aria-hidden=\"true\">&nbsp;</p><p><i><span lang=\"EN-US\" dir=\"ltr\">Nexi Greece Processing Services </span></i><span lang=\"EN-US\" dir=\"ltr\">is located in our expansive three-floor offices at Krioneri. Krioneri premises host more than 600 employees, offering quite spacious private meeting rooms, cozy and fully equipped kitchen on each floor, numerous parking spots outside of the building, as well as an attractive restaurant space and cafeteria. You can also find vending machines, where you can find anything, you want all day long.&nbsp;</span></p>"
               }
             ]
           },
@@ -4485,7 +4490,81 @@
             "id": "2",
             "width": 4,
             "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f125bb61-d413-4da1-aea3-27d53cc41224')/microsoft.graph.sitePage/canvasLayout/horizontalSections('5.8013916015625')/columns('2')/webparts",
-            "webparts": []
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "82264a7f-d5f4-4486-a5f1-d4e743f4c909",
+                "innerHtml": ""
+              },
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "dc11edba-96e1-4e08-abd1-a2d7daf7b217",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "B1.JPG",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "f056ec27-ba92-497b-be84-e5d53b49af05",
+                    "imgWidth": 1772,
+                    "imgHeight": 1140,
+                    "isOverlayTextVisible": true,
+                    "resizeCoefficient": 1,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/1479993780-B1.JPG"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "f056ec27-ba92-497b-be84-e5d53b49af05",
+                          "width": "1772",
+                          "height": "1140"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "44313103-18f1-4f25-a44b-8bddf90b944f",
+                "innerHtml": "<p><i><span lang=\"EN-US\" dir=\"ltr\">Nexi Payments Greece</span></i><span lang=\"EN-US\" dir=\"ltr\"> is located in the heart of Athens including six floors.&nbsp;A team of approximately 60 colleagues work in this office with easy accessibility on commuting and public transportation and shops in the heart of Athens</span><span style=\"color:#C55A11;\" lang=\"EN-US\" dir=\"ltr\">, </span><span lang=\"EN-US\" dir=\"ltr\">both providing a perfect combination of business and pleasure.</span></p>"
+              }
+            ]
           },
           {
             "id": "3",
@@ -4495,7 +4574,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "3e43600b-17fa-4f19-85e5-52dd8348693c",
-                "innerHtml": "<h3>Nexi Greece in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+</strong></span><strong> employees</strong></p><p>&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h3>Nexi Greece in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+972</strong></span><strong> employees in 2022</strong></p><p><span class=\"fontSizeXxxLarge\"><strong>+2.620</strong></span><strong> employees in CSEE in 2023</strong></p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>327.6</strong></span><strong> M</strong> (SE Europe &amp; Other)</p><p aria-hidden=\"true\">&nbsp;</p><p>&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
               }
             ]
           }
@@ -4528,6 +4607,394 @@
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "91215b10-313a-49b1-b2a1-bb1449526e2e",
                 "innerHtml": "<p><span class=\"fontSizeXLargePlus\"><strong>Get a glimpse of our life</strong></span></p>"
+              },
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "cbfbe017-24d8-4e22-ae90-c9789a66fd60",
+                "webPartType": "af8be689-990e-492a-81f7-ba3e4cd3ed9c",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.10",
+                  "description": "Show several images, pictures or photos in a gallery layout.",
+                  "title": "Image gallery",
+                  "properties": {
+                    "layout": 1,
+                    "imageSourceType": 1,
+                    "isRecursive": false,
+                    "isCdnEnabledForList": false,
+                    "hasDynamicModeEnabled": false,
+                    "maxImagesCount": 10,
+                    "canAlwaysSelectDocLibAsSource": false,
+                    "gridSettings": {
+                      "@odata.type": "#graph.Json",
+                      "imageSize": 2,
+                      "imageCropping": 1,
+                      "imageAspectRatio": 1,
+                      "lightbox": false
+                    },
+                    "carouselSettings": {
+                      "@odata.type": "#graph.Json",
+                      "autoplay": false,
+                      "autoplaySpeed": 5,
+                      "dots": false,
+                      "lazyLoad": true,
+                      "metadata": true,
+                      "swipe": true
+                    },
+                    "images@odata.type": "#Collection(graph.Json)",
+                    "images": [
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "b7e4146e-73b2-4bef-9ec0-f93b54721759",
+                        "isInList": true,
+                        "altText": ""
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "fb8b39ae-6e56-4fec-8aee-f370e3391066",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "a3777cc0-90c5-4c88-ae6c-383c354b6bc2",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "81eb72e4-fac3-4794-a1d4-a68b87b4dc4f",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "c61f9093-ec7f-4d23-b0d8-7817c2907703",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "f808058c-dd96-46a5-93e2-9a1c8dd48c8f",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "45bcd5c0-a153-4ac7-a69a-d96f08033b8c",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "7a98128d-52fc-4787-bf90-b292dd69381c",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "92b6df3a-402a-4eb5-9c3f-dff74e98bb38",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "ad7a012a-398e-4106-9eb2-d00e0bc522a4",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "ef9397ee-4acd-4a92-b400-2ca30cd49b10",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "c023126b-5633-4c41-b7b7-da819868dd94",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "21367cf8-fd82-4af7-8500-731cb49a58b0",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "e33c9b5d-5340-4b2b-bc03-58e7aa1dd621",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      }
+                    ]
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "images[0].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/91615zB7.JPG"
+                      },
+                      {
+                        "key": "images[1].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/25324MicrosoftTeams-image%20%2843%29.jpg"
+                      },
+                      {
+                        "key": "images[2].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/4312MicrosoftTeams-image%20%2841%29.jpeg"
+                      },
+                      {
+                        "key": "images[3].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/71690MicrosoftTeams-image%20%2840%29.jpeg"
+                      },
+                      {
+                        "key": "images[4].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/29337MicrosoftTeams-image%20%2839%29.jpg"
+                      },
+                      {
+                        "key": "images[5].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/11487MicrosoftTeams-image%20%2826%29.jpeg"
+                      },
+                      {
+                        "key": "images[6].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/33361MicrosoftTeams-image%20%2823%29.jpg"
+                      },
+                      {
+                        "key": "images[7].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/17939B1.JPG"
+                      },
+                      {
+                        "key": "images[8].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/57637aCapture4.jpg"
+                      },
+                      {
+                        "key": "images[9].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/13271aCapture3.jpg"
+                      },
+                      {
+                        "key": "images[10].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/94513aCapture2.jpg"
+                      },
+                      {
+                        "key": "images[11].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/71963aCapture1.jpg"
+                      },
+                      {
+                        "key": "images[12].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/5165aCapture.jpg"
+                      },
+                      {
+                        "key": "images[13].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/5009220230610_110934.jpg"
+                      }
+                    ],
+                    "componentDependencies": [
+                      {
+                        "key": "layoutComponentId",
+                        "value": "8ac0c53c-e8d0-4e3e-87d0-7449eb0d4027"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "images[0].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "b7e4146e-73b2-4bef-9ec0-f93b54721759"
+                        }
+                      },
+                      {
+                        "key": "images[1].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "fb8b39ae-6e56-4fec-8aee-f370e3391066",
+                          "mincanvaswidth": "32767"
+                        }
+                      },
+                      {
+                        "key": "images[2].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "a3777cc0-90c5-4c88-ae6c-383c354b6bc2",
+                          "mincanvaswidth": "32767"
+                        }
+                      },
+                      {
+                        "key": "images[3].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "81eb72e4-fac3-4794-a1d4-a68b87b4dc4f",
+                          "mincanvaswidth": "32767"
+                        }
+                      },
+                      {
+                        "key": "images[4].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "c61f9093-ec7f-4d23-b0d8-7817c2907703",
+                          "mincanvaswidth": "32767"
+                        }
+                      },
+                      {
+                        "key": "images[5].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "f808058c-dd96-46a5-93e2-9a1c8dd48c8f",
+                          "mincanvaswidth": "32767"
+                        }
+                      },
+                      {
+                        "key": "images[6].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "45bcd5c0-a153-4ac7-a69a-d96f08033b8c",
+                          "mincanvaswidth": "32767"
+                        }
+                      },
+                      {
+                        "key": "images[7].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "7a98128d-52fc-4787-bf90-b292dd69381c",
+                          "mincanvaswidth": "32767"
+                        }
+                      },
+                      {
+                        "key": "images[8].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "92b6df3a-402a-4eb5-9c3f-dff74e98bb38",
+                          "mincanvaswidth": "32767"
+                        }
+                      },
+                      {
+                        "key": "images[9].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "ad7a012a-398e-4106-9eb2-d00e0bc522a4",
+                          "mincanvaswidth": "32767"
+                        }
+                      },
+                      {
+                        "key": "images[10].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "ef9397ee-4acd-4a92-b400-2ca30cd49b10",
+                          "mincanvaswidth": "32767"
+                        }
+                      },
+                      {
+                        "key": "images[11].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "c023126b-5633-4c41-b7b7-da819868dd94",
+                          "mincanvaswidth": "32767"
+                        }
+                      },
+                      {
+                        "key": "images[12].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "21367cf8-fd82-4af7-8500-731cb49a58b0",
+                          "mincanvaswidth": "32767"
+                        }
+                      },
+                      {
+                        "key": "images[13].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "e33c9b5d-5340-4b2b-bc03-58e7aa1dd621",
+                          "mincanvaswidth": "32767"
+                        }
+                      }
+                    ]
+                  }
+                }
               }
             ]
           }
@@ -4559,7 +5026,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "6e8df3e6-90d6-44e5-809a-217f92d9d17c",
-                "innerHtml": "<p style=\"margin-left:0px;\"><strong>NEXI PAYMENTS GREECE S.A.</strong></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">Charilaou Trikoupi 15,&nbsp;</span></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">106 78 – Athens</span></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">Greece</span></p><p style=\"margin-left:0px;\" aria-hidden=\"true\">&nbsp;</p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">Τ. <strong>+ 30 210 62 44 300</strong></span></p>"
+                "innerHtml": "<p style=\"margin-left:0px;\"><span lang=\"EN-US\" dir=\"ltr\"><strong>Nexi Payments Greece SA</strong></span></p><p style=\"margin-left:0px;\" aria-hidden=\"true\">&nbsp;</p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">Charilaou Trikoupi 15,&nbsp;</span></p><p style=\"margin-left:0px;\"><span class=\"fontSizeLarge\">106 78, Athens</span></p>"
               }
             ]
           },
@@ -4567,7 +5034,13 @@
             "id": "3",
             "width": 4,
             "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f125bb61-d413-4da1-aea3-27d53cc41224')/microsoft.graph.sitePage/canvasLayout/horizontalSections('5.80224609375')/columns('3')/webparts",
-            "webparts": []
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "e7c01580-91df-4037-9dd5-763bc47127f1",
+                "innerHtml": "<p><span lang=\"EN-US\" dir=\"ltr\"><strong>Nexi Processing Services Greece</strong></span></p><p aria-hidden=\"true\">&nbsp;</p><p><span lang=\"EN-US\" dir=\"ltr\">Stratopedou AVIP street 2,&nbsp;</span></p><p><span lang=\"EN-US\" dir=\"ltr\">Kryoneri, Athens</span></p>"
+              }
+            ]
           }
         ]
       },
@@ -4698,7 +5171,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "9c00a97d-801b-4183-9e59-87f2cd5a8c81",
-                "innerHtml": "<h3>Nexi CEE in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+1.178 </strong></span><span class=\"fontSizeLarge\">employees&nbsp;</span></p><p><span class=\"fontSizeXxxLarge\"><strong>+42</strong></span><strong> </strong>employees in Hungary</p><p aria-hidden=\"true\">&nbsp;</p><p>Revenue <span class=\"fontSizeXxLarge\"><strong>€327.6</strong></span> M (SE Europe &amp; Other)</p>"
+                "innerHtml": "<h3>Nexi CSEE in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+2.620 </strong></span><span class=\"fontSizeLarge\">employees in CSEE</span></p><p><span class=\"fontSizeXxLarge\"><strong>~ </strong></span><span class=\"fontSizeXxxLarge\"><strong>42</strong></span><strong> </strong>employees in Hungary</p><p aria-hidden=\"true\">&nbsp;</p><p>Revenue <span class=\"fontSizeXxLarge\"><strong>€327.6</strong></span> M (SE Europe &amp; Other)</p>"
               }
             ]
           }
@@ -5072,7 +5545,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "c3f23ac6-f171-440d-aab5-5616b471405e",
-                "innerHtml": "<h3>Nexi Italy in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+3.755 </strong></span><strong>employees</strong></p><p><span class=\"fontSizeXxxLarge\"><strong>+6</strong></span><strong> locations</strong></p><p>Revenue <span class=\"fontSizeXxLarge\"><strong>€1,966.0</strong></span> M</p><p>&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h3>Nexi Italy in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+3.900 </strong></span><strong>employees</strong></p><p><span class=\"fontSizeXxxLarge\"><strong>+6</strong></span><strong> locations</strong></p><p>Revenue <span class=\"fontSizeXxLarge\"><strong>€1,966.0</strong></span> M</p><p>&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
               }
             ]
           }
@@ -5585,7 +6058,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "76bced86-ddf7-43b0-9a06-190d7a35b4d9",
-                "innerHtml": "<h3>Nordics in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+</strong></span><strong> </strong><span class=\"fontSizeXxLarge\"><strong>2,161</strong> </span>employees</p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>628.6</strong></span><strong> </strong>M</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h3>Nordics in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+</strong></span><strong> </strong><span class=\"fontSizeXxLarge\"><strong>2.313</strong> </span>employees in Nordics</p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>628.6</strong></span><strong> </strong>M</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
               }
             ]
           }
@@ -5922,6 +6395,11 @@
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "3bdeb1c7-030a-4e83-a79a-ebd86507aa1c",
                 "innerHtml": "<p><span class=\"fontSizeXLargePlus\"><strong>Welcome to PeP!</strong></span></p>"
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "0b8f2165-f1fa-403b-ab27-4e092238a549",
+                "innerHtml": "<p><span lang=\"EN-US\" dir=\"ltr\"><strong>Polskie ePłatności</strong> is a leader in the Fintech industry in Poland, operating in the market since 2010. The fastest-growing company in the payment technology sector, currently ranking second among the largest non-cash payment processors in the Polish market. Within the PeP Group, there are companies: PeP and BillBird.</span></p><p><span lang=\"EN-US\" dir=\"ltr\">The Group consists of over 750 specialists and experts, changing the way of make payments. At PeP, we serve 113,000 customers to whom we have already provided 260,000 terminals, and the number of transactions processed daily exceeds 6,000,000.</span></p>"
               }
             ]
           },
@@ -5929,7 +6407,76 @@
             "id": "2",
             "width": 4,
             "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f125bb61-d413-4da1-aea3-27d53cc41224')/microsoft.graph.sitePage/canvasLayout/horizontalSections('5.91580200195313')/columns('2')/webparts",
-            "webparts": []
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "572e84b1-da3b-4866-844c-b94b7c609627",
+                "innerHtml": ""
+              },
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "eeba1b77-c008-41d5-b26d-21cd532782c6",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "rzeszów office .png",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "67220dee-cf45-4eb5-ac5a-125e7401bcb4",
+                    "imgWidth": 3024,
+                    "imgHeight": 4032,
+                    "isOverlayTextVisible": true,
+                    "resizeCoefficient": 1,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/3641928953-rzesz%c3%b3w-office-.png"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "67220dee-cf45-4eb5-ac5a-125e7401bcb4",
+                          "width": "3024",
+                          "height": "4032"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
           },
           {
             "id": "3",
@@ -5939,7 +6486,27 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "91b02e29-fd2f-4e97-9e36-4ae9e3dffda1",
-                "innerHtml": "<h3>Poland in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+922 </strong></span><strong>employees</strong></p><p>Revenue <span class=\"fontSizeXxLarge\"><strong>€439.4 </strong></span>M (DACH &amp; Poland)</p><p>&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h3>Poland in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+992 </strong></span><strong>employees in 2022</strong></p><p>Revenue <span class=\"fontSizeXxLarge\"><strong>€439.4 </strong></span>M (DACH &amp; Poland)</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "oneColumn",
+        "id": "5.91593933105469",
+        "emphasis": "none",
+        "columns@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f125bb61-d413-4da1-aea3-27d53cc41224')/microsoft.graph.sitePage/canvasLayout/horizontalSections('5.91593933105469')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "width": 12,
+            "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f125bb61-d413-4da1-aea3-27d53cc41224')/microsoft.graph.sitePage/canvasLayout/horizontalSections('5.91593933105469')/columns('1')/webparts",
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "0862c000-3485-4282-98df-9559ad4ac8ac",
+                "innerHtml": "<p><span lang=\"EN-US\" dir=\"ltr\"><strong>Our offices in Poland</strong></span></p><p><span lang=\"EN-US\" dir=\"ltr\">We have 7 regional offices, with the headquarters located in Rzeszów.</span></p><p><span lang=\"EN-US\" dir=\"ltr\">&nbsp;</span></p><p><span lang=\"EN-US\" dir=\"ltr\">Headquarters: <strong>Rzeszów: </strong>Resovia Office Building, Rzeszów, Tadeusza Rejtana 20B Avenue, 35-310 Rzeszow</span></p><p><span lang=\"EN-US\" dir=\"ltr\">In the building, PeP offices are located on 7 floors (1,2,3,7,8,9,10). Employees can use either the elevator or the stairs. The main reception of PeP is located on the 1st floor.</span></p><p><span lang=\"EN-US\" dir=\"ltr\">On each floor, there is a kitchen with SDA and canteen where you are free to enjoy hot beverages such as various types of coffee, tea and water. We have several types of offices: open space, rooms, offices for team members, conference rooms for employees’ use and a training room (depending on the department and type of work). A modern designed office space fosters efficient work but also provides opportunities to relax and integration with coworkers.</span></p>"
               }
             ]
           }
@@ -5959,7 +6526,75 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "6d755769-7d7a-4400-8abf-582abdc2870e",
-                "innerHtml": "<p><span class=\"fontSizeXLargePlus\"><strong>What to expect in the first weeks?</strong></span></p><p aria-hidden=\"true\">&nbsp;</p><ul><li>An Onboarding Session to plug you in</li><li>A friendly Buddy to help you started</li><li>An Onboarding Plan to give you structure</li><li><p>A supportive environment to make you thrive….</p><p aria-hidden=\"true\">&nbsp;</p></li></ul>"
+                "innerHtml": "<p><span class=\"fontSizeXLargePlus\"><strong>What to expect in the first weeks?</strong></span></p><p aria-hidden=\"true\">&nbsp;</p><ul><li>An Onboarding Session to plug you in - <span lang=\"EN-US\" dir=\"ltr\">Onboarding process always takes place at our headquarter</span></li><li>A friendly Buddy to help you started</li><li>An Onboarding Plan to give you structure</li><li><p>A supportive environment to make you thrive….</p><p aria-hidden=\"true\">&nbsp;</p></li></ul>"
+              },
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "bdf98f6c-bcf1-4a9c-b055-1aa7ec41fa82",
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.11",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "Martyna Mroczka.jpg",
+                    "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                    "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                    "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                    "uniqueId": "5a9d7f6a-7684-4102-ab1a-b5bd8f2dcd7b",
+                    "imgWidth": 230,
+                    "imgHeight": 345,
+                    "isOverlayTextVisible": false,
+                    "resizeCoefficient": 1,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/2666943690-Martyna-Mroczka.jpg"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "imageSource",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "5a9d7f6a-7684-4102-ab1a-b5bd8f2dcd7b",
+                          "width": "230",
+                          "height": "345"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "1b1ca02b-05e3-44a1-bfa3-8318d5c7346c",
+                "innerHtml": "<p style=\"text-align:center;\"><span class=\"fontSizeMediumPlus\"><span style=\"color:#1D2C54;\" lang=\"EN-US\" dir=\"ltr\">“Hey there, my name is Martyna and if you have any further questions, please reach out to me or our HR Business Partner Wioleta Rydosz.”</span></span></p><p style=\"text-align:center;\"><span class=\"fontSizeMediumPlus\"><span style=\"color:#1D2C54;\" lang=\"EN-US\" dir=\"ltr\">Martyna Mroczka - Recruitment&nbsp;</span></span></p>"
               }
             ]
           },
@@ -5972,6 +6607,178 @@
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "9ef703f4-dbad-468a-b3b9-2aed672635ab",
                 "innerHtml": "<p><span class=\"fontSizeXLargePlus\"><strong>Get a glimpse of our life</strong></span></p>"
+              },
+              {
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "id": "12ba898d-cb21-4c9c-a9a3-cd127c3bfe1a",
+                "webPartType": "af8be689-990e-492a-81f7-ba3e4cd3ed9c",
+                "data": {
+                  "audiences": [],
+                  "dataVersion": "1.10",
+                  "description": "Show several images, pictures or photos in a gallery layout.",
+                  "title": "Image gallery",
+                  "properties": {
+                    "layout": 1,
+                    "imageSourceType": 1,
+                    "isRecursive": false,
+                    "isCdnEnabledForList": false,
+                    "hasDynamicModeEnabled": false,
+                    "maxImagesCount": 10,
+                    "canAlwaysSelectDocLibAsSource": false,
+                    "gridSettings": {
+                      "@odata.type": "#graph.Json",
+                      "imageSize": 2,
+                      "imageCropping": 1,
+                      "imageAspectRatio": 1,
+                      "lightbox": false
+                    },
+                    "carouselSettings": {
+                      "@odata.type": "#graph.Json",
+                      "autoplay": false,
+                      "autoplaySpeed": 5,
+                      "dots": false,
+                      "lazyLoad": true,
+                      "metadata": true,
+                      "swipe": true
+                    },
+                    "images@odata.type": "#Collection(graph.Json)",
+                    "images": [
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "1ea37189-4232-4a3b-bdcb-b50dae47c625",
+                        "isInList": true,
+                        "altText": ""
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "7925a498-636c-4999-926d-fd67d8ebb591",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "c3ade353-28e8-414d-8e22-b65de2870345",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "62377355-a00f-4cc7-8693-6bd39667611d",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      },
+                      {
+                        "description": "",
+                        "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                        "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                        "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                        "id": "38ae3817-41cf-4a42-8587-12dc1b29e49c",
+                        "isInList": true,
+                        "altText": "",
+                        "minCanvasWidth": 32767
+                      }
+                    ]
+                  },
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "searchablePlainTexts": [],
+                    "links": [],
+                    "imageSources": [
+                      {
+                        "key": "images[0].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/58739Rzesz%c3%b3w-%20office%20.jpg"
+                      },
+                      {
+                        "key": "images[1].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/47928office.jpg"
+                      },
+                      {
+                        "key": "images[2].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/17115office%203%20.jpg"
+                      },
+                      {
+                        "key": "images[3].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/42320office%201%20.png"
+                      },
+                      {
+                        "key": "images[4].url",
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/Your-Homespot---Onboarding-information/4694a%20rzesz%c3%b3w%20office.png"
+                      }
+                    ],
+                    "componentDependencies": [
+                      {
+                        "key": "layoutComponentId",
+                        "value": "8ac0c53c-e8d0-4e3e-87d0-7449eb0d4027"
+                      }
+                    ],
+                    "customMetadata": [
+                      {
+                        "key": "images[0].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "1ea37189-4232-4a3b-bdcb-b50dae47c625"
+                        }
+                      },
+                      {
+                        "key": "images[1].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "7925a498-636c-4999-926d-fd67d8ebb591",
+                          "mincanvaswidth": "32767"
+                        }
+                      },
+                      {
+                        "key": "images[2].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "c3ade353-28e8-414d-8e22-b65de2870345",
+                          "mincanvaswidth": "32767"
+                        }
+                      },
+                      {
+                        "key": "images[3].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "62377355-a00f-4cc7-8693-6bd39667611d",
+                          "mincanvaswidth": "32767"
+                        }
+                      },
+                      {
+                        "key": "images[4].url",
+                        "value": {
+                          "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
+                          "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
+                          "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
+                          "uniqueid": "38ae3817-41cf-4a42-8587-12dc1b29e49c",
+                          "mincanvaswidth": "32767"
+                        }
+                      }
+                    ]
+                  }
+                }
               }
             ]
           }
@@ -5992,6 +6799,11 @@
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "30d3c414-9919-4e1d-b98f-42c4a08bd3c8",
                 "innerHtml": "<p><span class=\"fontSizeXLargePlus\"><strong>Our PeP office in Poland:</strong></span></p>"
+              },
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "c7ffcf9a-6830-4563-82de-c49758f26f27",
+                "innerHtml": "<p><span style=\"color:#1D2C54;\" lang=\"EN-US\" dir=\"ltr\">Headquarter</span></p><p><span style=\"color:#1D2C54;\" lang=\"EN-US\" dir=\"ltr\"><strong>Rzeszów: </strong>Resovia Office Building,&nbsp;</span></p><p><span style=\"color:#1D2C54;\" lang=\"EN-US\" dir=\"ltr\">Rzeszów, Tadeusza Rejtana 20B Avenue, 35-310 Rzeszow</span></p>"
               }
             ]
           },
@@ -6003,7 +6815,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "a1bcdb35-09b3-4a41-845a-f22bb08bdcd4",
-                "innerHtml": "<p><span class=\"fontSizeLarge\"><strong>Centrum Rozliczeń Elektronicznych Polskie ePłatności</strong></span><br><span class=\"fontSizeLarge\">Tajęcina 113</span><br><span class=\"fontSizeLarge\">36-002 Jasionka</span></p>"
+                "innerHtml": "<p><span style=\"color:#1D2C54;\" lang=\"EN-US\" dir=\"ltr\"><strong>Warszawa- Regional office</strong></span><br><span style=\"color:#1D2C54;\" lang=\"EN-US\" dir=\"ltr\">Marynarska 15 St., Entrance A, 3<sup>rd</sup> floor, 02-674 Warszawa</span></p><p aria-hidden=\"true\">&nbsp;</p><p><span style=\"color:#1D2C54;\" lang=\"EN-US\" dir=\"ltr\"><strong>Katowice- Regional office</strong></span><br><span style=\"color:#1D2C54;\" lang=\"EN-US\" dir=\"ltr\">Opolska 22 St., room 215A, 40-084 Katowice</span></p><p>&nbsp;</p><p><span style=\"color:#1D2C54;\" lang=\"PL\" dir=\"ltr\"><strong>Kraków- BillBird&nbsp;</strong></span><br><span style=\"color:#1D2C54;\" lang=\"PL\" dir=\"ltr\">Wielicka 28b St. C – Building, 30-552 Kraków</span></p>"
               }
             ]
           },
@@ -6011,7 +6823,13 @@
             "id": "3",
             "width": 4,
             "webparts@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages('f125bb61-d413-4da1-aea3-27d53cc41224')/microsoft.graph.sitePage/canvasLayout/horizontalSections('5.9166259765625')/columns('3')/webparts",
-            "webparts": []
+            "webparts": [
+              {
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "id": "6cce552c-e813-4c27-b456-c14eba2466ae",
+                "innerHtml": "<p><span style=\"color:#1D2C54;\" lang=\"EN-US\" dir=\"ltr\"><strong>Lublin- Regional office</strong></span><br><span style=\"color:#1D2C54;\" lang=\"EN-US\" dir=\"ltr\">Mełgiewska 2<sup>nd</sup> &nbsp;St., 20-209 Lublin</span></p><p aria-hidden=\"true\">&nbsp;</p><p><span style=\"color:#1D2C54;\" lang=\"EN-US\" dir=\"ltr\"><strong>Gdańsk- Regional office</strong></span><br><span style=\"color:#1D2C54;\" lang=\"EN-US\" dir=\"ltr\">Norwida 4 St. Gamma Building, 3<sup>rd</sup> floor, 80-280 Gdańsk</span></p><p aria-hidden=\"true\">&nbsp;</p><p><span style=\"color:#1D2C54;\" lang=\"EN-US\" dir=\"ltr\"><strong>Kielce - Regional office</strong></span><br><span style=\"color:#1D2C54;\" lang=\"EN-US\" dir=\"ltr\">Zagnańska 61 St. 25-528 Kielce</span></p>"
+              }
+            ]
           }
         ]
       },
@@ -6073,7 +6891,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "8245f5ca-6cd2-441e-b834-3e56a2e77af1",
-                "innerHtml": "<h3>Poland in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+922 </strong></span><strong>employees</strong></p><p>Revenue <span class=\"fontSizeXxLarge\"><strong>€439.4 </strong></span>M (DACH &amp; Poland)</p><p>&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h3>Poland in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+992 </strong></span><strong>employees in 2022</strong></p><p>Revenue <span class=\"fontSizeXxLarge\"><strong>€439.4 </strong></span>M (DACH &amp; Poland)</p><p>&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
               }
             ]
           }
@@ -6279,7 +7097,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "fa7e7293-37b7-4a8f-ac46-3dc7b66c58b8",
-                "innerHtml": "<h3>Romania in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+ 315 </strong></span><strong>employees</strong></p><p>&nbsp;</p><p>&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h3>Romania in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+ 315 </strong></span><strong>employees</strong></p><p aria-hidden=\"true\">&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
               }
             ]
           }
@@ -6772,7 +7590,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "2b0ed8d1-8518-467b-92a3-ada3819450f4",
-                "innerHtml": "<h3>Nexi CEE in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+1.178 </strong></span><span class=\"fontSizeLarge\">employees&nbsp;</span></p><p><span class=\"fontSizeXxLarge\"><strong>~76</strong></span><strong> </strong>employees in Serbia</p><p><span class=\"fontSizeXxxLarge\"><strong>+42</strong></span><strong> </strong>employees in Hungary</p><p aria-hidden=\"true\">&nbsp;</p><p>Revenue <span class=\"fontSizeXxLarge\"><strong>€327.6</strong></span> M (SE Europe &amp; Other)</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h3>Nexi CSEE in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+2.620 </strong></span><span class=\"fontSizeLarge\">employees in CSEE</span></p><p><span class=\"fontSizeXxLarge\"><strong>~76</strong></span><strong> </strong>employees in Serbia</p><p aria-hidden=\"true\">&nbsp;</p><p>Revenue <span class=\"fontSizeXxLarge\"><strong>€327.6</strong></span> M (SE Europe &amp; Other)</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
               }
             ]
           }
@@ -7107,7 +7925,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "a887f16d-5ef9-4324-9eac-6ca105594187",
-                "innerHtml": "<h3>Nexi CEE in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+1.178 </strong></span><span class=\"fontSizeLarge\">employees&nbsp;</span></p><p><span class=\"fontSizeXxLarge\"><strong>~</strong></span><span class=\"fontSizeXxxLarge\"><span lang=\"EN-GB\" dir=\"ltr\"><strong>300</strong> </span></span><span lang=\"EN-GB\" dir=\"ltr\">employees in Slovakia&nbsp;</span></p><p><span class=\"fontSizeXxxLarge\"><strong>+42</strong></span><strong> </strong>employees in Hungary</p><p aria-hidden=\"true\">&nbsp;</p><p>Revenue <span class=\"fontSizeXxLarge\"><strong>€327.6</strong></span> M (SE Europe &amp; Other)</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><p>&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h3>Nexi CSEE in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+2.620 </strong></span><span class=\"fontSizeLarge\">employees in CSEE</span></p><p><span class=\"fontSizeXxLarge\"><strong>~</strong></span><span class=\"fontSizeXxxLarge\"><span lang=\"EN-GB\" dir=\"ltr\"><strong>300</strong> </span></span><span lang=\"EN-GB\" dir=\"ltr\">employees in Slovakia&nbsp;</span></p><p aria-hidden=\"true\">&nbsp;</p><p>Revenue <span class=\"fontSizeXxLarge\"><strong>€327.6</strong></span> M (SE Europe &amp; Other)</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><p>&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
               }
             ]
           }
@@ -7776,7 +8594,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "1a6c0a9c-a185-4f8d-9a8e-25606205c414",
-                "innerHtml": "<h3>South Africa in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+</strong></span><strong> </strong><span class=\"fontSizeXxLarge\"><strong>70 </strong></span>employees</p><p>&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h3>South Africa in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxLarge\"><strong>~</strong></span><strong> </strong><span class=\"fontSizeXxLarge\"><strong>70 </strong></span>employees</p><p>&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
               }
             ]
           }
@@ -8173,7 +8991,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "07ad7987-d769-4599-99e3-c487dc324d08",
-                "innerHtml": "<h3>Nordics in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+</strong></span><strong> </strong><span class=\"fontSizeXxLarge\"><strong>2,161</strong> </span>employees</p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>628.6</strong></span><strong> </strong>M</p><p aria-hidden=\"true\">&nbsp;</p><p>&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h3>Nordics in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p><span class=\"fontSizeXxxLarge\"><strong>+</strong></span><strong> </strong><span class=\"fontSizeXxLarge\"><strong>2.313</strong> </span>employees in Nordics</p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>628.6</strong></span><strong> </strong>M</p><p aria-hidden=\"true\">&nbsp;</p><p>&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
               }
             ]
           }
@@ -8541,7 +9359,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "edff95a0-c068-4543-a637-f8bd115224a6",
-                "innerHtml": "<h3>DACH in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>439.4</strong></span> M (DACH + Poland)</p><p><span class=\"fontSizeXxLarge\"><strong>+1.198 </strong></span><span class=\"fontSizeLarge\">employees</span></p><p><span class=\"fontSizeXxLarge\"><strong>3</strong></span><span class=\"fontSizeLarge\"> locations in Switzerland</span></p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h3>DACH in numbers</h3><p aria-hidden=\"true\">&nbsp;</p><p>Revenue <strong>€ </strong><span class=\"fontSizeXxLarge\"><strong>439.4</strong></span> M (DACH + Poland)</p><p><span class=\"fontSizeXxLarge\"><strong>+1.747 </strong></span><span class=\"fontSizeLarge\">employees in DACH</span></p><p><span class=\"fontSizeXxLarge\"><strong>3</strong></span><span class=\"fontSizeLarge\"> locations in Switzerland</span></p><p aria-hidden=\"true\">&nbsp;</p><p aria-hidden=\"true\">&nbsp;</p>"
               }
             ]
           }

@@ -1,11 +1,11 @@
 {
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#sites('christianiabpos.sharepoint.com%2Cc9335f83-d02c-4059-b880-ef9f3cd5ad99%2Cb18d0f2f-88c5-46d9-aa3d-2e3da7a26816')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
-  "@odata.etag": "\"{2A2B13B1-3E74-47D6-A437-078F97B3B190},749\"",
+  "@odata.etag": "\"{2A2B13B1-3E74-47D6-A437-078F97B3B190},758\"",
   "createdDateTime": "2023-04-19T05:15:22Z",
   "description": "Get familiar with our Nexi Group Organization. Overview Nexi Group is the result of the merger of Nexi, Nets, and SIA, three of Europe's largest players in the payments market and, to date, present in more than 20 countries. The European PayTech has…",
-  "eTag": "\"{2A2B13B1-3E74-47D6-A437-078F97B3B190},749\"",
+  "eTag": "\"{2A2B13B1-3E74-47D6-A437-078F97B3B190},758\"",
   "id": "2a2b13b1-3e74-47d6-a437-078f97b3b190",
-  "lastModifiedDateTime": "2024-04-08T07:30:08Z",
+  "lastModifiedDateTime": "2024-04-15T08:20:35Z",
   "name": "Our-Organization.aspx",
   "webUrl": "https://christianiabpos.sharepoint.com/sites/welcome-to-nexi/SitePages/Our-Organization.aspx",
   "title": "Our Organization",
@@ -35,7 +35,7 @@
   },
   "publishingState": {
     "level": "published",
-    "versionId": "80.0"
+    "versionId": "81.0"
   },
   "reactions": {},
   "titleArea": {
@@ -284,7 +284,7 @@
             "webparts": [
               {
                 "@odata.type": "#microsoft.graph.standardWebPart",
-                "id": "f01d0945-8024-4339-9dc8-8eea42cc1ec0",
+                "id": "387c005e-6704-467c-ad39-bd6501c82e50",
                 "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
                 "data": {
                   "audiences": [],
@@ -297,16 +297,15 @@
                     "altText": "",
                     "linkUrl": "",
                     "overlayText": "",
-                    "fileName": "Overview numbers.JPG",
+                    "fileName": "Overview numbers_0423.JPG",
                     "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
                     "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
                     "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
-                    "uniqueId": "f344a01f-ae0e-4ef6-bf98-b4586b98a3ac",
-                    "imgWidth": 1431,
-                    "imgHeight": 742,
+                    "uniqueId": "afb0920c-b12a-40d2-beab-9d0fea1153aa",
+                    "imgWidth": 1204,
+                    "imgHeight": 587,
                     "isOverlayTextVisible": true,
-                    "resizeCoefficient": 0.7239057239057239,
-                    "resizeDesiredWidth": 860,
+                    "resizeCoefficient": 1,
                     "alignment": "Center",
                     "fixAspectRatio": false,
                     "overlayTextStyles": {
@@ -327,7 +326,7 @@
                     "imageSources": [
                       {
                         "key": "imageSource",
-                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/1967502786-Overview-numbers.JPG"
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/660143650-Overview-numbers_0423.JPG"
                       }
                     ],
                     "customMetadata": [
@@ -337,9 +336,9 @@
                           "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
                           "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
                           "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
-                          "uniqueid": "f344a01f-ae0e-4ef6-bf98-b4586b98a3ac",
-                          "width": "1431",
-                          "height": "742"
+                          "uniqueid": "afb0920c-b12a-40d2-beab-9d0fea1153aa",
+                          "width": "1204",
+                          "height": "587"
                         }
                       }
                     ]
@@ -348,7 +347,7 @@
               },
               {
                 "@odata.type": "#microsoft.graph.standardWebPart",
-                "id": "f3f68dfb-4d0c-4713-a666-b09a28cbaa04",
+                "id": "7c709b44-8adc-4ccc-880d-81f07505a108",
                 "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
                 "data": {
                   "audiences": [],
@@ -361,16 +360,15 @@
                     "altText": "",
                     "linkUrl": "",
                     "overlayText": "",
-                    "fileName": "numbers 2.JPG",
+                    "fileName": "numbers 2_0423.JPG",
                     "siteId": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
                     "webId": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
                     "listId": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
-                    "uniqueId": "f5ded75f-9844-4e7a-8334-ada97f296ebd",
-                    "imgWidth": 1191,
-                    "imgHeight": 461,
+                    "uniqueId": "100ef391-f930-4fb7-b778-001b6ae37aa2",
+                    "imgWidth": 1218,
+                    "imgHeight": 580,
                     "isOverlayTextVisible": true,
-                    "resizeCoefficient": 0.7794612794612794,
-                    "resizeDesiredWidth": 926,
+                    "resizeCoefficient": 1,
                     "alignment": "Center",
                     "fixAspectRatio": false,
                     "overlayTextStyles": {
@@ -391,7 +389,7 @@
                     "imageSources": [
                       {
                         "key": "imageSource",
-                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/1873456938-numbers-2.JPG"
+                        "value": "/sites/welcome-to-nexi/SiteAssets/SitePages/vkxn8te4/2947488804-numbers-2_0423.JPG"
                       }
                     ],
                     "customMetadata": [
@@ -401,9 +399,9 @@
                           "siteid": "c9335f83-d02c-4059-b880-ef9f3cd5ad99",
                           "webid": "b18d0f2f-88c5-46d9-aa3d-2e3da7a26816",
                           "listid": "ae078b33-729e-4b11-b9fa-f7ef57f53abc",
-                          "uniqueid": "f5ded75f-9844-4e7a-8334-ada97f296ebd",
-                          "width": "1191",
-                          "height": "461"
+                          "uniqueid": "100ef391-f930-4fb7-b778-001b6ae37aa2",
+                          "width": "1218",
+                          "height": "580"
                         }
                       }
                     ]
@@ -413,7 +411,7 @@
               {
                 "@odata.type": "#microsoft.graph.textWebPart",
                 "id": "17c68308-0c02-4f4c-a217-72f7dece6f08",
-                "innerHtml": "<p><span class=\"fontSizeXSmall\">Source: Managerial estimates. Notes: (1) Refers to Continental Europe (excluding UK and Russia) - Based on Visa and Mastercard transactions; (2) Includes merchants served in servicing model; (3) FY22 - CMD perimeter</span></p>"
+                "innerHtml": "<p><span class=\"fontSizeXSmall\">Source: Source: Managerial estimates. Notes: (1) Refers to Continental Europe (excluding UK and Russia) - Based on Visa and Mastercard transactions; (2) Number of terminals</span></p>"
               }
             ]
           }
