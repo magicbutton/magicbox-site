@@ -1,8 +1,13 @@
 {
   "version": {
     "major": 0,
-    "build": 24,
-    "patch": 3,
+    "build": 25,
+    "patch": 4,
     "minor": 1
-  }
+  },
+  "appname": "magic-site",
+  "dnsprod": "sites.intra.nexigroup.com",
+  "dnstest": "sites-test.intra.nexigroup.com",
+  "imagename": "ghcr.io/365admin/magic-site",
+  "port": 4341
 }

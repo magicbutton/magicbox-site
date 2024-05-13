@@ -12,7 +12,7 @@ else {
   $path = join-path $PSScriptRoot ".." ".koksmat/"
 
 }
-
+$namespace = "magixbox-christianiabpos"
 $koksmatDir = Resolve-Path $path
 
 $inputFile = join-path  $koksmatDir "koksmat.json"
@@ -85,17 +85,18 @@ spec:
         volumeMounts:
         - mountPath: /data
           name: data          
-        volumes:
-        - name: data
-          persistentVolumeClaim:
-            claimName: pvc-$appname-v2          
+    
         env:
 $configEnv                           
 
+      volumes:
+      - name: data
+        persistentVolumeClaim:
+          claimName: pvc-$appname-v2      
 "@
 
 write-host "Applying config" -ForegroundColor Green
 
 write-host $config -ForegroundColor Gray
 
-$config |  kubectl apply -f -
+$config |  kubectl apply -f - #--namespace $namespace
