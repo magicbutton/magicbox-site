@@ -9,3 +9,4 @@ type DownloadedPages struct {
 	} `json:"pages"`
 	SiteId string `json:"siteId"`
 }
+

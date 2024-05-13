@@ -3,6 +3,8 @@ package magicapp
 import (
 	"os"
 	"testing"
+
+	. "github.com/365admin/magicbox-site/utils"
 )
 
 func TestMain(m *testing.M) {

@@ -59,13 +59,19 @@ type Pages struct {
 			ImageWebUrl            string `json:"imageWebUrl"`
 			ImgHeight              int    `json:"imgHeight"`
 			ImgWidth               int    `json:"imgWidth"`
-			IsDecorative           bool   `json:"isDecorative"`
 			Layout                 string `json:"layout"`
 			ListId                 string `json:"listId"`
 			ServerProcessedContent struct {
 				CustomMetadata []struct {
-					Key   string   `json:"key"`
-					Value struct{} `json:"value"`
+					Key   string `json:"key"`
+					Value struct {
+						Height   int    `json:"height"`
+						ListId   string `json:"listId"`
+						SiteId   string `json:"siteId"`
+						UniqueId string `json:"uniqueId"`
+						WebId    string `json:"webId"`
+						Width    int    `json:"width"`
+					} `json:"value"`
 				} `json:"customMetadata"`
 				HtmlStrings  []interface{} `json:"htmlStrings"`
 				ImageSources []struct {
@@ -91,3 +97,4 @@ type Pages struct {
 	} `json:"pages"`
 	SiteId string `json:"siteId"`
 }
+

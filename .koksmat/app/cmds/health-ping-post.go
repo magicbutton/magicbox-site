@@ -10,18 +10,17 @@ package cmds
 
 import (
 	"context"
-
-	"github.com/365admin/magicbox-site/execution"
-	"github.com/365admin/magicbox-site/utils"
+	"errors"
 )
 
 func HealthPingPost(ctx context.Context, args []string) (*string, error) {
 
-	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "00-health", "10-ping.ps1", "", "-pong", args[0])
-	if pwsherr != nil {
-		return nil, pwsherr
-	}
-	utils.PrintSkip2FirstAnd2LastLines(string(result))
-	return nil, nil
+	return nil, errors.New("Not implemented")
+	// result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "00-health", "10-ping.ps1", "", "-pong", args[0])
+	// if pwsherr != nil {
+	// 	return nil, pwsherr
+	// }
+	// utils.PrintSkip2FirstAnd2LastLines(string(result))
+	// return nil, nil
 
 }

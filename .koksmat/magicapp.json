@@ -1,0 +1,502 @@
+{
+  "name": "sites",
+  "type": "magicservice",
+  "namespace": "sites",
+  "organisation": "365admin",
+  "magicappversion": "v0.0.1",
+  "description": "A simple app to manage users, groups and memberships",
+  "baseattributes": {
+    "urlrecord": [
+      {
+        "name": "tenant",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "description",
+        "type": "string",
+        "required": false
+      },
+      {
+        "name": "url",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "record": [
+      {
+        "name": "tenant",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "description",
+        "type": "string",
+        "required": false
+      }
+    ]
+  },
+  "entities": {
+    "user": {
+      "name": "user",
+      "description": "User",
+      "baselineattributes": [
+        {
+          "name": "tenant",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "url",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "additionalattributes": [
+        {
+          "name": "email",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    "publishlog": {
+      "name": "publishlog",
+      "description": "Publish log",
+      "baselineattributes": [
+        {
+          "name": "tenant",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "required": false
+        }
+      ],
+      "additionalattributes": [
+        {
+          "name": "status",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "publishedby",
+          "type": "reference",
+          "entity": {
+            "name": "user",
+            "description": "User",
+            "baselineattributes": [
+              {
+                "name": "tenant",
+                "type": "string",
+                "required": true
+              },
+              {
+                "name": "name",
+                "type": "string",
+                "required": true
+              },
+              {
+                "name": "description",
+                "type": "string",
+                "required": false
+              },
+              {
+                "name": "url",
+                "type": "string",
+                "required": true
+              }
+            ],
+            "additionalattributes": [
+              {
+                "name": "email",
+                "type": "string",
+                "required": true
+              }
+            ]
+          },
+          "required": true
+        }
+      ]
+    }
+  },
+  "models": {
+    "itemMethods": [
+      {
+        "name": "read",
+        "description": "Read a single item",
+        "parameters": [
+          {
+            "name": "id",
+            "description": "The id of the item",
+            "type": "int",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "object"
+        }
+      },
+      {
+        "name": "create",
+        "description": "Create a new item",
+        "parameters": [
+          {
+            "name": "item",
+            "description": "The item to create",
+            "type": "object",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "object"
+        }
+      },
+      {
+        "name": "update",
+        "description": "Update an existing item",
+        "parameters": [
+          {
+            "name": "item",
+            "description": "The item to update",
+            "type": "object",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "object"
+        }
+      },
+      {
+        "name": "delete",
+        "description": "Delete an existing item",
+        "parameters": [
+          {
+            "name": "id",
+            "description": "The id of the item",
+            "type": "int",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "void"
+        }
+      },
+      {
+        "name": "search",
+        "description": "Search for items",
+        "parameters": [
+          {
+            "name": "query",
+            "description": "The search query",
+            "type": "string",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "page"
+        }
+      }
+    ]
+  },
+  "services": [
+    {
+      "name": "user",
+      "description": "Manage users",
+      "entity": {
+        "type": "record",
+        "model": "user",
+        "objectname": "User",
+        "entity": {
+          "name": "user",
+          "description": "User",
+          "baselineattributes": [
+            {
+              "name": "tenant",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "description",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "url",
+              "type": "string",
+              "required": true
+            }
+          ],
+          "additionalattributes": [
+            {
+              "name": "email",
+              "type": "string",
+              "required": true
+            }
+          ]
+        }
+      },
+      "methods": [
+        {
+          "name": "read",
+          "description": "Read a single item",
+          "parameters": [
+            {
+              "name": "id",
+              "description": "The id of the item",
+              "type": "int",
+              "required": true
+            }
+          ],
+          "returns": {
+            "type": "object"
+          }
+        },
+        {
+          "name": "create",
+          "description": "Create a new item",
+          "parameters": [
+            {
+              "name": "item",
+              "description": "The item to create",
+              "type": "object",
+              "required": true
+            }
+          ],
+          "returns": {
+            "type": "object"
+          }
+        },
+        {
+          "name": "update",
+          "description": "Update an existing item",
+          "parameters": [
+            {
+              "name": "item",
+              "description": "The item to update",
+              "type": "object",
+              "required": true
+            }
+          ],
+          "returns": {
+            "type": "object"
+          }
+        },
+        {
+          "name": "delete",
+          "description": "Delete an existing item",
+          "parameters": [
+            {
+              "name": "id",
+              "description": "The id of the item",
+              "type": "int",
+              "required": true
+            }
+          ],
+          "returns": {
+            "type": "void"
+          }
+        },
+        {
+          "name": "search",
+          "description": "Search for items",
+          "parameters": [
+            {
+              "name": "query",
+              "description": "The search query",
+              "type": "string",
+              "required": true
+            }
+          ],
+          "returns": {
+            "type": "page"
+          }
+        }
+      ]
+    },
+    {
+      "name": "publishlog",
+      "description": "Manage publish logs",
+      "entity": {
+        "type": "record",
+        "model": "publishlog",
+        "objectname": "Publishlog",
+        "entity": {
+          "name": "publishlog",
+          "description": "Publish log",
+          "baselineattributes": [
+            {
+              "name": "tenant",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "description",
+              "type": "string",
+              "required": false
+            }
+          ],
+          "additionalattributes": [
+            {
+              "name": "status",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "publishedby",
+              "type": "reference",
+              "entity": {
+                "name": "user",
+                "description": "User",
+                "baselineattributes": [
+                  {
+                    "name": "tenant",
+                    "type": "string",
+                    "required": true
+                  },
+                  {
+                    "name": "name",
+                    "type": "string",
+                    "required": true
+                  },
+                  {
+                    "name": "description",
+                    "type": "string",
+                    "required": false
+                  },
+                  {
+                    "name": "url",
+                    "type": "string",
+                    "required": true
+                  }
+                ],
+                "additionalattributes": [
+                  {
+                    "name": "email",
+                    "type": "string",
+                    "required": true
+                  }
+                ]
+              },
+              "required": true
+            }
+          ]
+        }
+      },
+      "methods": [
+        {
+          "name": "read",
+          "description": "Read a single item",
+          "parameters": [
+            {
+              "name": "id",
+              "description": "The id of the item",
+              "type": "int",
+              "required": true
+            }
+          ],
+          "returns": {
+            "type": "object"
+          }
+        },
+        {
+          "name": "create",
+          "description": "Create a new item",
+          "parameters": [
+            {
+              "name": "item",
+              "description": "The item to create",
+              "type": "object",
+              "required": true
+            }
+          ],
+          "returns": {
+            "type": "object"
+          }
+        },
+        {
+          "name": "update",
+          "description": "Update an existing item",
+          "parameters": [
+            {
+              "name": "item",
+              "description": "The item to update",
+              "type": "object",
+              "required": true
+            }
+          ],
+          "returns": {
+            "type": "object"
+          }
+        },
+        {
+          "name": "delete",
+          "description": "Delete an existing item",
+          "parameters": [
+            {
+              "name": "id",
+              "description": "The id of the item",
+              "type": "int",
+              "required": true
+            }
+          ],
+          "returns": {
+            "type": "void"
+          }
+        },
+        {
+          "name": "search",
+          "description": "Search for items",
+          "parameters": [
+            {
+              "name": "query",
+              "description": "The search query",
+              "type": "string",
+              "required": true
+            }
+          ],
+          "returns": {
+            "type": "page"
+          }
+        }
+      ]
+    }
+  ]
+}

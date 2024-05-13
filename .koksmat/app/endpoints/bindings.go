@@ -7,7 +7,7 @@ package endpoints
 import (
 	"net/http"
 
-	chi "github.com/go-chi/chi/v5"
+	"github.com/go-chi/chi/v5"
 	"github.com/swaggest/rest/nethttp"
 	"github.com/swaggest/rest/web"
 )
@@ -20,16 +20,19 @@ func AddEndpoints(s *web.Service, jwtAuth func(http.Handler) http.Handler) {
 			//	r.Use(rateLimitByAppId(50))
 			//r.Method(http.MethodPost, "/", nethttp.NewHandler(ExchangeCreateRoomsPost()))
 			r.Method(http.MethodPost, "/health/ping", nethttp.NewHandler(HealthPingPost()))
-			r.Method(http.MethodPost, "/health/coreversion", nethttp.NewHandler(HealthCoreversionPost()))
-			r.Method(http.MethodPost, "/sync/site-pages", nethttp.NewHandler(SyncSitePagesPost()))
-			r.Method(http.MethodPost, "/sync/download-pages", nethttp.NewHandler(SyncDownloadPagesPost()))
-			r.Method(http.MethodPost, "/sync/analyse-pages", nethttp.NewHandler(SyncAnalysePagesPost()))
-			r.Method(http.MethodPost, "/sync/download-medias", nethttp.NewHandler(SyncDownloadMediasPost()))
-			r.Method(http.MethodPost, "/sync/update-web", nethttp.NewHandler(SyncUpdateWebPost()))
-			r.Method(http.MethodPost, "/passwords/rotate-password", nethttp.NewHandler(PasswordsRotatePasswordPost()))
-			r.Method(http.MethodPost, "/provision/webdeployproduction", nethttp.NewHandler(ProvisionWebdeployproductionPost()))
+r.Method(http.MethodPost, "/health/coreversion", nethttp.NewHandler(HealthCoreversionPost()))
+r.Method(http.MethodPost, "/sync/site-pages", nethttp.NewHandler(SyncSitePagesPost()))
+r.Method(http.MethodPost, "/sync/download-pages", nethttp.NewHandler(SyncDownloadPagesPost()))
+r.Method(http.MethodPost, "/sync/analyse-pages", nethttp.NewHandler(SyncAnalysePagesPost()))
+r.Method(http.MethodPost, "/sync/download-medias", nethttp.NewHandler(SyncDownloadMediasPost()))
+r.Method(http.MethodPost, "/sync/update-web", nethttp.NewHandler(SyncUpdateWebPost()))
+r.Method(http.MethodPost, "/passwords/rotate-password", nethttp.NewHandler(PasswordsRotatePasswordPost()))
+r.Method(http.MethodPost, "/provision/appdeployproduction", nethttp.NewHandler(ProvisionAppdeployproductionPost()))
+r.Method(http.MethodPost, "/provision/webdeployproduction", nethttp.NewHandler(ProvisionWebdeployproductionPost()))
+r.Method(http.MethodPost, "/provision/webdeploytest", nethttp.NewHandler(ProvisionWebdeploytestPost()))
 
 		})
 	})
 
 }
+

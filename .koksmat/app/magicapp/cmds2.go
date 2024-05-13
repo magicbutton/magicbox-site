@@ -3,14 +3,13 @@ package magicapp
 import (
 	"os"
 
-	"github.com/spf13/cobra"
-
 	"github.com/365admin/magicbox-site/cmds"
 	"github.com/365admin/magicbox-site/utils"
+	"github.com/spf13/cobra"
 )
 
 func RegisterCmds() {
-	RootCmd.PersistentFlags().StringVarP(&utils.Output, "output", "o", "", "Output format (json, yaml, xml, etc.)")
+	utils.RootCmd.PersistentFlags().StringVarP(&utils.Output, "output", "o", "", "Output format (json, yaml, xml, etc.)")
 
 	healthCmd := &cobra.Command{
 		Use:   "health",
@@ -29,20 +28,8 @@ func RegisterCmds() {
 		},
 	}
 	healthCmd.AddCommand(HealthPingPostCmd)
-	HealthCoreversionPostCmd := &cobra.Command{
-		Use:   "coreversion ",
-		Short: "Core Version",
-		Long:  ``,
-		Args:  cobra.MinimumNArgs(0),
-		Run: func(cmd *cobra.Command, args []string) {
-			ctx := cmd.Context()
 
-			cmds.HealthCoreversionPost(ctx, args)
-		},
-	}
-	healthCmd.AddCommand(HealthCoreversionPostCmd)
-
-	RootCmd.AddCommand(healthCmd)
+	utils.RootCmd.AddCommand(healthCmd)
 	syncCmd := &cobra.Command{
 		Use:   "sync",
 		Short: "Syncronise SharePoint with web",
@@ -121,7 +108,7 @@ func RegisterCmds() {
 	}
 	syncCmd.AddCommand(SyncUpdateWebPostCmd)
 
-	RootCmd.AddCommand(syncCmd)
+	utils.RootCmd.AddCommand(syncCmd)
 	passwordsCmd := &cobra.Command{
 		Use:   "passwords",
 		Short: "Password management",
@@ -144,12 +131,24 @@ func RegisterCmds() {
 	}
 	passwordsCmd.AddCommand(PasswordsRotatePasswordPostCmd)
 
-	RootCmd.AddCommand(passwordsCmd)
+	utils.RootCmd.AddCommand(passwordsCmd)
 	provisionCmd := &cobra.Command{
 		Use:   "provision",
 		Short: "Provision",
 		Long:  `Make a SharePoint site available on the internet`,
 	}
+	ProvisionAppdeployproductionPostCmd := &cobra.Command{
+		Use:   "appdeployproduction ",
+		Short: "App deploy to production",
+		Long:  ``,
+		Args:  cobra.MinimumNArgs(0),
+		Run: func(cmd *cobra.Command, args []string) {
+			ctx := cmd.Context()
+
+			cmds.ProvisionAppdeployproductionPost(ctx, args)
+		},
+	}
+	provisionCmd.AddCommand(ProvisionAppdeployproductionPostCmd)
 	ProvisionWebdeployproductionPostCmd := &cobra.Command{
 		Use:   "webdeployproduction ",
 		Short: "Web deploy to production",
@@ -162,6 +161,18 @@ func RegisterCmds() {
 		},
 	}
 	provisionCmd.AddCommand(ProvisionWebdeployproductionPostCmd)
+	ProvisionWebdeploytestPostCmd := &cobra.Command{
+		Use:   "webdeploytest ",
+		Short: "Web deploy to Test",
+		Long:  ``,
+		Args:  cobra.MinimumNArgs(0),
+		Run: func(cmd *cobra.Command, args []string) {
+			ctx := cmd.Context()
 
-	RootCmd.AddCommand(provisionCmd)
+			cmds.ProvisionWebdeploytestPost(ctx, args)
+		},
+	}
+	provisionCmd.AddCommand(ProvisionWebdeploytestPostCmd)
+
+	utils.RootCmd.AddCommand(provisionCmd)
 }

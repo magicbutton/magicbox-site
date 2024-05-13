@@ -8,7 +8,7 @@ api: post
 
 $appname = "nexi-test-welcome"
 $imagename = "magicbox-site"
-$dnsname = "test-welcome.intra.nexigroup.com"
+$dnsname = "welcome.preview.intra.nexigroup.com"
 
 $inputFile = join-path  $env:KITCHENROOT $imagename  ".koksmat", "koksmat.json"
 $port = "4333"

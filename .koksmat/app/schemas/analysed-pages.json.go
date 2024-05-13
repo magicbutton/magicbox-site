@@ -6,3 +6,4 @@ type AnalysedPages []struct {
 	Path   string `json:"path"`
 	Source string `json:"source"`
 }
+

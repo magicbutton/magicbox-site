@@ -21,10 +21,11 @@ description: Describe the main purpose of this kitchen
 
 # magicbox-site
 `
-	magicapp.Setup(".env")
+	utils.Setup(".env")
 	magicapp.RegisterServeCmd("magicbox-site", description, "0.0.1", 8080)
 	magicapp.RegisterCmds()
-	magicapp.RootCmd.PersistentFlags().BoolVarP(&utils.Verbose, "verbose", "v", false, "verbose output")
+	magicapp.RegisterServiceCmd()
+	utils.RootCmd.PersistentFlags().BoolVarP(&utils.Verbose, "verbose", "v", false, "verbose output")
 
 	magicapp.Execute(name, "magicbox-site", "")
 }

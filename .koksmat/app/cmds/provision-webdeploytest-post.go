@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------
 /*
 ---
-title: Core Version
+title: Web deploy to Test
 ---
 */
 package cmds
@@ -15,9 +15,9 @@ import (
 	"github.com/365admin/magicbox-site/utils"
 )
 
-func HealthCoreversionPost(ctx context.Context, args []string) (*string, error) {
+func ProvisionWebdeploytestPost(ctx context.Context, args []string) (*string, error) {
 
-	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "00-health", "20-coreversion.ps1", "")
+	result, pwsherr := execution.ExecutePowerShell("john", "*", "magicbox-site", "60-provision", "11-web-test.ps1", "")
 	if pwsherr != nil {
 		return nil, pwsherr
 	}

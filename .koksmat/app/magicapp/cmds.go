@@ -1,3 +1,4 @@
+// fodkold
 package magicapp
 
 import (
@@ -7,11 +8,11 @@ import (
 	"runtime/debug"
 	"strings"
 
+	"github.com/365admin/magicbox-site/endpoints"
+	"github.com/365admin/magicbox-site/utils"
 	"github.com/spf13/cobra"
 	"github.com/swaggest/rest/web"
 	swgui "github.com/swaggest/swgui/v4emb"
-
-	"github.com/365admin/magicbox-site/endpoints"
 )
 
 func StartAPIServer(title string, version string, description string, port int) {
@@ -40,7 +41,6 @@ func StartAPIServer(title string, version string, description string, port int) 
 		log.Fatal(err)
 	}
 }
-
 func RegisterServeCmd(title string, description string, version string, port int) {
 	listCmd := &cobra.Command{
 		Use:   "serve",
@@ -50,5 +50,5 @@ func RegisterServeCmd(title string, description string, version string, port int
 			StartAPIServer(title, version, description, port)
 		},
 	}
-	RootCmd.AddCommand(listCmd)
+	utils.RootCmd.AddCommand(listCmd)
 }

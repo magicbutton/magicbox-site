@@ -11,9 +11,8 @@ package endpoints
 import (
 	"context"
 
-	"github.com/swaggest/usecase"
-
 	"github.com/365admin/magicbox-site/execution"
+	"github.com/swaggest/usecase"
 )
 
 func HealthPingPost() usecase.Interactor {

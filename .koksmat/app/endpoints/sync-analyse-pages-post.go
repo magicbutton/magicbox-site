@@ -14,11 +14,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/swaggest/usecase"
-
 	"github.com/365admin/magicbox-site/execution"
 	"github.com/365admin/magicbox-site/schemas"
 	"github.com/365admin/magicbox-site/utils"
+	"github.com/swaggest/usecase"
 )
 
 func SyncAnalysePagesPost() usecase.Interactor {
