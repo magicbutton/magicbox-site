@@ -58,6 +58,59 @@ entities:
         entity: *user
         required: true
 
+  auditlog: &auditlog
+    name: auditlog
+    description: Audit log
+    baselineattributes: *recordAttributes
+    additionalattributes:
+      - name: action
+        type: string
+        required: true
+      - name: performedby
+        type: reference
+        entity: *user
+        required: true
+      - name: failed
+        type: boolean
+        required: true
+      - name: request
+        type: json
+        required: true
+      - name: response
+        type: json
+        required: true
+  page: &asset
+    name: asset
+    description: Asset
+    baselineattributes: *recordAttributesWithURL
+    additionalattributes:
+      - name: slug
+        type: string
+        required: true
+      - name: majorversion
+        type: int
+        required: true
+      - name: minorversion
+        type: int
+        required: true
+      - name: isCurrentVersion
+        type: boolean
+        required: true
+      - name: content
+        type: json
+        required: false
+  importdata: &importdata
+    name: importdata
+    description: Import
+    baselineattributes: *recordAttributes
+    additionalattributes:
+      - name: user
+        type: reference
+        entity: *user
+        required: true
+      - name: data
+        type: json
+        required: true
 models:
   itemMethods: &itemMethods
     - name: read
@@ -126,4 +179,31 @@ services:
       model: publishlog
       objectname: Publishlog
       entity: *publishlog
+    methods: *itemMethods
+
+  - name: auditlog
+    description: Manage audit logs
+    entity:
+      type: record
+      model: auditlog
+      objectname: Auditlog
+      entity: *auditlog
+    methods: *itemMethods
+
+  - name:
+    description: Handle assets
+    entity:
+      type: record
+      model: asset
+      objectname: Asset
+      entity: *asset
+    methods: *itemMethods
+
+  - name: importdata
+    description: Import data
+    entity:
+      type: record
+      model: importdata
+      objectname: ImportData
+      entity: *importdata
     methods: *itemMethods

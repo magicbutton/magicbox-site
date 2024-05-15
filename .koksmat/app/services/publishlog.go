@@ -9,7 +9,6 @@ keep: true
 package services
 
 import (
-	"context"
 	"encoding/json"
 	"fmt"
 	"log"
@@ -17,7 +16,6 @@ import (
 	"github.com/365admin/magicbox-site/services/endpoints/publishlog"
 	"github.com/365admin/magicbox-site/services/models/publishlogmodel"
 
-	"github.com/365admin/magicbox-site/cmds"
 	. "github.com/365admin/magicbox-site/utils"
 	"github.com/nats-io/nats.go/micro"
 )
@@ -149,18 +147,6 @@ func HandlePublishlogRequests(req micro.Request) {
 		if err != nil {
 			log.Println("Error", err)
 			ServiceResponseError(req, fmt.Sprintf("Error calling PublishlogSearch: %s", err))
-
-			return
-		}
-
-		ServiceResponse(req, result)
-	case "publish":
-		ctx := context.Background()
-		result, err := cmds.SyncDownloadPagesPost(ctx, nil, payload.Args)
-
-		if err != nil {
-			log.Println("Error", err)
-			ServiceResponseError(req, fmt.Sprintf("Error calling PublishlogPublish: %s", err))
 
 			return
 		}

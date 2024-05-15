@@ -8,6 +8,6 @@
   "appname": "magic-site",
   "dnsprod": "sites.intra.nexigroup.com",
   "dnstest": "sites-test.intra.nexigroup.com",
-  "imagename": "ghcr.io/365admin/magic-site",
+  "imagename": "ghcr.io/magicbutton/magicbox-site",
   "port": 4341
 }

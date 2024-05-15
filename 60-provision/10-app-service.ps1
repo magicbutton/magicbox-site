@@ -80,7 +80,7 @@ spec:
       containers:
       - name: $appname-app
         image: $image
-        command: [$appname]
+        command: [magicbox-site]
         args: ["service","-v"]               
         volumeMounts:
         - mountPath: /data
@@ -92,7 +92,7 @@ $configEnv
       volumes:
       - name: data
         persistentVolumeClaim:
-          claimName: pvc-$appname-v2      
+          claimName: pvc-nexi-welcome-v2    
 "@
 
 write-host "Applying config" -ForegroundColor Green
